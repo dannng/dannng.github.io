@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Community Agreement
 ---
 
 # Community Agreement

@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Welcome to DANNNG!
 ---
-# Welcome to DANNNG!
+# DANNNG!
 
 ## Mission
 DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community.
