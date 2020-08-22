@@ -3,8 +3,6 @@ layout: page
 title: Community Agreement
 ---
 
-# Community Agreement
-
 Note: borrowed/adapted from the [Aorta Collective’s Anti-Oppressive Facilitation for Democratic Process](https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
 
 ## One person speaks at a time

@@ -5,8 +5,6 @@
 layout: page
 title: Welcome to DANNNG!
 ---
-# DANNNG!
-
 ## Mission
 DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community.
 
