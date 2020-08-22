@@ -30,6 +30,7 @@ We also think a group that discusses issues related to disk imaging would be val
 
 ## Potential Future Projects
 - Documentation and Workflows
+- Resources Covering Imaging
 - IT Specs for your Org
 
 ## Get Involved
