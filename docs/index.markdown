@@ -5,7 +5,7 @@
 layout: page
 ---
 ## Mission
-DANNNG's mission is to make disk imaging more accessible for the cultural heritage community.
+DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community.
 
 ## Background
 Several of us started meeting, somewhat informally, with the original goal to investigate AFF4 as an alternative to capturing physical disk images. The conversation evolved over time, we invited more people that we personally knew to join the discussion.
