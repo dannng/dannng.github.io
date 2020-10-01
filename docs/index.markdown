@@ -22,10 +22,10 @@ Please, take a look and give us your honest feedback. What resonates with you? W
 We also think a group that discusses issues related to disk imaging would be valuable to continue, and we can think of several additional projects we'd like to tackle after we complete the documents we started earlier. If this work interests you, please join these efforts. We recognize that any output this group produces will benefit greatly from a wider array of backgrounds and experiences.
 
 ## Current Projects
-- [Disk Imaging Use Cases](https://docs.google.com/document/d/19FOvxKE4I5CIqEuk8e8ozdD2Y0fEAy687epUD918a_8/edit)
-- [Glossary](https://docs.google.com/document/d/10u8hlPY_bEFstC5mncWKffSNqbAd7cFA4tNbVwqx75Y/edit)
+- [Disk Imaging Use Cases](https://docs.google.com/document/d/19FOvxKE4I5CIqEuk8e8ozdD2Y0fEAy687epUD918a_8/edit?usp=sharing)
+- [Glossary](https://docs.google.com/document/d/10u8hlPY_bEFstC5mncWKffSNqbAd7cFA4tNbVwqx75Y/edit?usp=sharing)
 - [Community Agreement](community-agreement.html)
-- [BitCurator Users Forum 2020 Presentation](linkforthcoming)
+- [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1EHPZrB4Zc11LBTmNNUvBh5mglahVnLk4KLvi4prbyuU/edit?usp=sharing)
 
 ## Potential Future Projects
 - Disk Image Feature Matrix
