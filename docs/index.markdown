@@ -29,7 +29,7 @@ We also think a group that discusses issues related to disk imaging would be val
 
 ## Potential Future Projects
 - Disk Image Feature Matrix
-- Documentation and Workflows
+- Imaging Field Guide
 - Resources Covering Imaging
 - IT Specs for your Org
 
