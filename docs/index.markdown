@@ -22,10 +22,10 @@ Please, take a look and give us your honest feedback. What resonates with you? W
 We also think a group that discusses issues related to disk imaging would be valuable to continue, and we can think of several additional projects we'd like to tackle after we complete the documents we started earlier. If this work interests you, please join these efforts. We recognize that any output this group produces will benefit greatly from a wider array of backgrounds and experiences.
 
 ## Current Projects
-- [Disk Imaging Use Cases](https://docs.google.com/document/d/19FOvxKE4I5CIqEuk8e8ozdD2Y0fEAy687epUD918a_8/edit?usp=sharing)
-- [Glossary](https://docs.google.com/document/d/10u8hlPY_bEFstC5mncWKffSNqbAd7cFA4tNbVwqx75Y/edit?usp=sharing)
+- [Disk Imaging Decision Factors](https://docs.google.com/document/d/1H3FT-vsjiP9BwbrI8rljzL78EwEmuukLvVwXB_lOCB8/edit?usp=sharing)
+- [Glossary](https://docs.google.com/document/d/1hWsq2_7uI2DEgdxJQ0425VCsu4thWvODKFv3D3w6WR0/edit?usp=sharing)
 - [Community Agreement](community-agreement.html)
-- [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1EHPZrB4Zc11LBTmNNUvBh5mglahVnLk4KLvi4prbyuU/edit?usp=sharing)
+- [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
 
 ## Potential Future Projects
 - Disk Image Feature Matrix
