@@ -34,9 +34,11 @@ We also think a group that discusses issues related to disk imaging would be val
 - IT Specs for your Org
 
 ## Group Members
+- Erin Barsan, Pratt Institute School of Information
 - Dianne Dietrich, Cornell University Library
 - Brian Dietz, NC State University Libraries
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
+- farrell, Duke University Libraries
 - Lara Friedman-Shedlov, University of Minnesota
 - Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
