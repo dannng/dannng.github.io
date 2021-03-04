@@ -38,9 +38,11 @@ We also think a group that discusses issues related to disk imaging would be val
 - Brian Dietz, NC State University Libraries
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
 - Lara Friedman-Shedlov, University of Minnesota
+- Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
 - Paige Walker, Tisch Library, Tufts University
+- Lauren Work, University of Virginia Library
 - Laura Alagna, Northwestern University (past member)
 
 ## Get Involved
