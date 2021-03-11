@@ -8,6 +8,9 @@ title: Welcome to DANNNG!
 ## Mission
 DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community.
 
+## DANNNG?
+Digital Archival traNsfer, iNgest, and packagiNg Group
+
 ## Background
 Several of us started meeting, somewhat informally, with the original goal to investigate AFF4 as an alternative to capturing physical disk images. The conversation evolved over time, we invited more people that we personally knew to join the discussion.
 
@@ -43,6 +46,8 @@ We also think a group that discusses issues related to disk imaging would be val
 - Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
+- Elise Tanner, UA at Little Rock Center for Arkansas History and Culture
+- Valerie Waldron, University of Michigan Library
 - Paige Walker, Tisch Library, Tufts University
 - Lauren Work, University of Virginia Library
 - Laura Alagna, Northwestern University (past member)
