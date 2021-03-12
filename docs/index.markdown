@@ -38,6 +38,7 @@ We also think a group that discusses issues related to disk imaging would be val
 
 ## Group Members
 - Erin Barsan, Pratt Institute School of Information
+- Alex Chassanoff, North Carolina Central Unviersity
 - Dianne Dietrich, Cornell University Library
 - Brian Dietz, NC State University Libraries
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
@@ -45,6 +46,7 @@ We also think a group that discusses issues related to disk imaging would be val
 - Lara Friedman-Shedlov, University of Minnesota
 - Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
+- Shira Peltzman, UCLA Library
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
 - Elise Tanner, UA at Little Rock Center for Arkansas History and Culture
 - Valerie Waldron, University of Michigan Library
