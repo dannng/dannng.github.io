@@ -55,4 +55,4 @@ We also think a group that discusses issues related to disk imaging would be val
 - Laura Alagna, Northwestern University (past member)
 
 ## Get Involved
-Contact <dannng@googlegroups.com>!
+[Get Involved!](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE)
