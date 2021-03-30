@@ -25,8 +25,8 @@ Please, take a look and give us your honest feedback. What resonates with you? W
 We also think a group that discusses issues related to disk imaging would be valuable to continue, and we can think of several additional projects we'd like to tackle after we complete the documents we started earlier. If this work interests you, please join these efforts. We recognize that any output this group produces will benefit greatly from a wider array of backgrounds and experiences.
 
 ## Current Projects
-- [Disk Imaging Decision Factors](https://docs.google.com/document/d/1g45L8fH2d_tYO0ME1gm-m1obM-Q5fIlPJVMyK6Kr5e0/edit)
-- [Digital Archives Technical Glossary](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit#heading=h.wrd7fis3gi8m)
+- [Disk Imaging Decision Factors](https://docs.google.com/document/d/1g45L8fH2d_tYO0ME1gm-m1obM-Q5fIlPJVMyK6Kr5e0/edit?usp=sharing)
+- [Digital Archives Technical Glossary](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit?usp=sharing)
 - [Community Agreement](community-agreement.html)
 - [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
 
