@@ -35,8 +35,8 @@ plugins:
 
 # Navigation
 header_pages:
-	- index.markdown
-	- community-agreement.markdown
+  - index.markdown
+  - community-agreement.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
