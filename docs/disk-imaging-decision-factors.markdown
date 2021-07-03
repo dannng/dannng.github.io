@@ -2,7 +2,7 @@
 layout: page
 title: Disk Imaging Decision Factors DRAFT
 ---
-This document was written in tandem with the [DANNNG Glossary]((../glossary.html). Bolded text indicates that this term is defined (or identified as a synonym of a term) in the glossary.
+This document was written in tandem with the [DANNNG Glossary](../glossary.html). Bolded text indicates that this term is defined (or identified as a synonym of a term) in the glossary.
 
 ## Disclaimer
 Participation in the development of this document is not intended to imply a recommendation or endorsement by any of the authors or their employers, nor is it intended to imply that any specific software or toolkit is necessarily the best available for the purpose.
@@ -107,41 +107,73 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 
 ## Appendix
 In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
-![Alt Text](/images/image.ext)
-### CD-ROM disk image in FTK Imager Evidence Tree
 
+### CD-ROM disk image in FTK Imager Evidence Tree
+![CD-ROM disk image in FTK Imager Evidence Tree](/images/dif-ftk.jpg)
 FTK Imager shows multiple file systems and their respective file listings; notice that they differ slightly.
 
 ### CD-ROM disk image displayed in IsoBuster
-![Alt Text](/images/image.ext)
-![Alt Text](/images/image.ext)
+![CD-ROM disk image displayed in IsoBuster](/images/dif-isobuster1.jpg)
+![CD-ROM disk image displayed in IsoBuster](/images/dif-isobuster2.jpg)
 IsoBuster also shows the ISO9660 and HFS file systems, and you can see that the file listings are slightly different in each.
 
 ### CD-ROM disk image mounted in Windows 10
-![Alt Text](/images/image.ext)
+![CD-ROM disk image mounted in Windows 10](/images/dif-windows-mounted.jpg)
 Note that none of the HFS file names show up when this disk image is mounted in a Windows system.
 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
-![Alt Text](/images/image.ext)
+![CD-ROM disk image in Disk Utility on MacOS 10.15](/images/dif-macOS-disk-utility.png)
 Note that MacOS no longer supports the ability to mount an HFS volume in Finder.
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
-![Alt Text](/images/image.ext)
+![CD-ROM disk image in Disk Image Access Tool in BitCurator](/images/dif-disk-image-access.jpg)
 The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries1, which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
-![Alt Text](/images/image.ext)
+![CD-ROM disk image in HFSExplorer in BitCurator](/images/dif-hfsexplorer.jpg)
 HFSExplorer will show the HFS file names of this disk image, but it will not present the user with a list of the ISO9660 file names as they are arranged in that file system view.
 
 ### Fiwalk output run against disk image
-![Alt Text](/images/image.ext)
+![Fiwalk output run against disk image](/images/dif-fiwalk.jpg)
 Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any file systems on this disk image on this particular run (with no additional flags).
 
 ### mmls output run against disk image
-![Alt Text](/images/image.ext)
+`
+➜  ~ mmls /Users/mercury_in_retrograde/Where\ in\ the\ USA\ is\ Carmen\ Sandiego\ \(Broderbund\)\(1998\).ISO
+MAC Partition Map
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  -------       0000000000   0000000000   0000000001   Unallocated
+001:  000       0000000001   0000000003   0000000003   Apple_partition_map
+002:  Meta      0000000001   0000000003   0000000003   Table
+003:  001       0000000004   0000000176   0000000173   ISO9660_system
+004:  002       0000000177   0002089859   0002089683   Apple_HFS
+`
 
 ### disktype output run against disk image
-![Alt Text](/images/image.ext)
+`
+➜  ~ disktype /Users/mercury_in_retrograde/Where\ in\ the\ USA\ is\ Carmen\ Sandiego\ \(Broderbund\)\(1998\).ISO
+
+--- /Users/mercury_in_retrograde/Where in the USA is Carmen Sandiego (Broderbund)(1998).ISO
+Regular file, size 623.7 MiB (653965312 bytes)
+No type and creator code
+Apple partition map, 3 entries
+Partition 1: 1.500 KiB (1536 bytes, 3 sectors from 1)
+  Type "Apple_partition_map"
+Partition 2: 86.50 KiB (88576 bytes, 173 sectors from 4)
+  Type "ISO9660_system"
+Partition 3: 0.996 GiB (1069917696 bytes, 2089683 sectors from 177)
+  Type "Apple_HFS"
+  HFS file system
+    Volume name "Carmen USA 3.5"
+    Volume size 0.996 GiB (1069907968 bytes, 65302 blocks of 16 KiB)
+ISO9660 file system
+  Volume name "CS_USA"
+  Preparer    "OMI QUICKTOPIX 2.20"
+  Data size 88 KiB (90112 bytes, 44 blocks of 2 KiB)
+`
 
 ## Acknowledgements
 The following people contributed to this document:
