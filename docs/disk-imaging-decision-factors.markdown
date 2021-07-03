@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Disk Imaging Decision Factors DRAFT
-exclude: true
 ---
 This document was written in tandem with the [DANNNG Glossary]((URL). Bolded text indicates that this term is defined (or identified as a synonym of a term) in the glossary.
 
