@@ -134,7 +134,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 HFSExplorer will show the HFS file names of this disk image, but it will not present the user with a list of the ISO9660 file names as they are arranged in that file system view.
 
 ### Fiwalk output run against disk image
-![Fiwalk output run against disk image](/images/dif-fiwalk.jpg)
+![Fiwalk output run against disk image](../images/dif-fiwalk.jpg)
 Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any file systems on this disk image on this particular run (with no additional flags).
 
 ### mmls output run against disk image
@@ -145,7 +145,7 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
     Units are in 512-byte sectors
     
           Slot      Start        End          Length       Description
-    000:  -------       0000000000   0000000000   0000000001   Unallocated
+    000:  -------   0000000000   0000000000   0000000001   Unallocated
     001:  000       0000000001   0000000003   0000000003   Apple_partition_map
     002:  Meta      0000000001   0000000003   0000000003   Table
     003:  001       0000000004   0000000176   0000000173   ISO9660_system
@@ -155,7 +155,6 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
 ### disktype output run against disk image
 `
     ➜  ~ disktype /Users/mercury_in_retrograde/Where\ in\ the\ USA\ is\ Carmen\ Sandiego\ \(Broderbund\)\(1998\).ISO
-    
     --- /Users/mercury_in_retrograde/Where in the USA is Carmen Sandiego (Broderbund)(1998).ISO
     Regular file, size 623.7 MiB (653965312 bytes)
     No type and creator code
