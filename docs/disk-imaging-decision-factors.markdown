@@ -2,27 +2,27 @@
 layout: page
 title: Disk Imaging Decision Factors DRAFT
 ---
-This document was written in tandem with the [DANNNG Glossary]((URL). Bolded text indicates that this term is defined (or identified as a synonym of a term) in the glossary.
+This document was written in tandem with the [DANNNG Glossary]((../glossary.html). Bolded text indicates that this term is defined (or identified as a synonym of a term) in the glossary.
 
 ## Disclaimer
 Participation in the development of this document is not intended to imply a recommendation or endorsement by any of the authors or their employers, nor is it intended to imply that any specific software or toolkit is necessarily the best available for the purpose.
 
 ## Overview
-The purpose of this document is to explore the role of [disk imaging[(URL) in digital archives by addressing assumptions and identifying potential factors that impact decision-making. The digital archives community often focuses on [disk images](URL), but that does not mean that all [storage devices](URL)[1](fn URL) must be imaged. In fact, while creating and retaining a disk image was once presented as a default action to be taken on most storage devices, organizations now base their processing decisions on a number of factors, many of which we explore in this document.
+The purpose of this document is to explore the role of disk imaging in digital archives by addressing assumptions and identifying potential factors that impact decision-making. The digital archives community often focuses on disk images, but that does not mean that all storage devices[1] must be imaged. In fact, while creating and retaining a disk image was once presented as a default action to be taken on most storage devices, organizations now base their processing decisions on a number of factors, many of which we explore in this document.
 
-Disk imaging is seen as more time-consuming and resource-intensive than [logical acquisition](URL), but these assumptions do not necessarily hold: there are many factors to consider that implicate post-imaging actions one may wish to take. Likewise, disk imaging can also seem difficult or esoteric. One aim of this document and other outputs of [DANNNG[(URL) (Digital Archival traNsfer, iNgest, and packagiNg Group) is to demystify disk imaging and the decisions that factor into format selection, creation, handling, and retention. We recognize that the technological expertise to work with disk images is not consistently available across organizations collecting digital materials, and we want to create a community-supported resource for those who wish to increase their knowledge and experience.
+Disk imaging is seen as more time-consuming and resource-intensive than logical acquisition, but these assumptions do not necessarily hold: there are many factors to consider that implicate post-imaging actions one may wish to take. Likewise, disk imaging can also seem difficult or esoteric. One aim of this document and other outputs of DANNNG (Digital Archival traNsfer, iNgest, and packagiNg Group) is to demystify disk imaging and the decisions that factor into format selection, creation, handling, and retention. We recognize that the technological expertise to work with disk images is not consistently available across organizations collecting digital materials, and we want to create a community-supported resource for those who wish to increase their knowledge and experience.
 
 The document is structured in the following sections:
-1. A definition of “disk image.”
+1. A definition of "disk image."
 2. A set of assumptions that we recognized as we were working through these issues, and wanted to make explicit to readers.
-3. Factors that, when present, suggest that the creation of a disk image is appropriate or desirable.2
+3. Factors that, when present, suggest that the creation of a disk image is appropriate or desirable.[2]
 4. Factors that, when present, suggest creating a disk image may or may not be appropriate.
 5. Factors that, when present, suggest creating a disk image may not be appropriate or desirable.
 
 In our document we have tried to provide guidance on the factors that go into the decision to image or not. The factors involved in deciding to image are often exceptional, so we have provided additional detail in our explanations of them. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
 
 ## Definition of Disk Image
-A [disk image](URL) (sometimes just “image”) is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original media object. Content, especially relevant to working hard drives, includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved on their hard drives, such as downloaded email and web browsing history. It may also include unused, empty, or slack space.3 A disk image will be about the same size as the storage device being imaged. There are proprietary and open source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be “raw,” “forensically-packaged,” compressed, and/or split up into several files.
+A disk image (sometimes just "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original media object. Content, especially relevant to working hard drives, includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved on their hard drives, such as downloaded email and web browsing history. It may also include unused, empty, or slack space.3 A disk image will be about the same size as the storage device being imaged. There are proprietary and open source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," compressed, and/or split up into several files.
 
 ## Assumptions
 - You are familiar with the concept and uses of a disk image.
@@ -43,7 +43,6 @@ A [disk image](URL) (sometimes just “image”) is a digital file that is a cop
 - You know -- or have clues that can point you to -- what file systems are contained on your storage device.
 
 ## Factors for when to image
-
 
 ### Is the storage device fragile or do you have reason to believe it might be failing?
 When storage devices are degrading or failing, imaging may be the most reliable way to successfully capture any of the content on it; at worst, the next read may be the last read, in which case you’ll want the next read to be the imaging process, since you may not know what the media holds. It can sometimes be impossible to know in advance when storage media is headed towards failure, but there are some ways to make a judgement call on this factor.
@@ -107,7 +106,7 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 - You are not equipped to store potentially sensitive information that might be present in a disk image, even temporarily. The risk of transferring sensitive information is not eliminated when logically copying files, but depending on your workflow, you might have more control over what gets transferred into your systems with a logical copy operation.
 
 ## Appendix
-In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the Where in the USA is Carmen SanDiego? CD-ROM disk image provided from the Internet Archive.
+In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 ![Alt Text](/images/image.ext)
 ### CD-ROM disk image in FTK Imager Evidence Tree
 
