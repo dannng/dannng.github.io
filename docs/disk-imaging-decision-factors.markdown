@@ -69,7 +69,7 @@ Do you intend, or is it important, that researchers will be able to interact wit
 - Do you need a disk image to support the use of the media object and its contents in an emulated environment?
 
 
-F## actors for maybe imaging
+## Factors for maybe imaging
 ### Is capturing storage device file system features important?
 Was the drive used as part of a donor’s work practice and/or used for the creation of records, and is file system metadata important to retain for evidentiary value? Does the media object contain software specifically designed for and compatible with specific hardware? Deciding on which file system metadata and/or features that are important to retain can guide whether imaging is an appropriate pathway. In contrast, if the media object was only used to transfer copies of files to the archive (e.g., the donor purchased or was provided a new drive specifically to transfer documents) you may not need to capture this information, and, consequently, imaging may not be necessary.
 - It may be expedient to image a media object to capture file system features, but it may not always be required to do so. If, for instance, only timestamps are important, there are several ways to capture this outside of an imaging workflow.8
@@ -109,38 +109,38 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 
 ### CD-ROM disk image in FTK Imager Evidence Tree
-![CD-ROM disk image in FTK Imager Evidence Tree](/assets/dif-ftk.jpg)
+![CD-ROM disk image in FTK Imager Evidence Tree](/assets/dif-ftk.jpg "title")
 
 FTK Imager shows multiple file systems and their respective file listings; notice that they differ slightly.
 
 ### CD-ROM disk image displayed in IsoBuster
-![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster1.jpg)
-![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster2.jpg)
+![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster1.jpg "title")
+![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster2.jpg "title")
 
 IsoBuster also shows the ISO9660 and HFS file systems, and you can see that the file listings are slightly different in each.
 
 ### CD-ROM disk image mounted in Windows 10
-![CD-ROM disk image mounted in Windows 10](/assets/dif-windows-mounted.jpg)
+![CD-ROM disk image mounted in Windows 10](/assets/dif-windows-mounted.jpg "title")
 
 Note that none of the HFS file names show up when this disk image is mounted in a Windows system.
 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
-![CD-ROM disk image in Disk Utility on MacOS 10.15](/assets/dif-macOS-disk-utility.png)
+![CD-ROM disk image in Disk Utility on MacOS 10.15](/assets/dif-macOS-disk-utility.png "title")
 
 Note that MacOS no longer supports the ability to mount an HFS volume in Finder.
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
-![CD-ROM disk image in Disk Image Access Tool in BitCurator](/assets/dif-disk-image-access.jpg)
+![CD-ROM disk image in Disk Image Access Tool in BitCurator](/assets/dif-disk-image-access.jpg "title")
 
 The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries1, which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
-![CD-ROM disk image in HFSExplorer in BitCurator](/assets/dif-hfsexplorer.jpg)
+![CD-ROM disk image in HFSExplorer in BitCurator](/assets/dif-hfsexplorer.jpg "title")
 
 HFSExplorer will show the HFS file names of this disk image, but it will not present the user with a list of the ISO9660 file names as they are arranged in that file system view.
 
 ### Fiwalk output run against disk image
-![Fiwalk output run against disk image](/assets/dif-fiwalk.jpg)
+![Fiwalk output run against disk image](/assets/dif-fiwalk.jpg "title")
 
 Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any file systems on this disk image on this particular run (with no additional flags).
 
