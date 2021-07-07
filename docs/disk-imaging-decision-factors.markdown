@@ -145,7 +145,7 @@ HFSExplorer will show the HFS file names of this disk image, but it will not pre
 Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any file systems on this disk image on this particular run (with no additional flags).
 
 ### mmls output run against disk image
-`
+```
     ➜  ~ mmls /Users/mercury_in_retrograde/Where\ in\ the\ USA\ is\ Carmen\ Sandiego\ \(Broderbund\)\(1998\).ISO
     MAC Partition Map
     Offset Sector: 0
@@ -157,10 +157,10 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
     002:  Meta      0000000001   0000000003   0000000003   Table
     003:  001       0000000004   0000000176   0000000173   ISO9660_system
     004:  002       0000000177   0002089859   0002089683   Apple_HFS
-`
+```
 
 ### disktype output run against disk image
-`
+```
     ➜  ~ disktype /Users/mercury_in_retrograde/Where\ in\ the\ USA\ is\ Carmen\ Sandiego\ \(Broderbund\)\(1998\).ISO
     --- /Users/mercury_in_retrograde/Where in the USA is Carmen Sandiego (Broderbund)(1998).ISO
     Regular file, size 623.7 MiB (653965312 bytes)
@@ -179,7 +179,7 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
       Volume name "CS_USA"
       Preparer    "OMI QUICKTOPIX 2.20"
       Data size 88 KiB (90112 bytes, 44 blocks of 2 KiB)
-`
+```
 
 ## Acknowledgements
 The following people contributed to this document:
