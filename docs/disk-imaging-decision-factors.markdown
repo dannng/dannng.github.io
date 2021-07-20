@@ -108,7 +108,7 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 ## Appendix
 In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 
-### CD-ROM disk image in FTK Imager Evidence Tree
+### CD-ROM disk image in FTK Imager Evidence Tree[13]
 ![CD-ROM disk image in FTK Imager Evidence Tree](/assets/dif-ftk.jpg "title")
 
 FTK Imager shows multiple file systems and their respective file listings; notice that they differ slightly.
@@ -127,12 +127,12 @@ Note that none of the HFS file names show up when this disk image is mounted in 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
 ![CD-ROM disk image in Disk Utility on MacOS 10.15](/assets/dif-macOS-disk-utility.png "title")
 
-Note that MacOS no longer supports the ability to mount an HFS volume in Finder.
+Note that MacOS no longer supports the ability to mount an HFS volume in Finder.[14]
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
 ![CD-ROM disk image in Disk Image Access Tool in BitCurator](/assets/dif-disk-image-access.jpg "title")
 
-The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries1, which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
+The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries[15], which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
 ![CD-ROM disk image in HFSExplorer in BitCurator](/assets/dif-hfsexplorer.jpg "title")
@@ -183,19 +183,33 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
 
 ## Endnotes
 1 Terms that may be used interchangeably here include digital object, digital asset, media object, carrier.
+
 2 This section was influenced by the [four factor test](https://www.copyright.gov/fair-use/more-info.html) for [evaluating fair use exceptions to copyright](https://fairuse.stanford.edu/overview/fair-use/four-factors/).
+
 3 It is also possible to transfer “hidden” files and folders through a logical copy, and individual files themselves may contain data that a donor might not realize are accessible (e.g., creator metadata in a PDF; tracked changes in a Word document).
+
 4 For a more nuanced exploration, see [Balancing Care and Authenticity in Digital Collections](https://journals.litwinbooks.com/index.php/jclis/article/view/125).
+
 5 Tools used to view and analyze disk images may not support all possible file systems, as well, though.
+
 6 There is specific paid software that will allow one to read/write to disks meant for other systems, such as [MacDrive](https://www.macdrive.com/) and [Microsoft NTFS for Mac](https://www.paragon-software.com/us/home/ntfs-mac).
+
 7 QuickTime movies are one type of file that often had resource forks, and may not work when transferred to a filesystem that does not support resource forks. See the explanation referenced in [Missing Resource Fork](https://aeroquartet.com/treasured/missing%20resource%20fork.en.html).
+
 8 For instance, one may use a write-blocker (or use another read-only technique) and run [walk_to_dfxml.py](https://github.com/simsong/dfxml/blob/master/python/walk_to_dfxml.py) to generate [Digital Forensics XML (DFXML)](https://github.com/simsong/dfxml/) from a directory, which will record timestamp information in metadata for select directories and files. One can transfer files on the command line using commands such as [rsync](https://ss64.com/bash/rsync.html) or [cp](https://ss64.com/bash/cp.html) with flags to preserve attributes like timestamps at the destination for the files themselves.
+
 9 This can either refer to actions specifically defined by the [PREMIS events controlled vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) or to more general digital preservation activities.
+
 10 For audio CDs, transforming digital audio into files readable on a computer is known as digital audio extraction. See the [Wikipedia page on CD rippers](https://en.wikipedia.org/wiki/CD_ripper) for an overview and list of software suitable for this purpose.
+
 11 See the [Wikipedia page on sessions on optical discs](https://en.wikipedia.org/wiki/Track_(optical_disc)#Sessions), [An Introduction to Optical Media Preservation](https://journal.code4lib.org/articles/9581), and [An Optical Media Preservation Strategy for New York University’s Fales Library & Special Collections](https://archive.nyu.edu/handle/2451/43877) and [its appendices](https://archive.nyu.edu/handle/2451/43876) for more information.
+
 12 For example, a donor may not want any information related to their children included, and so took the step to delete such files, not realizing that the information may still be retrievable.
+
 13 Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/bitcurator-consortium-roundtable-practice-values-situating-digital-forensics-tools-in-archives/). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.
+
 14 See the [History section of the HFS Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_File_System#History) entry.
+
 15 See [HFS on the Sleuth Kit wiki](https://wiki.sleuthkit.org/index.php?title=HFS).
 
 ## Acknowledgements
