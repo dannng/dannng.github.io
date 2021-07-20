@@ -109,38 +109,38 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 
 ### CD-ROM disk image in FTK Imager Evidence Tree[13]
-![CD-ROM disk image in FTK Imager Evidence Tree](/assets/dif-ftk.jpg "title")
+![This screenshot shows the disk image as loaded into the program FTK Imager. It is shown to illustrate that there are multiple file system views present, each with differing files present.](/assets/dif-ftk.jpg "Disk image in FTK Imager Evidence Tree")
 
 FTK Imager shows multiple file systems and their respective file listings; notice that they differ slightly.
 
 ### CD-ROM disk image displayed in IsoBuster
-![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster1.jpg "title")
-![CD-ROM disk image displayed in IsoBuster](/assets/dif-isobuster2.jpg "title")
+![This screenshot shows the disk image display in the IsoBuster software. Of note is that the navigation panel on the left displays two different file systems representations -- ISO9660 and HFS -- and there are different files listed under each.](/assets/dif-isobuster1.jpg "Disk image displayed in IsoBuster")
+![This screenshot shows a close up view of the navigational panel of the IsoBuster software. The two file systems -- ISO9660 and HFS -- are present, and some of the folders are expanded to further illustrate the differences between the two views.](/assets/dif-isobuster2.jpg "Disk image displayed in IsoBuster - Closeup")
 
 IsoBuster also shows the ISO9660 and HFS file systems, and you can see that the file listings are slightly different in each.
 
 ### CD-ROM disk image mounted in Windows 10
-![CD-ROM disk image mounted in Windows 10](/assets/dif-windows-mounted.jpg "title")
+![This is a screen capture of the CD-ROM disk image as mounted in a Windows 10 system. This is shown to illustrate that the Macintosh-compatible portion of the disk (which is shown in later examples) is not present at all in this view.](/assets/dif-windows-mounted.jpg "Disk image mounted in Windows 10")
 
 Note that none of the HFS file names show up when this disk image is mounted in a Windows system.
 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
-![CD-ROM disk image in Disk Utility on MacOS 10.15](/assets/dif-macOS-disk-utility.png "title")
+![This screenshot illustrates what happens when you try to open up the disk image using Disk Utility on a Mac. The warning text reads, "The following disk images couldn't be opened." The reason is listed as, "image not recognized."](/assets/dif-macOS-disk-utility.png "Disk image in Disk Utility on a Mac")
 
 Note that MacOS no longer supports the ability to mount an HFS volume in Finder.[14]
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
-![CD-ROM disk image in Disk Image Access Tool in BitCurator](/assets/dif-disk-image-access.jpg "title")
+![This screenshot shows the disk image loaded into the Disk Image Access tool from BitCurator. No contents are displayed, and in the Image Info panel, the text reads "No image information found."](/assets/dif-disk-image-access.jpg "Disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)")
 
 The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries[15], which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
-![CD-ROM disk image in HFSExplorer in BitCurator](/assets/dif-hfsexplorer.jpg "title")
+![This screenshot shows the disk image loaded into the HFSExplorer utility. It shows that only Macintosh files, and not the files that are shown in other programs that read ISO9660 filesystems.](/assets/dif-hfsexplorer.jpg "Disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)")
 
 HFSExplorer will show the HFS file names of this disk image, but it will not present the user with a list of the ISO9660 file names as they are arranged in that file system view.
 
 ### Fiwalk output run against disk image
-![Fiwalk output run against disk image](/assets/dif-fiwalk.jpg "title")
+![This screenshot shows the XML output of the tool fiwalk run against the disk image. Of note are the multiple error lines stating that the utility cannot determine the file system type at various offsets using various sector sizes.](/assets/dif-fiwalk.jpg "Fiwalk output run against disk image")
 
 Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any file systems on this disk image on this particular run (with no additional flags).
 
