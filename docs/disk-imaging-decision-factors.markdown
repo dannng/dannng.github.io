@@ -8,21 +8,21 @@ This document was written in tandem with the [DANNNG Glossary](https://docs.goog
 Participation in the development of this document is not intended to imply a recommendation or endorsement by any of the authors or their employers, nor is it intended to imply that any specific software or toolkit is necessarily the best available for the purpose.
 
 ## Overview
-The purpose of this document is to explore the role of disk imaging in digital archives by addressing assumptions and identifying potential factors that impact decision-making. The digital archives community often focuses on disk images, but that does not mean that all storage devices[1] must be imaged. In fact, while creating and retaining a disk image was once presented as a default action to be taken on most storage devices, organizations now base their processing decisions on a number of factors, many of which we explore in this document.
+The purpose of this document is to explore the role of disk imaging in digital archives by addressing assumptions and identifying potential factors that impact decision-making. The digital archives community often focuses on disk images, but that does not mean that all storage devices<sup id="a1">[1](#en1)</sup> must be imaged. In fact, while creating and retaining a disk image was once presented as a default action to be taken on most storage devices, organizations now base their processing decisions on a number of factors, many of which we explore in this document.
 
 Disk imaging is seen as more time-consuming and resource-intensive than logical acquisition, but these assumptions do not necessarily hold: there are many factors to consider that implicate post-imaging actions one may wish to take. Likewise, disk imaging can also seem difficult or esoteric. One aim of this document and other outputs of DANNNG (Digital Archival traNsfer, iNgest, and packagiNg Group) is to demystify disk imaging and the decisions that factor into format selection, creation, handling, and retention. We recognize that the technological expertise to work with disk images is not consistently available across organizations collecting digital materials, and we want to create a community-supported resource for those who wish to increase their knowledge and experience.
 
 The document is structured in the following sections:
 1. A definition of "disk image."
 2. A set of assumptions that we recognized as we were working through these issues, and wanted to make explicit to readers.
-3. Factors that, when present, suggest that the creation of a disk image is appropriate or desirable.[2]
+3. Factors that, when present, suggest that the creation of a disk image is appropriate or desirable.<sup id="a2">[2](#en2)</sup>
 4. Factors that, when present, suggest creating a disk image may or may not be appropriate.
 5. Factors that, when present, suggest creating a disk image may not be appropriate or desirable.
 
 In our document we have tried to provide guidance on the factors that go into the decision to image or not. The factors involved in deciding to image are often exceptional, so we have provided additional detail in our explanations of them. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
 
 ## Definition of Disk Image
-A disk image (sometimes just "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original media object. Content, especially relevant to working hard drives, includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved on their hard drives, such as downloaded email and web browsing history. It may also include unused, empty, or slack space.3 A disk image will be about the same size as the storage device being imaged. There are proprietary and open source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," compressed, and/or split up into several files.
+A disk image (sometimes just "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original media object. Content, especially relevant to working hard drives, includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved on their hard drives, such as downloaded email and web browsing history. It may also include unused, empty, or slack space.<sup id="a3">[3](#en3)</sup> A disk image will be about the same size as the storage device being imaged. There are proprietary and open source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," compressed, and/or split up into several files.
 
 ## Assumptions
 - You are familiar with the concept and uses of a disk image.
@@ -36,7 +36,7 @@ A disk image (sometimes just "image") is a digital file that is a copy of the re
 - There are no “best practices,” just considerations to be evaluated, which may lead to local and accepted practices.
 - When choosing not to create a disk image, be aware that you may lose data. Data loss is a reality that archives need to acknowledge and accept, and each institution needs to define its own level of comfort with the risk of irretrievable data loss.
 - When choosing to create a disk image, be aware that you may retain sensitive data. Each institution has to define its own level of comfort with the risk of retaining unknown sensitive data, especially if there aren’t sufficient resources to protect that information appropriately. An institution’s risk tolerance should be defined through policies (e.g., for donor agreements and takedown requests) and practices (e.g., appraisal and retention).
-- The donor has been made aware of the likelihood of hidden content on storage devices and is capable of making a decision about what content will be kept and/or made publicly available by the repository.4
+- The donor has been made aware of the likelihood of hidden content on storage devices and is capable of making a decision about what content will be kept and/or made publicly available by the repository.<sup id="a4">[4](#en4)</sup>
 - Appraising files with donors pre-acquisition may provide guidance about whether to create a disk image or not.
 - The considerations in this document assume you or your institution has the available digital storage required to create and/or retain disk image files. For example, you will need 2 TB of storage space to successfully create a disk image of a 2 TB drive.
 - Files may contain embedded metadata or information in file headers. File system metadata is not stored within the file itself. Therefore, a logical copy is only guaranteed to preserve file metadata, and creating a disk image is one way to capture certain file system metadata. Retaining file system metadata may be important for certain organizations, specific collections or types of assets (e.g., software) or to support current or future research cases.
@@ -51,12 +51,12 @@ When storage devices are degrading or failing, imaging may be the most reliable 
 - If the storage device is an obsolete format, or if it is more than fifteen years old, it is highly likely -- though not guaranteed -- to be fragile.
 
 ### Is content otherwise inaccessible on your workstation?
-What you see displayed on a processing workstation might not include data you may want to look through and appraise, so imaging the original storage media may create a more comprehensive view of its content as opposed to viewing it through the lens of a different and possibly incompatible environment.5 We have provided some illustrations of differing views of the same content in an appendix to this document.
-- A host system running Windows can attach a drive but not mount it if the drive is formatted with a Mac-based file system (e.g., HFS/HFS+/APFS). Windows’ Disk Management tool can detect that something is attached, but Windows cannot assign a drive letter, or read from and write to the drive.6 These drives can still be imaged with a tool like FTK Imager.
+What you see displayed on a processing workstation might not include data you may want to look through and appraise, so imaging the original storage media may create a more comprehensive view of its content as opposed to viewing it through the lens of a different and possibly incompatible environment.<sup id="a5">[5](#en5)</sup> We have provided some illustrations of differing views of the same content in an appendix to this document.
+- A host system running Windows can attach a drive but not mount it if the drive is formatted with a Mac-based file system (e.g., HFS/HFS+/APFS). Windows’ Disk Management tool can detect that something is attached, but Windows cannot assign a drive letter, or read from and write to the drive.<sup id="a6">[6](#en6)</sup> These drives can still be imaged with a tool like FTK Imager.
 - Multiple file systems or partitions may be present on a single piece of media but may not immediately be visible depending on the setup of a processing workstation. Creating a disk image of the media will capture multiple file systems and/or partitions present.
 - Certain characters in filenames may make it difficult or impossible to work with in other operating systems, even though the files may be visible. For example, a colon (:) may exist in a Linux filename, but if that volume is later mounted by a Windows host machine, Windows will report an error if the user attempts to take action on the file. Logically copying files with incompatible characters can be time-consuming and require file-by-file remediation; a disk image may be faster to create and may provide information about the file system and encoding to provide a reference for future processing.
 - Older media may likely contain legacy file systems, which may be incompatible with contemporary computing environments and for which you may inadvertently lose critical data needed for access unless you image. Legacy and/or different file systems (than the one on your processing workstation) may have features that aren’t visible or supported on the file system on a workstation for archival processing. For instance:
-    - Resource forks were used in Mac file systems prior to the mid-1990s (pre-OSX). They were a proprietary data structure for storing images, icons, and code in a structured file format. They were often necessary to run an executable, though any file type may have an associated resource fork.7
+    - Resource forks were used in Mac file systems prior to the mid-1990s (pre-OSX). They were a proprietary data structure for storing images, icons, and code in a structured file format. They were often necessary to run an executable, though any file type may have an associated resource fork.<sup id="a7">[7](#en7)</sup>
     - Older material may contain character encodings that are no longer widely used. Encodings and how bytes are rendered have changed over time, and since the disk imaging process is a byte-for-byte copy of the original media, it will capture the information as it was on the disk, rather than present a current system’s interpretation of the data.
 - Older material may contain file formats created by obsolete software. Acquiring a disk image may increase the chance of capturing the appropriate software version or dependencies to read and/or render this material, as these dependencies may be in system folders, possibly outside the scope of a logical copy of a user’s Desktop or home directory.
 
@@ -72,7 +72,7 @@ Do you intend, or is it important, that researchers will be able to interact wit
 ## Factors for maybe imaging
 ### Is capturing storage device file system features important?
 Was the drive used as part of a donor’s work practice and/or used for the creation of records, and is file system metadata important to retain for evidentiary value? Does the media object contain software specifically designed for and compatible with specific hardware? Deciding on which file system metadata and/or features that are important to retain can guide whether imaging is an appropriate pathway. In contrast, if the media object was only used to transfer copies of files to the archive (e.g., the donor purchased or was provided a new drive specifically to transfer documents) you may not need to capture this information, and, consequently, imaging may not be necessary.
-- It may be expedient to image a media object to capture file system features, but it may not always be required to do so. If, for instance, only timestamps are important, there are several ways to capture this outside of an imaging workflow.8
+- It may be expedient to image a media object to capture file system features, but it may not always be required to do so. If, for instance, only timestamps are important, there are several ways to capture this outside of an imaging workflow.<sup id="a8">[8](#en8)</sup>
 - If, for instance, the material is known to contain software, there might be importance to retaining the file system features and/or content captured during imaging, (e.g., NTFS extended attributes, file fragments, resource forks). These may be difficult to capture without imaging.
 
 ### Does your workflow require imaging?
@@ -80,7 +80,7 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 - Does your workflow require a one-to-one correspondence between a digital asset and an original storage device?
 - Does your end user access process require disk images (e.g., if you are using BitCurator Access)?
 - Does your donor agreement allow for the return of physical carriers to donors? (e.g., media carriers may only be temporarily in your collection while materials are accessioned, giving little to no chance to ever revisit source materials)
-- Does the institution want to include in its provenance an audit trail of preservation events9 that start from the “source” of the material (e.g., disk image creation, redaction), and are difficult to document otherwise without a disk image?
+- Does the institution want to include in its provenance an audit trail of preservation events<sup id="a9">[9](#en9)</sup> that start from the “source” of the material (e.g., disk image creation, redaction), and are difficult to document otherwise without a disk image?
 - Are you creating disk images for future processing because your institution hasn’t determined processing guidelines or workflow, or you want to retain the capacity for additional processing at a later date?
 - Are you unsure whether you may want to have a disk image in the future?
 - Are you working with tools to transfer media that require imaging? Some tools may require a disk image to be created first in order to review the contents from the media (e.g., floppy disk imaging tools such as the DeviceSide Floppy FC5025 and the Kryoflux).
@@ -92,13 +92,13 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 - Storage media that are compatible and interoperable with current computer operating systems and file systems facilitate more accurate and complete transfer of data. The compatibility of storage media does not guarantee one-to-one transfer, however, so it is important to consider what (if any) file system metadata is important to retain and the most appropriate transfer operation to ensure this information is captured.
     - For instance, if the storage device is an NTFS or exFAT-formatted external hard drive and your processing workstation is a PC running Windows, you are less likely to lose technical metadata in the transfer process since the file system of the storage device and the workstation are compatible.
 - Additionally, certain media present challenges when imaging, and the resulting disk images may require additional processing to interpret. Acquiring the content on these media should not be handled by the traditional imaging process.
-    - Audio CD10
-    - Optical media with multiple sessions11
+    - Audio CD<sup id="a10">[10](#en10)</sup>
+    - Optical media with multiple sessions<sup id="a11">[11](#en11)</sup>
     - Devices with copy protection that prevent disk imaging
 
 ### Have you or your donor/the creator discussed data loss and retention?
 - You’ve assessed the risk of data loss and retention to the best of your ability with the donor, if desired or necessary, and are comfortable with the possible outcomes.
-- The donor has expressed concern about information they expressly do not wish to be retained in the archive. This may include known and documented types of information, as well as hidden content12 (e.g., file slack, file system information, stored user data like browsing history, deleted files).
+- The donor has expressed concern about information they expressly do not wish to be retained in the archive. This may include known and documented types of information, as well as hidden content<sup id="a12">[12](#en12)</sup> (e.g., file slack, file system information, stored user data like browsing history, deleted files).
 
 ### Do you face institutional limitations?
 - Storage space to save disk images of large drives, even temporarily, may be at too high a cost.
@@ -108,7 +108,7 @@ There may be reasons to consider imaging for workflow-related reasons. Does your
 ## Appendix
 In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 
-### CD-ROM disk image in FTK Imager Evidence Tree[13]
+### CD-ROM disk image in FTK Imager Evidence Tree<sup id="a13">[13](#en13)</sup>
 ![This screenshot shows the disk image as loaded into the program FTK Imager. It is shown to illustrate that there are multiple file system views present, each with differing files present.](/assets/dif-ftk.jpg "Disk image in FTK Imager Evidence Tree")
 
 FTK Imager shows multiple file systems and their respective file listings; notice that they differ slightly.
@@ -127,12 +127,12 @@ Note that none of the HFS file names show up when this disk image is mounted in 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
 ![This screenshot illustrates what happens when you try to open up the disk image using Disk Utility on a Mac. The warning text reads, "The following disk images couldn't be opened." The reason is listed as, "image not recognized."](/assets/dif-macOS-disk-utility.png "Disk image in Disk Utility on a Mac")
 
-Note that MacOS no longer supports the ability to mount an HFS volume in Finder.[14]
+Note that MacOS no longer supports the ability to mount an HFS volume in Finder.<sup id="a14">[14](#en14)</sup>
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
 ![This screenshot shows the disk image loaded into the Disk Image Access tool from BitCurator. No contents are displayed, and in the Image Info panel, the text reads "No image information found."](/assets/dif-disk-image-access.jpg "Disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)")
 
-The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries[15], which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
+The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries,<sup id="a15">[15](#en15)</sup> which does not support reading from HFS volumes. Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
 ![This screenshot shows the disk image loaded into the HFSExplorer utility. It shows that only Macintosh files, and not the files that are shown in other programs that read ISO9660 filesystems.](/assets/dif-hfsexplorer.jpg "Disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)")
@@ -182,35 +182,35 @@ Fiwalk is also built on The Sleuth Kit libraries, and it is unable to detect any
 ```
 
 ## Endnotes
-1 Terms that may be used interchangeably here include digital object, digital asset, media object, carrier.
+<b id="en1">1</b>. Terms that may be used interchangeably here include digital object, digital asset, media object, carrier.[↩](#a1)
 
-2 This section was influenced by the [four factor test](https://www.copyright.gov/fair-use/more-info.html) for [evaluating fair use exceptions to copyright](https://fairuse.stanford.edu/overview/fair-use/four-factors/).
+<b id="en2">2</b>. This section was influenced by the [four factor test](https://www.copyright.gov/fair-use/more-info.html) for [evaluating fair use exceptions to copyright](https://fairuse.stanford.edu/overview/fair-use/four-factors/).[↩](#a2)
 
-3 It is also possible to transfer “hidden” files and folders through a logical copy, and individual files themselves may contain data that a donor might not realize are accessible (e.g., creator metadata in a PDF; tracked changes in a Word document).
+<b id="en3">3</b>. It is also possible to transfer “hidden” files and folders through a logical copy, and individual files themselves may contain data that a donor might not realize are accessible (e.g., creator metadata in a PDF; tracked changes in a Word document).[↩](#a3)
 
-4 For a more nuanced exploration, see [Balancing Care and Authenticity in Digital Collections](https://journals.litwinbooks.com/index.php/jclis/article/view/125).
+<b id="en4">4</b>. For a more nuanced exploration, see [Balancing Care and Authenticity in Digital Collections](https://journals.litwinbooks.com/index.php/jclis/article/view/125).[↩](#a4)
 
-5 Tools used to view and analyze disk images may not support all possible file systems, as well, though.
+<b id="en5">5</b>. Tools used to view and analyze disk images may not support all possible file systems, as well, though.[↩](#a5)
 
-6 There is specific paid software that will allow one to read/write to disks meant for other systems, such as [MacDrive](https://www.macdrive.com/) and [Microsoft NTFS for Mac](https://www.paragon-software.com/us/home/ntfs-mac).
+<b id="en6">6</b>. There is specific paid software that will allow one to read/write to disks meant for other systems, such as [MacDrive](https://www.macdrive.com/) and [Microsoft NTFS for Mac](https://www.paragon-software.com/us/home/ntfs-mac).[↩](#a6)
 
-7 QuickTime movies are one type of file that often had resource forks, and may not work when transferred to a filesystem that does not support resource forks. See the explanation referenced in [Missing Resource Fork](https://aeroquartet.com/treasured/missing%20resource%20fork.en.html).
+<b id="en7">7</b>. QuickTime movies are one type of file that often had resource forks, and may not work when transferred to a filesystem that does not support resource forks. See the explanation referenced in [Missing Resource Fork](https://aeroquartet.com/treasured/missing%20resource%20fork.en.html).[↩](#a7)
 
-8 For instance, one may use a write-blocker (or use another read-only technique) and run [walk_to_dfxml.py](https://github.com/simsong/dfxml/blob/master/python/walk_to_dfxml.py) to generate [Digital Forensics XML (DFXML)](https://github.com/simsong/dfxml/) from a directory, which will record timestamp information in metadata for select directories and files. One can transfer files on the command line using commands such as [rsync](https://ss64.com/bash/rsync.html) or [cp](https://ss64.com/bash/cp.html) with flags to preserve attributes like timestamps at the destination for the files themselves.
+<b id="en8">8</b>. For instance, one may use a write-blocker (or use another read-only technique) and run [walk_to_dfxml.py](https://github.com/simsong/dfxml/blob/master/python/walk_to_dfxml.py) to generate [Digital Forensics XML (DFXML)](https://github.com/simsong/dfxml/) from a directory, which will record timestamp information in metadata for select directories and files. One can transfer files on the command line using commands such as [rsync](https://ss64.com/bash/rsync.html) or [cp](https://ss64.com/bash/cp.html) with flags to preserve attributes like timestamps at the destination for the files themselves.[↩](#a8)
 
-9 This can either refer to actions specifically defined by the [PREMIS events controlled vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) or to more general digital preservation activities.
+<b id="en9">9</b>. This can either refer to actions specifically defined by the [PREMIS events controlled vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) or to more general digital preservation activities.[↩](#a9)
 
-10 For audio CDs, transforming digital audio into files readable on a computer is known as digital audio extraction. See the [Wikipedia page on CD rippers](https://en.wikipedia.org/wiki/CD_ripper) for an overview and list of software suitable for this purpose.
+<b id="en10">10</b>. For audio CDs, transforming digital audio into files readable on a computer is known as digital audio extraction. See the [Wikipedia page on CD rippers](https://en.wikipedia.org/wiki/CD_ripper) for an overview and list of software suitable for this purpose.[↩](#a10)
 
-11 See the [Wikipedia page on sessions on optical discs](https://en.wikipedia.org/wiki/Track_(optical_disc)#Sessions), [An Introduction to Optical Media Preservation](https://journal.code4lib.org/articles/9581), and [An Optical Media Preservation Strategy for New York University’s Fales Library & Special Collections](https://archive.nyu.edu/handle/2451/43877) and [its appendices](https://archive.nyu.edu/handle/2451/43876) for more information.
+<b id="en11">11</b>. See the [Wikipedia page on sessions on optical discs](https://en.wikipedia.org/wiki/Track_(optical_disc)#Sessions), [An Introduction to Optical Media Preservation](https://journal.code4lib.org/articles/9581), and [An Optical Media Preservation Strategy for New York University’s Fales Library & Special Collections](https://archive.nyu.edu/handle/2451/43877) and [its appendices](https://archive.nyu.edu/handle/2451/43876) for more information.[↩](#a11)
 
-12 For example, a donor may not want any information related to their children included, and so took the step to delete such files, not realizing that the information may still be retrievable.
+<b id="en12">12</b>. For example, a donor may not want any information related to their children included, and so took the step to delete such files, not realizing that the information may still be retrievable.[↩](#a12)
 
-13 Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/bitcurator-consortium-roundtable-practice-values-situating-digital-forensics-tools-in-archives/). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.
+<b id="en13">13</b>. Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/bitcurator-consortium-roundtable-practice-values-situating-digital-forensics-tools-in-archives/). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.[↩](#a13)
 
-14 See the [History section of the HFS Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_File_System#History) entry.
+<b id="en14">14</b>. See the [History section of the HFS Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_File_System#History) entry.[↩](#a14)
 
-15 See [HFS on the Sleuth Kit wiki](https://wiki.sleuthkit.org/index.php?title=HFS).
+<b id="en15">15</b>. See [HFS on the Sleuth Kit wiki](https://wiki.sleuthkit.org/index.php?title=HFS).[↩](#a15)
 
 ## Acknowledgements
 The following people contributed to this document:
