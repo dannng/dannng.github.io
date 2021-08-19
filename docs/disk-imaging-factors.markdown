@@ -2,7 +2,7 @@
 layout: page
 title: Disk Imaging Decision Factors
 ---
-This document was written in tandem with the [DANNNG Glossary](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit#heading=h.wrd7fis3gi8m). Phrases used here will eventually link to their definitions in that resource.
+This document was written in tandem with the [DANNNG Glossary](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit#heading=h.wrd7fis3gi8m). Glossary terms (and synonyms) will be bolded the first time they are introduced in this document.
 
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)
@@ -59,7 +59,8 @@ Do you have reason to believe the storage device is fragile or failing? When sto
 ### Weighing against imaging
 If you don’t have a physical storage device (e.g., a hard drive, optical disc, floppy disk, etc.), there is nothing that can be imaged. (As opposed to, for example, a set of files stored on a server or transferred over email.)
 
-- Acquiring the content from certain media types should not be handled by the traditional imaging process.
+Acquiring the content from certain media types should not be handled by the traditional imaging process.
+
 - Audio CD (CD-DA): For audio CDs, transforming digital audio into files readable on a computer is known as digital audio extraction<sup id="a5">[5](#en5)</sup>
 - Optical media with multiple sessions present challenges when imaging, and the resulting disk images may require additional processing to interpret<sup id="a6">[6](#en6)</sup>
 - Devices with copy protection that prevent disk imaging
