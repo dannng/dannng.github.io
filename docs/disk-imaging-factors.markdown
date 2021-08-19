@@ -56,7 +56,7 @@ Do you have reason to believe the storage device is fragile or failing? When sto
 - Has the storage device been stored in less-than-ideal conditions (e.g., damp or humid environments, exposure to the elements, etc.)?
 - Is the storage device very old or do you expect it to have older content on it? While it isn’t a guarantee that you won’t be able to mount something old on your current working systems, it might signal that the content contained on the storage device might have incompatible (i.e., unreadable) content. (See [LINK](Compatibility of the media or content).)
 
-## Weighing against imaging
+### Weighing against imaging
 If you don’t have a physical storage device (e.g., a hard drive, optical disc, floppy disk, etc.), there is nothing that can be imaged. (As opposed to, for example, a set of files stored on a server or transferred over email.)
 
 - Acquiring the content from certain media types should not be handled by the traditional imaging process.
@@ -136,6 +136,9 @@ Limits to staffing, equipment, or available storage may make creating, storing, 
 You may not be equipped to store potentially sensitive information that might be present in a disk image, even temporarily. The risk of transferring sensitive information is not eliminated when logically copying files, but depending on your workflow, you might have more control over what gets transferred into your systems with a logical copy operation.
 
 ## Appendix
+
+In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
+
   * [CD-ROM disk image in FTK Imager Evidence Tree](#cd-rom-disk-image-in-ftk-imager-evidence-tree)
   * [CD-ROM disk image displayed in IsoBuster](#cd-rom-disk-image-displayed-in-isobuster)
   * [CD-ROM disk image mounted in Windows 10](#cd-rom-disk-image-mounted-in-windows-10)
@@ -145,8 +148,6 @@ You may not be equipped to store potentially sensitive information that might be
   * [Fiwalk output run against disk image](#fiwalk-output-run-against-disk-image)
   * [mmls output run against disk image](#mmls-output-run-against-disk-image)
   * [disktype output run against disk image](#disktype-output-run-against-disk-image)
-
-In order to illustrate how various environments and utilities differ in their display of the same content, we have provided the following screenshots using the [Where in the USA is Carmen SanDiego?](https://archive.org/details/Where_in_the_USA_is_Carmen_Sandiego_Broderbund_1998) CD-ROM disk image provided from the [Internet Archive](https://archive.org/).
 
 ### CD-ROM disk image in FTK Imager Evidence Tree
 ![This screenshot shows the disk image as loaded into the program FTK Imager. It is shown to illustrate that there are multiple file system views present, each with differing files present.](/assets/dif-ftk.jpg "Disk image in FTK Imager Evidence Tree")
