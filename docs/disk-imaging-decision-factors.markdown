@@ -228,7 +228,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 [disktype](http://disktype.sourceforge.net/) is a C library that can display the format of a disk or disk image. The output also shows the ISO9660 and HFS partitions, along with various other data points. 
 
 ## Endnotes
-<b id="en1">1</b>. For example, [“Digital Forensics and Born-Digital Content in Cultural Heritage Collections”[(https://www.clir.org/pubs/reports/pub149/)] by Matthew G. Kirschenbaum, Richard Ovenden, and Gabriela Redwine.[↩](#a1)
+<b id="en1">1</b>. For example, [“Digital Forensics and Born-Digital Content in Cultural Heritage Collections”](https://www.clir.org/pubs/reports/pub149/) by Matthew G. Kirschenbaum, Richard Ovenden, and Gabriela Redwine.[↩](#a1)
 
 <b id="en2">2</b>. Terms that may be used interchangeably here include media, media object, and storage device.[↩](#a2)
 
