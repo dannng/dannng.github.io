@@ -286,7 +286,7 @@ The following people contributed to this document:
 - Lara Friedman-Shedlov, University of Minnesota
 - Shira Peltzman, UCLA Library
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
-- Elise Tanner, UA Little Rock Center for Arkansas History and Culture
+- Elise Tanner, UA at Little Rock Center for Arkansas History and Culture
 - Valerie Waldron, University of Michigan Library
 - Paige Walker, Tisch Library, Tufts University
 - Lauren Work, University of Virginia Library
