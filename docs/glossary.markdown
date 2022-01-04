@@ -52,7 +52,7 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Uncompressed disk image](#uncompressed-disk-image)
   * [Volume](#volume)
 - [Other references](#other-references)
-- [Endotes](#endotes)
+- [Endotes](#endnotes)
 - [Acknowledgements](#acknowledgements)
 
 ## Disclaimer
@@ -80,7 +80,7 @@ The glossary assumes introductory knowledge of digital forensics. The glossary i
 The SAA dictionary provides a definition.
 
 ### BIN/CUE files
-For optical media, one disk imaging approach is to create BIN/CUE pairs, wherein the BIN file stores the content and a CUE file stores ancillary information such as track names and offsets to where tracks begin and end. BIN/CUE pairs can be used to capture each session (a batch of data written in one go) on a multi-session disc.
+For [optical media](#optical-media), one [disk imaging](#disk-imaging)] approach is to create BIN/CUE pairs, wherein the BIN file stores the content and a CUE file stores ancillary information such as track names and offsets to where tracks begin and end. BIN/CUE pairs can be used to capture each session (a batch of data written in one go) on a multi-session disc.
 
 See also:
 - [Imaging CD-Extra / Blue Book Discs by Open Preservation Foundation](https://openpreservation.org/blogs/imaging-cd-extra-blue-book-discs/)
@@ -88,12 +88,12 @@ See also:
 - [Brown, G. (2012). Developing Virtual CD-ROM Collections: The Voyager Company Publications. The International Journal of Digital Curation, 7(2), 13. doi:https://doi.org/10.2218/ijdc.v7i2.226](https://doi.org/10.2218/ijdc.v7i2.226)
 
 ### Blank space
-Unused space that does not contain deleted files or file fragments. Applies to all storage system layers. A scan of blank space should reveal an absence of content, such as all disk sectors in a suspected blank region being filled with the byte value 0.
+Unused space that does not contain deleted files or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers). A scan of blank space should reveal an absence of content, such as all disk [sectors](#sector) in a suspected blank region being filled with the byte value 0.
 
 Synonyms: contentless space 
 
 ### Capture
-In the context of the disk imaging use cases document, capturing is a synonym for disk imaging.
+In the context of the disk imaging use cases document, capturing is a synonym for [disk imaging](#disk-imaging).
 
 Synonyms: acquisition
 
@@ -103,27 +103,28 @@ See also:
 ### Character
 A computer-interpretable unit of information that displays as an alphabetic letter, number, or symbol. 
 
-Examples include: punctuation, white space, accented Latin letter, Chinese glyph, Korean syllabic block, Unicode snowman (☃).
+Examples include: punctuation, white space, accented Latin letter, Chinese glyph, Korean syllabic block, Unicode snowman (&#9731;).
 
 Note that characters can be represented in multiple-byte-wide encodings, which is applicable in most non-Latin character sets.
 
 See also:
-- [Character](https://dictionary.archivists.org/entry/character.html) (SAA Dictionary of Archives Terminology): note that depending on the character encoding, a character may comprise more than one byte (e.g. in UTF-8, a character can be 1–4 bytes)
+- [Character](https://dictionary.archivists.org/entry/character.html) (SAA Dictionary of Archives Terminology): note that depending on the [character encoding](#character-encoding), a character may comprise more than one byte (e.g., in UTF-8, a character can be 1–4 bytes)
 - [Byte](https://www.dpconline.org/handbook/glossary#B) (DPC Digital Preservation Handbook)
 
 ### Character encoding
-The method by which a series of bits corresponds to glyphs that have meaning to human readers. The most common as of 2020 is UTF-8, maintained by the Unicode foundation, which uses between 1 and 4 8-bit bytes. The variability of UTF-8 allows for the encoding of a large number of characters, ensuring that many of the world's character sets can be encoded in UTF-8, allowing for a level of international interoperability not available previously. While UTF-8 is common now, this has not always been the case. Older encodings abound and create complications for users attempting to understand objects, particularly those whose creating environment utilized non-English Western languages or non-Western character sets.
+The method by which a series of bits corresponds to glyphs that have meaning to human readers. The most common as of 2020 is UTF-8, maintained by the Unicode foundation, which uses between 1 and 4 8-bit bytes. The variability of UTF-8 allows for the encoding of a large number of [characters](#character), ensuring that many of the world's character sets can be encoded in UTF-8, allowing for a level of international interoperability not available previously. While UTF-8 is common now, this has not always been the case. Older encodings abound and create complications for users attempting to understand objects, particularly those whose creating environment utilized non-English Western languages or non-Western character sets.
 
 See also:
 - [Encoding](http://www.digitizationguidelines.gov/term.php?term=encoding)] (FADGI Glossary): expanded definition
 
 ### Container
 A container is a data encapsulator but requires a program to present its data. The general container can store files or, recursively, other containers.
-For instance, a file system is a container of files. A floppy disk that is fully devoted to a FAT12 file system is a container for that file system, and also indirectly is a container for the file system's files. A larger disk will typically have a partition system, which contains partitions, each of which contains a file system, each of which contains files. A Zip file contains files and can yield files when opened with an unzipping program.
 
-Examples: Partitioned disk medium, disk image of a partitioned disk medium, disk partition formatted with a file system, email with attachments
+For instance, a file system is a container of files. A floppy disk that is fully devoted to a FAT12 file system is a container for that [file system](#file-system), and also indirectly is a container for the file system's files. A larger disk will typically have a partition system, which contains [partitions](#partition), each of which contains a file system, each of which contains files. A Zip [file](#file) contains files and can yield files when opened with an unzipping program.
 
-Synonyms: Physical container (when needed to distinguish from the reduced-scope logical container)
+Examples: Partitioned disk medium, [disk image](#disk-image) of a partitioned disk medium, disk partition formatted with a file system, email with attachments
+
+Synonyms: Physical container (when needed to distinguish from the reduced-scope [logical container](#logical-container))
 
 ### Copy (v)
 An act of replicating content.
@@ -131,18 +132,18 @@ An act of replicating content.
 Related to files: An act of replicating at least the primary contents of a file. The method of copying can carry other implications for the metadata that is preserved by the operation. This covers activities such as bit-stream copying with dd or using a GUI to copy files from one system to another.
 
 ### Cyclic redundancy check (CRC)
-A non-cryptographic checksum that verifies the integrity of fixed length chunks of data in an object. Can be employed by forensically packaged disk image formats such as AFF3 and E01. 
+A non-cryptographic checksum that verifies the integrity of fixed length chunks of data in an object. Can be employed by [forensically-packaged disk image](#forensically-packaged-disk-image) formats such as AFF3 and E01. 
 
-Note: The ISO9660 optical medium file system and the Zip file format include CRC checksums as part of their basic storage structure.
+Note: The ISO9660 optical medium [file system](#file-system) and the Zip file format include CRC checksums as part of their basic storage structure.
 
 ### Data retention
-Retention of data, understood expansively, can be interpreted as retaining untransformed data from media, if not the original media themselves, or preserving renderings of the original data (e.g. the visual representation of a picture that was in a now-obsolete format).
+Retention of data, understood expansively, can be interpreted as retaining untransformed data from media, if not the original media themselves, or preserving [renderings](#render) of the original data (e.g., the visual representation of a picture that was in a now-obsolete format).
 
 ### Digital Asset
 See an expanded discussion of digital (or "cyber") assets in [NISTIR 7693, Specification for Asset Identification 1.1](https://doi.org/10.6028/NIST.IR.7693)
 
 ### Disk image
-A disk image (sometimes referred to as an "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original storage device. Content includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved, such as downloaded email and web browsing history. It may also include unused, empty, or slack space. A disk image will be about the same size as the storage device being imaged. There are proprietary and open-source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," physical, logical, compressed, and/or split up into several files, and these qualities are not mutually exclusive.
+A disk image (sometimes referred to as an "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original storage device. Content includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved, such as downloaded email and web browsing history. It may also include unused, empty, or [slack space](#slack-space)]. A disk image will be about the same size as the storage device being imaged. There are proprietary and open-source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," physical, logical, compressed, and/or split up into several files, and these qualities are not mutually exclusive.
 
 Examples: format examples include Expert Witness Format, gzip-compressed, AFF4, and others.
 
@@ -151,16 +152,17 @@ Note: There is some nuance in a disk image taken of a Redundant Array of Indepen
 ### Disk imaging
 As a term of practice, disk imaging has come to mean the process of "Acquiring and preserving the contents of a disk." There are two major forms of the most immediate output of a disk imaging process:
 
-A. A [disk image](#disk-image), being either a raw disk image, or a forensically-packaged disk image.
-B. A logical image that is a collection of all files extractable from a disk.
+A. A [disk image](#disk-image), being either a [raw disk image](#raw-disk-image), or a [forensically-packaged disk image](#forensically-packaged-disk-image).
 
-In digital forensic contexts outside of the cultural heritage community, the phrase disk imaging more often means the former, while "imaging"---especially "imaging a device"---may more equally likely mean either. Logical file transfer is a phrase that unambiguously means a logical set of files, and not a disk image, will be produced.
+B. A [logical image](#logical-container) that is a collection of all files extractable from a disk.
+
+In digital forensic contexts outside of the cultural heritage community, the phrase disk imaging more often means the former, while "imaging"---especially "imaging a device"---may more equally likely mean either. [Logical file transfer](#logical-file-transfer) is a phrase that unambiguously means a logical set of files, and not a disk image, will be produced.
 
 See also:
 - [Image](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 10
 
 ### Emulation
-The accessible reproduction of a legacy storage medium in a modern computing environment, especially involving a legacy file system or software. Because emulation involves running legacy operating systems, file systems, and software, most emulation solutions require mountable volumes to be found in raw disk images and cannot natively understand a forensically-packaged disk image. This does not necessarily mean that forensically-packaged disk images are a poor choice but does mean that users may need to re-create a raw disk image from a forensically-packaged disk image in order to make its contents compatible with an emulation solution.
+The accessible reproduction of a legacy [storage medium](#media-object) in a modern computing environment, especially involving a legacy [file system](#file-system) or software. Because emulation involves running legacy [operating systems](#operating-system), file systems, and software, most emulation solutions require [mountable](#mount) [volumes](#volume) to be found in [raw disk images](#raw-disk-image) and cannot natively understand a [forensically-packaged disk image](#forensically-packaged-disk-image). This does not necessarily mean that forensically-packaged disk images are a poor choice but does mean that users may need to re-create a raw disk image from a forensically-packaged disk image in order to make its contents compatible with an emulation solution.
 
 See also:
 - [Emulation](https://ndsa.org/glossary/) (NDSA Glossary)
@@ -168,7 +170,7 @@ See also:
 - [EaaSI Training Module #5: Disk Images](https://www.softwarepreservationnetwork.org/eaasi-training-module-5-disk-images/)
 
 ### Extended attribute
-A file system feature that pairs files with arbitrary name-value pair metadata that is not interpretable by the file system. Whether a file system makes use of extended attributes depends on the file system itself, the mounting operating system, and applications that know how to make use of extended attributes. An extended attribute is not likely to persist if a file is copied to a different file system type that does not support a given extended attribute (e.g., from NTFS to exFAT). 
+A [file system](#file-system) feature that pairs files with arbitrary name-value pair metadata that is not interpretable by the file system. Whether a file system makes use of extended attributes depends on the file system itself, the [mounting](#mount) [operating system](#operating-system), and applications that know how to make use of extended attributes. An extended attribute is not likely to persist if a [file](#file) is copied to a different file system type that does not support a given extended attribute (e.g., from NTFS to exFAT). 
 
 Examples include: storing the URL from which a file was downloaded, which is done by Apple's Safari, GNU wget with the '--xattr' flag, and a Windows interface that uses NTFS extended metadata to mark downloads. 
 
@@ -262,7 +264,7 @@ See also:
 - [Logical Acquisition/Copy[(https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf)] (SWGDE Digital & Multimedia Evidence Glossary): page 12
 
 ### Magnetic media
-Storage objects that store data using magnetic particles scattered over a magnetized surface. Data is written to and read from such media using read/write heads in tracks and sectors. The simplest examples feature a single surface (e.g. a floppy disk, a tape cartridge), while more complex examples feature multiple magnetic surfaces in a stack (2.5" or 3.5" large capacity hard drives).
+Storage objects that store data using magnetic particles scattered over a magnetized surface. Data is written to and read from such media using read/write heads in tracks and sectors. The simplest examples feature a single surface (e.g., a floppy disk, a tape cartridge), while more complex examples feature multiple magnetic surfaces in a stack (2.5" or 3.5" large capacity hard drives).
 
 Examples include: floppy disks, internal hard drives, external hard drives, tape-based media
 
@@ -368,7 +370,7 @@ See also:
 An uncompressed disk image is a file that contains a bitstream representing the contents of a disk image, with no compression applied. This is similar to raw disk images, except raw disk images contain no embedded metadata relating to any disk image format. Some uncompressed disk images are like raw images with an extra header or footer region. For instance, the Microsoft VHD "Fixed Hard Disk Image" format is a raw disk image with an additional footer sector of metadata.
 
 See also:
-- Microsoft. "Virtual Hard Disk Image Format Specification," version 1.0, 2006-10-11. Referenced in: [About VHD (Windows)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd323654(v=vs.85))
+- [Virtual Hard Disk Image Format Specification](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)) (Windows Documentation): version 1.0, 2006-10-11
 
 ### Volume
 A storage area defined at the operating system level, which has a single file system and usually resides on one disk partition.
