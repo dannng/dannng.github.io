@@ -80,7 +80,7 @@ The glossary assumes introductory knowledge of digital forensics. The glossary i
 The SAA dictionary provides a definition.
 
 ### BIN/CUE files
-For [optical media](#optical-media), one [disk imaging](#disk-imaging)] approach is to create BIN/CUE pairs, wherein the BIN file stores the content and a CUE file stores ancillary information such as track names and offsets to where tracks begin and end. BIN/CUE pairs can be used to capture each session (a batch of data written in one go) on a multi-session disc.
+For [optical media](#optical-media), one [disk imaging](#disk-imaging) approach is to create BIN/CUE pairs, wherein the BIN file stores the content and a CUE file stores ancillary information such as track names and offsets to where tracks begin and end. BIN/CUE pairs can be used to capture each session (a batch of data written in one go) on a multi-session disc.
 
 See also:
 - [Imaging CD-Extra / Blue Book Discs by Open Preservation Foundation](https://openpreservation.org/blogs/imaging-cd-extra-blue-book-discs/)
@@ -115,7 +115,7 @@ See also:
 The method by which a series of bits corresponds to glyphs that have meaning to human readers. The most common as of 2020 is UTF-8, maintained by the Unicode foundation, which uses between 1 and 4 8-bit bytes. The variability of UTF-8 allows for the encoding of a large number of [characters](#character), ensuring that many of the world's character sets can be encoded in UTF-8, allowing for a level of international interoperability not available previously. While UTF-8 is common now, this has not always been the case. Older encodings abound and create complications for users attempting to understand objects, particularly those whose creating environment utilized non-English Western languages or non-Western character sets.
 
 See also:
-- [Encoding](http://www.digitizationguidelines.gov/term.php?term=encoding)] (FADGI Glossary): expanded definition
+- [Encoding](http://www.digitizationguidelines.gov/term.php?term=encoding) (FADGI Glossary): expanded definition
 
 ### Container
 A container is a data encapsulator but requires a program to present its data. The general container can store files or, recursively, other containers.
@@ -143,7 +143,7 @@ Retention of data, understood expansively, can be interpreted as retaining untra
 See an expanded discussion of digital (or "cyber") assets in [NISTIR 7693, Specification for Asset Identification 1.1](https://doi.org/10.6028/NIST.IR.7693)
 
 ### Disk image
-A disk image (sometimes referred to as an "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original storage device. Content includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved, such as downloaded email and web browsing history. It may also include unused, empty, or [slack space](#slack-space)]. A disk image will be about the same size as the storage device being imaged. There are proprietary and open-source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," physical, logical, compressed, and/or split up into several files, and these qualities are not mutually exclusive.
+A disk image (sometimes referred to as an "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original storage device. Content includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved, such as downloaded email and web browsing history. It may also include unused, empty, or [slack space](#slack-space). A disk image will be about the same size as the storage device being imaged. There are proprietary and open-source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," physical, logical, compressed, and/or split up into several files, and these qualities are not mutually exclusive.
 
 Examples: format examples include Expert Witness Format, gzip-compressed, AFF4, and others.
 
@@ -162,7 +162,7 @@ See also:
 - [Image](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 10
 
 ### Emulation
-The accessible reproduction of a legacy [storage medium](#media-object) in a modern computing environment, especially involving a legacy [file system](#file-system) or software. Because emulation involves running legacy [operating systems](#operating-system), file systems, and software, most emulation solutions require [mountable](#mount) [volumes](#volume) to be found in [raw disk images](#raw-disk-image) and cannot natively understand a [forensically-packaged disk image](#forensically-packaged-disk-image). This does not necessarily mean that forensically-packaged disk images are a poor choice but does mean that users may need to re-create a raw disk image from a forensically-packaged disk image in order to make its contents compatible with an emulation solution.
+The accessible reproduction of a legacy [storage medium](#media-object) in a modern computing environment, especially involving a legacy [file system](#file-system) or software. Because emulation involves running legacy [operating systems](#operating-system), file systems, and software, most emulation solutions require [mountable](#mount-v) [volumes](#volume) to be found in [raw disk images](#raw-disk-image) and cannot natively understand a [forensically-packaged disk image](#forensically-packaged-disk-image). This does not necessarily mean that forensically-packaged disk images are a poor choice but does mean that users may need to re-create a raw disk image from a forensically-packaged disk image in order to make its contents compatible with an emulation solution.
 
 See also:
 - [Emulation](https://ndsa.org/glossary/) (NDSA Glossary)
@@ -170,7 +170,7 @@ See also:
 - [EaaSI Training Module #5: Disk Images](https://www.softwarepreservationnetwork.org/eaasi-training-module-5-disk-images/)
 
 ### Extended attribute
-A [file system](#file-system) feature that pairs files with arbitrary name-value pair metadata that is not interpretable by the file system. Whether a file system makes use of extended attributes depends on the file system itself, the [mounting](#mount) [operating system](#operating-system), and applications that know how to make use of extended attributes. An extended attribute is not likely to persist if a [file](#file) is copied to a different file system type that does not support a given extended attribute (e.g., from NTFS to exFAT). 
+A [file system](#file-system) feature that pairs files with arbitrary name-value pair metadata that is not interpretable by the file system. Whether a file system makes use of extended attributes depends on the file system itself, the [mounting](#mount-v) [operating system](#operating-system), and applications that know how to make use of extended attributes. An extended attribute is not likely to persist if a [file](#file) is copied to a different file system type that does not support a given extended attribute (e.g., from NTFS to exFAT). 
 
 Examples include: storing the URL from which a file was downloaded, which is done by Apple's Safari, GNU wget with the '--xattr' flag, and a Windows interface that uses NTFS extended metadata to mark downloads. 
 
@@ -261,7 +261,7 @@ Examples include: AFF4, AD1, L01, LX01
 Synonyms<sup id="a2">[2](#en2)</sup>: logical copy, logical acquisition, logical file acquisition, logical transfer, logical image
 
 See also:
-- [Logical Acquisition/Copy[(https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf)] (SWGDE Digital & Multimedia Evidence Glossary): page 12
+- [Logical Acquisition/Copy](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 12
 
 ### Magnetic media
 Storage objects that store data using magnetic particles scattered over a magnetized surface. Data is written to and read from such media using read/write heads in tracks and sectors. The simplest examples feature a single surface (e.g., a floppy disk, a tape cartridge), while more complex examples feature multiple magnetic surfaces in a stack (2.5" or 3.5" large capacity hard drives).
@@ -394,14 +394,16 @@ References on "volume":
 - [Society of American Archivists Dictionary of Archives Terminology](https://dictionary.archivists.org/)
 - [National Digital Stewardship Alliance Glossary](https://ndsa.org/glossary/)
 - Digital Preservation Coalition: [Digital Preservation Handbook (Glossary)](https://www.dpconline.org/handbook/glossary)
-- [Library of Congress - Preservation Events Controlled Vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf
+- [Library of Congress - Preservation Events Controlled Vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf)
 - [SWGDE Digital & Multimedia Evidence Glossary](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf)
 - [Federal Agencies Digital Guidelines Initiative Glossary](http://www.digitizationguidelines.gov/results.php)
 
 ## Endnotes
 <b id="en1">1</b>. (https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml) [↩](#a1)
+
 <b id="en2">2</b>. Some nuance is present between these synonyms, but they are left out of scope of this document's first version.[↩](#a2)
-<b id="en2">2</b>. (https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml) [↩](#a2)]
+
+<b id="en3">3</b>. (https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml) [↩](#a3)]
 
 ## Acknowledgements
 The following people contributed to this document:
