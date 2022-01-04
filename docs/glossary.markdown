@@ -11,7 +11,7 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Expectations about common knowledge](#expectations-about-common-knowledge)
 - [Glossary](#glossary)
   * [Audit trail](#audit-trail)
-  * [BIN/CUE files](#bin/cue-files)
+  * [BIN/CUE files](#bincue-files)
   * [Blank space](#blank-space)
   * [Capture](#capture)
   * [Character](#character)
@@ -88,7 +88,7 @@ See also:
 - [Brown, G. (2012). Developing Virtual CD-ROM Collections: The Voyager Company Publications. The International Journal of Digital Curation, 7(2), 13. doi:https://doi.org/10.2218/ijdc.v7i2.226](https://doi.org/10.2218/ijdc.v7i2.226)
 
 ### Blank space
-Unused space that does not contain deleted files or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers). A scan of blank space should reveal an absence of content, such as all disk [sectors](#sector) in a suspected blank region being filled with the byte value 0.
+Unused space that does not contain deleted [files](#file) or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers). A scan of blank space should reveal an absence of content, such as all disk [sectors](#sector) in a suspected blank region being filled with the byte value 0.
 
 Synonyms: contentless space 
 
@@ -147,7 +147,7 @@ A disk image (sometimes referred to as an "image") is a digital file that is a c
 
 Examples: format examples include Expert Witness Format, gzip-compressed, AFF4, and others.
 
-Note: There is some nuance in a disk image taken of a Redundant Array of Independent Disks (RAID) array. A RAID array will present a virtual, composite "Disk" from member disks. An image of the RAID array would treat this virtual disk as a single medium which has no physically corresponding single disk.
+Note: There is some nuance in a disk image taken of a Redundant Array of Independent Disks (RAID) array. A RAID array will present a virtual, composite "Disk" from member disks. An image of the RAID array would treat this virtual disk as a single medium that has no physically corresponding single disk.
 
 ### Disk imaging
 As a term of practice, disk imaging has come to mean the process of "Acquiring and preserving the contents of a disk." There are two major forms of the most immediate output of a disk imaging process:
@@ -174,7 +174,7 @@ A [file system](#file-system) feature that pairs files with arbitrary name-value
 
 Examples include: storing the URL from which a file was downloaded, which is done by Apple's Safari, GNU wget with the '--xattr' flag, and a Windows interface that uses NTFS extended metadata to mark downloads. 
 
-Note: Special commands are typically necessary to view extended file metadata, such as the mdls command or the "Get Info / More Info" context-menu Finder interaction in macOS environments, the xattr command in Linux environments, or [something in Explorer] in Windows environments.
+Note: Special commands are typically necessary to view extended file metadata, such as the mdls command or the "Get Info / More Info" context-menu Finder interaction in macOS environments, the xattr command in Linux environments.
 
 ### File
 A stream of content(s) with some attached metadata, typically at least a name and associated timestamp (via a filesystem or container such as a zip). Wikipedia supplies, for broader context: "A computer file is a computer resource for recording data in a computer storage device, primarily identified by its file name. Just as words can be written to paper, so can data be written to a computer file."
@@ -279,7 +279,7 @@ Examples include: a flash drive, a floppy disk, a CD
 Synonym: storage device
 
 ### Mount (v)
-As opposed to simply "attaching," mounting implies a process of interpreting a bitstream as a file system, for the purposes of browsing, retrieving, or storing files. It is possible to mount devices, or in some special cases, files.
+As opposed to simply "attaching," mounting implies a process of interpreting a bitstream as a file system, for browsing, retrieving, or storing files. It is possible to mount devices, or in some special cases, files.
 
 ### Operating system
 The primary software that runs on a volume and communicates between computer hardware and other software. Examples include Windows 10 and macOS High Sierra.
@@ -323,12 +323,12 @@ Synonyms include: physical disk image, bit-for-bit disk image
 Similar to: uncompressed disk image
 
 ### Render
-To take raw data and convert it into human-consumable format.
+To take raw data and convert it into a human-consumable format.
 
 E.g., raw contents of jpeg as bitstream vs rendering as picture, html doc rendered as audio stream by screen reader 
 
 ### Resource fork
-In HFS file systems, a secondary stream of content that includes extra data, such as GUI placement data determining where a file should appear in a window. For executable content, there are other metadata embedded in the resource fork that must be preserved in order to execute content.
+In HFS file systems, a secondary stream of content that includes extra data, such as GUI placement data determining where a file should appear in a window. For executable content, there are other metadata embedded in the resource fork that must be preserved to execute content.
 
 See also:
 - [Fork (file system)](https://en.wikipedia.org/wiki/Fork_(file_system)) (Wikipedia)
@@ -403,7 +403,7 @@ References on "volume":
 
 <b id="en2">2</b>. Some nuance is present between these synonyms, but they are left out of scope of this document's first version.[↩](#a2)
 
-<b id="en3">3</b>. (https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml) [↩](#a3)]
+<b id="en3">3</b>. (https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml) [↩](#a3)
 
 ## Acknowledgements
 The following people contributed to this document:
@@ -419,4 +419,4 @@ The following people contributed to this document:
 - Paige Walker, Tisch Library, Tufts University
 - Jacob Zaborowski, Getty Research Institute
 
-We are grateful for the feedback from the members of the community that shaped this and previous versions of the document.
+We are grateful for the feedback from the members of the community that shaped this and previous versions of this resource.
