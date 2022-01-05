@@ -147,8 +147,7 @@ Note: There is some nuance in a disk image taken of a Redundant Array of Indepen
 ### Disk imaging
 As a term of practice, disk imaging has come to mean the process of "Acquiring and preserving the contents of a disk." There are two major forms of the most immediate output of a disk imaging process:
 
-A. A [disk image](#disk-image), being either a [raw disk image](#raw-disk-image), or a [forensically-packaged disk image](#forensically-packaged-disk-image).
-
+A. A [disk image](#disk-image), being either a [raw disk image](#raw-disk-image), or a [forensically-packaged disk image](#forensically-packaged-disk-image).\
 B. A [logical image](#logical-container) that is a collection of all files extractable from a disk.
 
 In digital forensic contexts outside of the cultural heritage community, the phrase disk imaging more often means the former, while "imaging"---especially "imaging a device"---may more equally likely mean either. [Logical file transfer](#logical-file-transfer) is a phrase that unambiguously means a logical set of files, and not a disk image, will be produced.
@@ -375,13 +374,13 @@ A storage area defined at the [operating system](#operating-system) level, which
 For examples of ambiguities, volume can be taken to mean a formatted storage device [1, 4, 8], disk partition [1, 3, 8], file system [1, 2, 5, 7], collection of byte blocks of equal size (but happens to mean file system) [2], or virtual block device onto which a file system can be formatted [6, 8], among various documentation sources.
 
 References on "volume":
-[1] [Storage Device Stacks, Storage Volumes, and File System Stacks - Windows drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks)
-[2] Github: [dfxml_schema/dfxml.xsd at master · dfxml-working-group/dfxml_schema](https://github.com/dfxml-working-group/dfxml_schema/blob/master/dfxml.xsd)
-[3] [File and Volume System Analysis](https://www.sleuthkit.org/sleuthkit/desc.php)
-[4] [Volume Management - Win32 apps](https://docs.microsoft.com/en-us/windows/win32/fileio/volume-management)
-[5] [See if your Mac shares space across APFS volumes in System Information](https://support.apple.com/guide/system-information/mac-shares-space-apfs-volumes-sysp560a2952/mac)
-[6] [ZFS Volumes - Oracle Solaris ZFS Administration Guide](https://docs.oracle.com/cd/E23823_01/html/819-5461/gaypf.html)
-[7] btrfs Wiki: [Glossary](https://btrfs.wiki.kernel.org/index.php/Glossary)
+[1] [Storage Device Stacks, Storage Volumes, and File System Stacks - Windows drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks)\
+[2] Github: [dfxml_schema/dfxml.xsd at master · dfxml-working-group/dfxml_schema](https://github.com/dfxml-working-group/dfxml_schema/blob/master/dfxml.xsd)\
+[3] [File and Volume System Analysis](https://www.sleuthkit.org/sleuthkit/desc.php)\
+[4] [Volume Management - Win32 apps](https://docs.microsoft.com/en-us/windows/win32/fileio/volume-management)\
+[5] [See if your Mac shares space across APFS volumes in System Information](https://support.apple.com/guide/system-information/mac-shares-space-apfs-volumes-sysp560a2952/mac)\
+[6] [ZFS Volumes - Oracle Solaris ZFS Administration Guide](https://docs.oracle.com/cd/E23823_01/html/819-5461/gaypf.html)\
+[7] btrfs Wiki: [Glossary](https://btrfs.wiki.kernel.org/index.php/Glossary)\
 [8] Debian Wiki: [LVM (Logical Volume Manager)](https://wiki.debian.org/LVM)
 
 
