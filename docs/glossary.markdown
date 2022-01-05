@@ -373,7 +373,7 @@ A storage area defined at the [operating system](#operating-system) level, which
 
 For examples of ambiguities, volume can be taken to mean a formatted storage device [1, 4, 8], disk partition [1, 3, 8], file system [1, 2, 5, 7], collection of byte blocks of equal size (but happens to mean file system) [2], or virtual block device onto which a file system can be formatted [6, 8], among various documentation sources.
 
-References on "volume":
+References on "volume":\
 [1] [Storage Device Stacks, Storage Volumes, and File System Stacks - Windows drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks)\
 [2] Github: [dfxml_schema/dfxml.xsd at master · dfxml-working-group/dfxml_schema](https://github.com/dfxml-working-group/dfxml_schema/blob/master/dfxml.xsd)\
 [3] [File and Volume System Analysis](https://www.sleuthkit.org/sleuthkit/desc.php)\
