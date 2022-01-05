@@ -85,7 +85,7 @@ For [optical media](#optical-media), one [disk imaging](#disk-imaging) approach 
 See also:
 - [Imaging CD-Extra / Blue Book Discs by Open Preservation Foundation](https://openpreservation.org/blogs/imaging-cd-extra-blue-book-discs/)
 - [Cue sheet](https://en.wikipedia.org/wiki/Cue_sheet_(computing)) (computing) (Wikipedia)
-- [Brown, G. (2012). Developing Virtual CD-ROM Collections: The Voyager Company Publications. The International Journal of Digital Curation, 7(2), 13. doi:https://doi.org/10.2218/ijdc.v7i2.226](https://doi.org/10.2218/ijdc.v7i2.226)
+- Brown, G. (2012). Developing Virtual CD-ROM Collections: The Voyager Company Publications. The International Journal of Digital Curation, 7(2), 13. [doi:https://doi.org/10.2218/ijdc.v7i2.226](https://doi.org/10.2218/ijdc.v7i2.226)
 
 ### Blank space
 Unused space that does not contain deleted [files](#file) or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers). A scan of blank space should reveal an absence of content, such as all disk [sectors](#sector) in a suspected blank region being filled with the byte value 0.
@@ -185,7 +185,7 @@ See also:
 - [Digital file](http://www.digitizationguidelines.gov/term.php?term=digitalfile) (FADGI Glossary)
 
 ### File fragment
-A portion of a file's content(s) that remains on a disk. This occurs most commonly when files are deleted and previously used storage sectors are only partially re-written. 
+A portion of a file's content(s) that remains on a disk. This occurs most commonly when files are deleted and previously used storage [sectors](#sector) are only partially re-written. 
 
 ### File header
 A file header may include annotative and configurative information about the main "body" of a file's contents. For instance, outside of the context of files, a table has a "header" section with column titles, and then a "body" section with data that are interpretable thanks to the configurative information in the column heads.
@@ -205,7 +205,7 @@ See also:
 - [parametric.press Unraveling The JPEG](https://parametric.press/issue-01/unraveling-the-jpeg/)
 
 ### File system
-A defined structure that dictates how and where data is organized on a volume. When preserving a file system, some care should be taken to note that file system's extended attributes.
+A defined structure that dictates how and where data is organized on a [volume](#volume). When preserving a file system, some care should be taken to note that file system's [extended attributes](#extended-attribute).
 
 Examples include NTFS, HFS, APFS, exFAT, FAT12, and FAT32. Others can be found at:
 - "File system" on wikidata:
@@ -214,14 +214,14 @@ Examples include NTFS, HFS, APFS, exFAT, FAT12, and FAT32. Others can be found a
 
 ### File system metadata
 Can refer to:
-1. Metadata about the file system writ large (e.g., superblock-housed data, statistics about file counts), or
-2. Metadata about a file that is stored not in the file, but in the file system. 
+1. Metadata about the [file system](#file-system) writ large (e.g., superblock-housed data, statistics about file counts), or
+2. Metadata about a [file](#file) that is stored not in the file, but in the file system. 
 
 See also:
 - [Metadata, embedded](http://www.digitizationguidelines.gov/term.php?term=metadataembedded) (FADGI Glossary)
 
 ### Forensically-packaged disk image
-A type of disk image that copies all content on a media object but compresses blank space and might losslessly compress other contents. A forensically-packaged disk image might be a partial image of an original medium (such as when a disk sector cannot be read due to damage). Forensically-packaged disk images preserve all data on a media object and include annotative metadata about the imaging process and the process's results. The additional metadata can be used to verify hashes of the objects found in the disk image. A forensically-packaged disk image will generally have a smaller footprint than unpackaged raw disk images. Many formats have internal hash check functionality. Like raw disk images, they preserve slack space. Forensically-packaged disk images are often in a proprietary format, though a popular commercial format (EWF) has been reverse-engineered by open-source developers. Forensically-packaged disk image formats allow the user to reconstruct the acquired raw disk image from the package, and some present virtual views of the raw disk without expanding to fill disk space (such as via a File System in Userspace [FUSE] mount).
+A type of [disk image](#disk-image) that copies all content on a [media object](#media-object) but compresses [blank space](#blank-space) and might losslessly compress other contents. A forensically-packaged disk image might be a partial image of an original medium (such as when a disk [sector](#sector) cannot be read due to damage). Forensically-packaged disk images preserve all data on a media object and include annotative metadata about the imaging process and the process's results. The additional metadata can be used to verify [hashes](#hash) of the objects found in the disk image. A forensically-packaged disk image will generally have a smaller footprint than unpackaged [raw disk images](#raw-disk-image). Many formats have internal hash check functionality. Like raw disk images, they preserve [slack space](#slack-space). Forensically-packaged disk images are often in a proprietary format, though a popular commercial format (EWF) has been reverse-engineered by open-source developers. Forensically-packaged disk image formats allow the user to reconstruct the acquired raw disk image from the package, and some present virtual views of the raw disk without expanding to fill disk space (such as via a File System in Userspace [FUSE] mount).
 
 Examples include: EWF, AFF3, AFF4
 
@@ -237,10 +237,10 @@ See also:
 An ISO file is a type of logical disk image derived from optical media. They usually contain one or more optical media file systems and are associated with the .iso file extension, but do not conform to a file format specification<sup id="a1">[1](#en1)</sup>. While the name is derived from the ISO 9660 file system often found on optical discs, they can contain other file systems such as UDF and HFS.
 
 ### Logical container
-Logical containers are used to store files and file metadata that have been interpreted from their direct-parent container. Logical containers have varying support for file metadata, but typically provide a name of a file along with that file's contents. For example:
+Logical containers are used to store files and file metadata that have been interpreted from their direct-parent [container](#container). Logical containers have varying support for [file](#file) metadata, but typically provide a name of a file along with that file's contents. For example:
 - An email message is a logical container for an attached file but contains no standard metadata indication of the file's modification time from its source container.
 - A zip file provides a file's name and, if requested, modification time.
-- A file system provides a file's name, timestamps, and other metadata.
+- A [file system](#file-system) provides a file's name, timestamps, and other metadata.
 
 A logical container is a container selected to store the output of a logical imaging process. 
 
@@ -252,9 +252,9 @@ See also:
 - [The result of "packing" in PREMIS preservation events](https://www.loc.gov/standards/premis/v3/preservation-events.pdf)
 
 ### Logical file transfer
-Copies active/visible files on an object, but does not copy blank space or slack space. A logical file transfer preserves active/visible files without preserving files that may pose higher risks. It also has a smaller storage footprint, but cannot inherently verify hashes or allow for emulation since the file system is not retained.
+Copies active/visible files on an object, but does not copy [blank space](#blank-space) or [slack space](#slack-space). A logical file transfer preserves active/visible files without preserving files that may pose higher risks. It also has a smaller storage footprint, but cannot inherently verify [hashes](#hash) or allow for [emulation](#emulation) since the [file system](#file-system) is not retained.
 
-An end result of this process is the production of a set of files extracted from a disk device or disk image. Logical file transfer is meant to disambiguate from disk imaging.
+An end result of this process is the production of a set of files extracted from a disk device or [disk image](#disk-image). Logical file transfer is meant to disambiguate from [disk imaging](#disk-imaging).
 
 Examples include: AFF4, AD1, L01, LX01 
 
@@ -279,10 +279,10 @@ Examples include: a flash drive, a floppy disk, a CD
 Synonym: storage device
 
 ### Mount (v)
-As opposed to simply "attaching," mounting implies a process of interpreting a bitstream as a file system, for browsing, retrieving, or storing files. It is possible to mount devices, or in some special cases, files.
+As opposed to simply "attaching," mounting implies a process of interpreting a bitstream as a [file system](#file-system), for browsing, retrieving, or storing files. It is possible to mount devices, or in some special cases, files.
 
 ### Operating system
-The primary software that runs on a volume and communicates between computer hardware and other software. Examples include Windows 10 and macOS High Sierra.
+The primary software that runs on a [volume](#volume) and communicates between computer hardware and other software. Examples include Windows 10 and macOS High Sierra.
 
 See also:
 - [Operating system](https://dictionary.archivists.org/entry/operating-system.html) (SAA Dictionary of Archives Terminology)
@@ -295,7 +295,7 @@ Examples include: CDs, DVDs, CD-ROMS, and Blu-Ray discs.
 - [Magneto-optical media](https://dictionary.archivists.org/entry/magneto-optical-media.html) (SAA Dictionary of Archives Terminology)
 
 ### Partition
-A partition is a region of a storage device defined by a partition system. It is the container for a file system, setting the total amount of space the file system can use.
+A partition is a region of a storage device defined by a partition system. It is the [container](#container) for a [file system](#file-system), setting the total amount of space the file system can use.
 
 See also:
 - [Partition](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 13
@@ -312,7 +312,7 @@ See also:
 - [The W3C PROV Data Model](https://www.w3.org/TR/prov-dm/)
 
 ### Raw disk image
-A disk image that copies a media object bit-for-bit with no further annotation or transformation. It preserves all data, can be used to verify hashes of the objects found in the disk image, and can allow for emulation because it is uncompressed. Raw disk images preserve all the data present on the media object data--including slack space and blank space--and are as large as the source media object. Raw disk images are uncompressed.
+A [disk image](#disk-image) that copies a [media object](#media-object) bit-for-bit with no further annotation or transformation. It preserves all data, can be used to verify hashes of the objects found in the disk image, and can allow for [emulation](#emulation) because it is uncompressed. Raw disk images preserve all the data present on the media object data--including [slack space](#slack-space) and [blank space](#blank-space)--and are as large as the source media object. Raw disk images are uncompressed.
 
 An ISO file is a type of disk image derived from optical media. They usually are a raw disk image containing one or more optical media file systems, and are associated with the .iso file extension, but do not conform to a file format specification.<sup id="3">[3](#en3)</sup> While the name is derived from the ISO 9660 file system often found on optical discs, they can contain other file systems such as UDF and HFS.
 
@@ -320,7 +320,7 @@ Example file extensions include: .img, .dd
 
 Synonyms include: physical disk image, bit-for-bit disk image
 
-Similar to: uncompressed disk image
+Similar to: [uncompressed disk image](#uncompressed-disk-image)
 
 ### Render
 To take raw data and convert it into a human-consumable format.
@@ -328,17 +328,17 @@ To take raw data and convert it into a human-consumable format.
 E.g., raw contents of jpeg as bitstream vs rendering as picture, html doc rendered as audio stream by screen reader 
 
 ### Resource fork
-In HFS file systems, a secondary stream of content that includes extra data, such as GUI placement data determining where a file should appear in a window. For executable content, there are other metadata embedded in the resource fork that must be preserved to execute content.
+In HFS [file systems](#file-system), a secondary stream of content that includes extra data, such as GUI placement data determining where a [file](#file) should appear in a window. For executable content, there are other metadata embedded in the resource fork that must be preserved to execute content.
 
 See also:
 - [Fork (file system)](https://en.wikipedia.org/wiki/Fork_(file_system)) (Wikipedia)
 - [Resource fork](https://en.wikipedia.org/wiki/Resource_fork) (Wikipedia)
 
 ### Sector
-The smallest unit of storage on a disk, usually 512, 2048, or 4096 bytes. Applies to physical disks and disk images, and some file systems. A sector is said to be a bad sector when it is permanently damaged, usually as a result of physical damage. An operating system can recognize bad sectors, flag them, and avoid them in future storage. 
+The smallest unit of storage on a disk, usually 512, 2048, or 4096 bytes. Applies to physical disks and [disk images](#disk-image), and some [file systems](#file-system). A sector is said to be a bad sector when it is permanently damaged, usually as a result of physical damage. An [operating system](#operating-system) can recognize bad sectors, flag them, and avoid them in future storage. 
 
 ### Slack space
-Previously used space that has not yet been overwritten, and may contain deleted files or file fragments. Applies to all storage system layers.
+Previously used space that has not yet been overwritten, and may contain deleted [files](#file) or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers).
 
 ### Solid State media
 Storage objects that store data in circuits and so do not require moving mechanical parts. Examples include: thumb drives, external hard drives, internal hard drives, SD cards, Solid State Drives (SSDs).
@@ -350,32 +350,32 @@ End users typically think of computer storage systems at their highest semantic 
 
 The storage system stack in this glossary refers to digital artifacts representable as files, effectively whole or partial copies of the digital contents of a physical disk. In general:
 - A disk image can provide one or more partition systems.
-- A partition system can provide one or more partitions.
-- A disk partition can contain a file system.
-- A file system can contain files.
+- A partition system can provide one or more [partitions](#partition).
+- A disk partition can contain a [file system.](#file-system)
+- A file system can contain [files](#file).
 
 These layers form the storage system stack. While, generally, one would walk through the layers in the order listed above, an [illustration]( https://www.bitcuratorconsortium.org/buf2018-program) of less-common transitions between the layers was presented at BUF 2018 by Nelson and Dietrich.
 
 Synonyms: "storage system stack"
 
 ### Unallocated space
-Storage space that is available for use, but may contain ephemeral content (e.g., deleted files, file fragments) that can be overwritten upon next use. Unallocated space is different from blank space, since it is available but not necessarily blank. 
+Storage space that is available for use, but may contain ephemeral content (e.g., deleted files, [file fragments](#file-fragment)) that can be overwritten upon next use. Unallocated space is different from [blank space](#blank-space), since it is available but not necessarily blank. 
 
-Synonyms: free space 
+Synonyms: free space
 
 See also:
 - [Unallocated space](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 18 
 
 ### Uncompressed disk image
-An uncompressed disk image is a file that contains a bitstream representing the contents of a disk image, with no compression applied. This is similar to raw disk images, except raw disk images contain no embedded metadata relating to any disk image format. Some uncompressed disk images are like raw images with an extra header or footer region. For instance, the Microsoft VHD "Fixed Hard Disk Image" format is a raw disk image with an additional footer sector of metadata.
+An uncompressed disk image is a [file](#file) that contains a bitstream representing the contents of a [disk image](#disk-image), with no compression applied. This is similar to [raw disk images](#raw-disk-image), except raw disk images contain no embedded metadata relating to any disk image format. Some uncompressed disk images are like raw images with an extra header or footer region. For instance, the Microsoft VHD "Fixed Hard Disk Image" format is a raw disk image with an additional footer sector of metadata.
 
 See also:
 - [Virtual Hard Disk Image Format Specification](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)) (Windows Documentation): version 1.0, 2006-10-11
 
 ### Volume
-A storage area defined at the operating system level, which has a single file system and usually resides on one disk partition.
+A storage area defined at the [operating system](#operating-system) level, which has a single [file system](#file-system) and usually resides on one disk [partition](#partition).
 
-Warning: "Volume" is a confusing term that has been used in a variety of capacities throughout the storage systems research, digital forensics, and digital archiving communities. DANNNG documentation will prefer the "file system" interpretation.
+**Warning**: "Volume" is a confusing term that has been used in a variety of capacities throughout the storage systems research, digital forensics, and digital archiving communities. DANNNG documentation will prefer the "file system" interpretation.
 
 For examples of ambiguities, volume can be taken to mean a formatted storage device [1, 4, 8], disk partition [1, 3, 8], file system [1, 2, 5, 7], collection of byte blocks of equal size (but happens to mean file system) [2], or virtual block device onto which a file system can be formatted [6, 8], among various documentation sources.
 
@@ -420,3 +420,5 @@ The following people contributed to this document:
 - Jacob Zaborowski, Getty Research Institute
 
 We are grateful for the feedback from the members of the community that shaped this and previous versions of this resource.
+
+version 1.0
