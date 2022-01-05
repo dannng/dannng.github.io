@@ -10,7 +10,6 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Audience](#audience)
   * [Expectations about common knowledge](#expectations-about-common-knowledge)
 - [Glossary](#glossary)
-  * [Audit trail](#audit-trail)
   * [BIN/CUE files](#bincue-files)
   * [Blank space](#blank-space)
   * [Capture](#capture)
@@ -74,10 +73,6 @@ The glossary is intended for library, archives, and museum workers who are apply
 The glossary assumes introductory knowledge of digital forensics. The glossary is not intended to be comprehensive. Links to resources will be provided where available and appropriate.
 
 ## Glossary
-
-### Audit trail
-
-The SAA dictionary provides a definition.
 
 ### BIN/CUE files
 For [optical media](#optical-media), one [disk imaging](#disk-imaging) approach is to create BIN/CUE pairs, wherein the BIN file stores the content and a CUE file stores ancillary information such as track names and offsets to where tracks begin and end. BIN/CUE pairs can be used to capture each session (a batch of data written in one go) on a multi-session disc.
@@ -165,7 +160,7 @@ See also:
 The accessible reproduction of a legacy [storage medium](#media-object) in a modern computing environment, especially involving a legacy [file system](#file-system) or software. Because emulation involves running legacy [operating systems](#operating-system), file systems, and software, most emulation solutions require [mountable](#mount-v) [volumes](#volume) to be found in [raw disk images](#raw-disk-image) and cannot natively understand a [forensically-packaged disk image](#forensically-packaged-disk-image). This does not necessarily mean that forensically-packaged disk images are a poor choice but does mean that users may need to re-create a raw disk image from a forensically-packaged disk image in order to make its contents compatible with an emulation solution.
 
 See also:
-- [Emulation](https://ndsa.org/glossary/) (NDSA Glossary)
+- [Emulation](https://ndsa.org/glossary/#emulation) (NDSA Glossary)
 - [Emulation](https://www.dpconline.org/handbook/glossary#E) (DPC Digital Preservation Handbook)
 - [EaaSI Training Module #5: Disk Images](https://www.softwarepreservationnetwork.org/eaasi-training-module-5-disk-images/)
 
@@ -177,7 +172,7 @@ Examples include: storing the URL from which a file was downloaded, which is don
 Note: Special commands are typically necessary to view extended file metadata, such as the mdls command or the "Get Info / More Info" context-menu Finder interaction in macOS environments, the xattr command in Linux environments.
 
 ### File
-A stream of content(s) with some attached metadata, typically at least a name and associated timestamp (via a filesystem or container such as a zip). Wikipedia supplies, for broader context: "A computer file is a computer resource for recording data in a computer storage device, primarily identified by its file name. Just as words can be written to paper, so can data be written to a computer file."
+A stream of content(s) with some attached metadata, typically at least a name and associated timestamp (via a filesystem or container such as a zip). [Wikipedia supplies the following explanation](https://en.wikipedia.org/wiki/Computer_file): "A computer file is a computer resource for recording data in a computer storage device, primarily identified by its file name. Just as words can be written to paper, so can data be written to a computer file."
 
 See also:
 - [File](https://dictionary.archivists.org/entry/file.html) (SAA Dictionary of Archives Terminology)
@@ -214,8 +209,8 @@ Examples include NTFS, HFS, APFS, exFAT, FAT12, and FAT32. Others can be found a
 
 ### File system metadata
 Can refer to:
-1. Metadata about the [file system](#file-system) writ large (e.g., superblock-housed data, statistics about file counts), or
-2. Metadata about a [file](#file) that is stored not in the file, but in the file system. 
+- Metadata about the [file system](#file-system) writ large (e.g., superblock-housed data, statistics about file counts), or
+- Metadata about a [file](#file) that is stored not in the file, but in the file system. 
 
 See also:
 - [Metadata, embedded](http://www.digitizationguidelines.gov/term.php?term=metadataembedded) (FADGI Glossary)
@@ -249,7 +244,7 @@ Examples: ZIP, TAR, AFF4, BagIt
 See also:
 - [Bundling file format](http://www.digitizationguidelines.gov/term.php?term=bundlingfileformat) (FADGI Glossary)
 - [Package](https://ndsa.org/glossary/#packagen) (NDSA Glossary)
-- [The result of "packing" in PREMIS preservation events](https://www.loc.gov/standards/premis/v3/preservation-events.pdf)
+- [Packing](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) (Preservation Events Controlled Vocabulary): "packing" results in a logical container, typically a single file
 
 ### Logical file transfer
 Copies active/visible files on an object, but does not copy [blank space](#blank-space) or [slack space](#slack-space). A logical file transfer preserves active/visible files without preserving files that may pose higher risks. It also has a smaller storage footprint, but cannot inherently verify [hashes](#hash) or allow for [emulation](#emulation) since the [file system](#file-system) is not retained.
@@ -306,7 +301,7 @@ Metadata that describes the origin, chain of custody, and processes that led to 
 See also: 
 - [Metadata, process](http://www.digitizationguidelines.gov/term.php?term=metadataprocess) (FADGI Glossary)
 - [Provenance](https://dictionary.archivists.org/entry/provenance.html) (SAA Dictionary of Archives Terminology)
-- [Provenance](https://ndsa.org/glossary/) (NDSA Glossary)
+- [Provenance](https://ndsa.org/glossary/#provenance) (NDSA Glossary)
 - [Chain of Custody](https://www.dpconline.org/handbook/glossary#C) (DPC Digital Preservation Handbook)
 - [PDI](https://www.dpconline.org/handbook/glossary#P) (DPC Digital Preservation Handbook)
 - [The W3C PROV Data Model](https://www.w3.org/TR/prov-dm/)
@@ -380,14 +375,14 @@ A storage area defined at the [operating system](#operating-system) level, which
 For examples of ambiguities, volume can be taken to mean a formatted storage device [1, 4, 8], disk partition [1, 3, 8], file system [1, 2, 5, 7], collection of byte blocks of equal size (but happens to mean file system) [2], or virtual block device onto which a file system can be formatted [6, 8], among various documentation sources.
 
 References on "volume":
-1. [Storage Device Stacks, Storage Volumes, and File System Stacks - Windows drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks)
-2. Github: [dfxml_schema/dfxml.xsd at master · dfxml-working-group/dfxml_schema](https://github.com/dfxml-working-group/dfxml_schema/blob/master/dfxml.xsd)
-3. [File and Volume System Analysis](https://www.sleuthkit.org/sleuthkit/desc.php)
-4. [Volume Management - Win32 apps](https://docs.microsoft.com/en-us/windows/win32/fileio/volume-management)
-5. [See if your Mac shares space across APFS volumes in System Information](https://support.apple.com/guide/system-information/mac-shares-space-apfs-volumes-sysp560a2952/mac)
-6. [ZFS Volumes - Oracle Solaris ZFS Administration Guide](https://docs.oracle.com/cd/E23823_01/html/819-5461/gaypf.html)
-7. btrfs Wiki: [Glossary](https://btrfs.wiki.kernel.org/index.php/Glossary)
-8. Debian Wiki: [LVM (Logical Volume Manager)](https://wiki.debian.org/LVM)
+[1] [Storage Device Stacks, Storage Volumes, and File System Stacks - Windows drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/storage-device-stacks--storage-volumes--and-file-system-stacks)
+[2] Github: [dfxml_schema/dfxml.xsd at master · dfxml-working-group/dfxml_schema](https://github.com/dfxml-working-group/dfxml_schema/blob/master/dfxml.xsd)
+[3] [File and Volume System Analysis](https://www.sleuthkit.org/sleuthkit/desc.php)
+[4] [Volume Management - Win32 apps](https://docs.microsoft.com/en-us/windows/win32/fileio/volume-management)
+[5] [See if your Mac shares space across APFS volumes in System Information](https://support.apple.com/guide/system-information/mac-shares-space-apfs-volumes-sysp560a2952/mac)
+[6] [ZFS Volumes - Oracle Solaris ZFS Administration Guide](https://docs.oracle.com/cd/E23823_01/html/819-5461/gaypf.html)
+[7] btrfs Wiki: [Glossary](https://btrfs.wiki.kernel.org/index.php/Glossary)
+[8] Debian Wiki: [LVM (Logical Volume Manager)](https://wiki.debian.org/LVM)
 
 
 ## Other references
