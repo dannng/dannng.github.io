@@ -260,7 +260,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
  <b id="en16">16</b>. To give examples, it is also possible to transfer "hidden" files and folders through a logical copy, and individual files themselves may contain data that a donor might not realize are accessible (e.g., creator metadata in a PDF, tracked changes in a Word document).[↩](#a16)
 
-<b id="en17">17</b>. This can either refer to actions specifically defined by the [PREMIS events controlled vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) or to more general digital preservation activities.[↩](#a17)
+<b id="en17">17</b>. This can either refer to actions specifically defined by the [PREMIS events controlled vocabulary](https://www.loc.gov/standards/premis/v3/preservation-events.pdf) or to more general digital preservation activities. See a [definition of audit trail](#https://dictionary.archivists.org/entry/audit-trail.html) in the SAA Dictionary of Archives Terminology.[↩](#a17)
 
 <b id="en18">18</b>. These downstream actions can also be associated with a workflow based on logical acquisition, although pre-processing may be easier in those cases.[↩](#a18)
 
@@ -291,4 +291,6 @@ The following people contributed to this document:
 - Paige Walker, Tisch Library, Tufts University
 - Lauren Work, University of Virginia Library
 
-We are grateful for the feedback from the members of the community that shaped this and previous versions of the document.
+We are grateful for the feedback from the members of the community that shaped this and previous versions of this resource.
+
+version is 1.0.1
