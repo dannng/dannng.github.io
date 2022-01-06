@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Glossary
+title: Digital Archives Technical Glossary
 ---
 This document was written in tandem with the [DANNNG Disk Imaging Decision Factors](https://dannng.github.io/disk-imaging-decision-factors.html).
 
