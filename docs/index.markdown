@@ -26,7 +26,7 @@ We also think a group that discusses issues related to disk imaging would be val
 
 ## Current Projects
 - [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
-- [Digital Archives Technical Glossary (version 1.0)](https://dannng.github.io/glossary.html)
+- [Digital Archives Technical Glossary (version 1.0)](https://dannng.github.io/digital-archives-technical-glossary)
 - [Community Agreement](community-agreement.html)
 - [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
 
@@ -40,7 +40,7 @@ We also think a group that discusses issues related to disk imaging would be val
 DANNNG members past and present include:
 
 - Laura Alagna, Northwestern University
-- Erin Barsan, Pratt Institute School of Information
+- Erin Barsan, Institute of Museum and Library Services
 - Joe Carrano, MIT Libraries (orcid ID: 0000-0003-2218-5838)
 - Alex Chassanoff, North Carolina Central Unviersity
 - Dianne Dietrich, Cornell University Library (orcid ID: 0000-0002-0009-8736)

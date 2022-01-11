@@ -409,7 +409,7 @@ The following people contributed to this document:
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
-- Elise Tanner, UA at Little Rock Center for Arkansas History and Culture
+- Elise Tanner, UA Little Rock Center for Arkansas History and Culture
 - Paige Walker, Tisch Library, Tufts University
 - Jacob Zaborowski, Getty Research Institute
 
