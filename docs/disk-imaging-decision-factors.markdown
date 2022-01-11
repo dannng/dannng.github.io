@@ -2,7 +2,7 @@
 layout: page
 title: Disk Imaging Decision Factors
 ---
-This document was written in tandem with the [DANNNG Glossary](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit#heading=h.wrd7fis3gi8m). Glossary terms (and synonyms) will be bolded the first time they are introduced in this document.
+This document was written in tandem with the [DANNNG Digital Archives Technical Glossary](https://dannng.github.io/digital-archives-technical-glossary). Glossary terms (and synonyms) will be bolded the first time they are introduced in this document.
 
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)

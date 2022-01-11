@@ -25,8 +25,8 @@ Please, take a look and give us your honest feedback. What resonates with you? W
 We also think a group that discusses issues related to disk imaging would be valuable to continue, and we can think of several additional projects we'd like to tackle after we complete the documents we started earlier. If this work interests you, please join these efforts. We recognize that any output this group produces will benefit greatly from a wider array of backgrounds and experiences.
 
 ## Current Projects
-- [Disk Imaging Decision Factors](https://dannng.github.io/disk-imaging-decision-factors.html)
-- [Digital Archives Technical Glossary (Draft)](https://docs.google.com/document/d/19FQLpuWrFQEpuJ0rjALGB0acbsxGwCJk2BD2-pMhA5I/edit?usp=sharing)
+- [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
+- [Digital Archives Technical Glossary (version 1.0)](https://dannng.github.io/glossary.html)
 - [Community Agreement](community-agreement.html)
 - [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
 
@@ -37,22 +37,29 @@ We also think a group that discusses issues related to disk imaging would be val
 - IT Specs for your Org
 
 ## Group Members
+DANNNG members past and present include:
+
+- Laura Alagna, Northwestern University
 - Erin Barsan, Pratt Institute School of Information
+- Joe Carrano, MIT Libraries (orcid ID: 0000-0003-2218-5838)
 - Alex Chassanoff, North Carolina Central Unviersity
-- Dianne Dietrich, Cornell University Library
-- Brian Dietz, NC State University Libraries
+- Dianne Dietrich, Cornell University Library (orcid ID: 0000-0002-0009-8736)
+- Brian Dietz, NC State University Libraries (orcid ID: 0000-0001-7190-2755)
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
 - farrell, Duke University Libraries
-- Lara Friedman-Shedlov, University of Minnesota
-- Alex Nelson, National Institute of Standards and Technology
+- Lara Friedman-Shedlov, University of Minnesota (orcid ID: 0000-0001-9573-2826)
+- Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
+- Alex Nelson, National Institute of Standards and Technology (orcid ID: 0000-0002-3771-570X)
 - Margaret Peachy, Digital Collections & Archives, Tufts University
-- Shira Peltzman, UCLA Library
+- Shira Peltzman, UCLA Library (orcid ID: 0000-0003-0067-2782)
+- Keith Pendergrass, Harvard Business School
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
-- Elise Tanner, UA at Little Rock Center for Arkansas History and Culture
+- Alice Sara Prael, Yale University Libraries
+- Elise Tanner, UA Little Rock Center for Arkansas History and Culture
 - Valerie Waldron, University of Michigan Library
 - Paige Walker, Tisch Library, Tufts University
 - Lauren Work, University of Virginia Library
-- Laura Alagna, Northwestern University (past member)
+- Jacob Zaborowski, Getty Research Institute
 
 ## Get Involved
 We welcome new members and encourage anyone who is interested in this work to get involved by [filling out our survey](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE).
