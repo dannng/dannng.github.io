@@ -415,4 +415,4 @@ The following people contributed to this document:
 
 We are grateful for the feedback from the members of the community that shaped this and previous versions of this resource.
 
-version 1.0
+version 1.0.0
