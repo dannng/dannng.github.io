@@ -49,7 +49,7 @@ DANNNG members past and present include:
 - farrell, Duke University Libraries
 - Lara Friedman-Shedlov, University of Minnesota (orcid ID: 0000-0001-9573-2826)
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
-- Alex Nelson, National Institute of Standards and Technology (orcid ID: 0000-0002-3771-570X)
+- [Alex Nelson](https://orcid.org/0000-0002-3771-570X), National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
 - Shira Peltzman, UCLA Library (orcid ID: 0000-0003-0067-2782)
 - Keith Pendergrass, Harvard Business School
