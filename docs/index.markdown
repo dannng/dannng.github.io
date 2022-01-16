@@ -47,7 +47,7 @@ DANNNG members past and present include:
 - Brian Dietz, NC State University Libraries (ORCID: [0000-0001-7190-2755](https://orcid.org/0000-0001-7190-2755))
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
 - farrell, Duke University Libraries
-- Lara Friedman-Shedlov, University of Minnesota (ORCID: [000-0001-9573-2826](https://orcid.org/000-0001-9573-2826))
+- Lara Friedman-Shedlov, University of Minnesota (ORCID: [0000-0001-9573-2826](https://orcid.org/0000-0001-9573-2826))
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology (ORCID: [0000-0002-3771-570X](https://orcid.org/0000-0002-3771-570X))
 - Margaret Peachy, Digital Collections & Archives, Tufts University
