@@ -41,17 +41,17 @@ DANNNG members past and present include:
 
 - Laura Alagna, Northwestern University
 - Erin Barsan, Institute of Museum and Library Services
-- Joe Carrano, MIT Libraries (orcid ID: 0000-0003-2218-5838)
+- Joe Carrano, MIT Libraries (ORCID: [0000-0003-2218-5838](https://orcid.org/0000-0003-2218-5838)])
 - Alex Chassanoff, North Carolina Central Unviersity
-- Dianne Dietrich, Cornell University Library (orcid ID: 0000-0002-0009-8736)
-- Brian Dietz, NC State University Libraries (orcid ID: 0000-0001-7190-2755)
+- Dianne Dietrich, Cornell University Library (ORCID: [0000-0002-0009-8736](https://orcid.org/0000-0002-0009-8736))
+- Brian Dietz, NC State University Libraries (ORCID: [0000-0001-7190-2755](https://orcid.org/0000-0001-7190-2755))
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
 - farrell, Duke University Libraries
-- Lara Friedman-Shedlov, University of Minnesota (orcid ID: 0000-0001-9573-2826)
+- Lara Friedman-Shedlov, University of Minnesota (ORCID: [000-0001-9573-2826](https://orcid.org/000-0001-9573-2826))
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology (ORCID: [0000-0002-3771-570X](https://orcid.org/0000-0002-3771-570X))
 - Margaret Peachy, Digital Collections & Archives, Tufts University
-- Shira Peltzman, UCLA Library (orcid ID: 0000-0003-0067-2782)
+- Shira Peltzman, UCLA Library (ORCID: [0000-0003-0067-2782](https://orcid.org/0000-0003-0067-2782))
 - Keith Pendergrass, Harvard Business School
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
 - Alice Sara Prael, Yale University Libraries
