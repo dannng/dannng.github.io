@@ -3,7 +3,7 @@ layout: page
 title: Community Agreement
 ---
 
-Note: borrowed/adapted from the [Aorta Collective’s Anti-Oppressive Facilitation for Democratic Process](https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
+Note: borrowed/adapted from the [Aorta Collective’s Anti-Oppressive Facilitation for Democratic Process (archived page)](https://web.archive.org/web/20210421132228/http://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
 
 ## One person speaks at a time
 Please, one person speak at a time. (It can also be useful to ask people to leave a few moments in between speakers, for those who need more time to process words, or are less comfortable interjecting in a conversation.)
