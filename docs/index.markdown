@@ -55,7 +55,10 @@ DANNNG members past and present include:
 - Keith Pendergrass, Harvard Business School
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
 - Alice Sara Prael, Yale University Libraries
+- Carolina Quezada Meneses
+- Michelle Rothrock, Getty Research Institute
 - Elise Tanner, UA Little Rock Center for Arkansas History and Culture
+- Christina Velazquez Fidler, The Bancroft Library, University of California, Berkeley
 - Valerie Waldron, University of Michigan Library
 - Paige Walker, Tisch Library, Tufts University
 - Lauren Work, University of Virginia Library
