@@ -37,13 +37,6 @@ In addition to our resources in progress and further developing our existing res
 - Assurance of Logical Transfers
 
 
-## Potential Future Projects
-- Disk Image Feature Matrix
-- Imaging Field Guide
-- Resources Covering Imaging
-- IT Specs for your Org
-
-
 ## Group Members
 DANNNG members past and present include:
 
