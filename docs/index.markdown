@@ -6,35 +6,43 @@ layout: page
 title: Welcome to DANNNG!
 ---
 ## Mission
-DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community.
+DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community. [Here is some more information on how we got started](https://dannng.github.io/background.html).
+
 
 ## DANNNG?
 Digital Archival traNsfer, iNgest, and packagiNg Group
 
-## Background
-Several of us started meeting, somewhat informally, with the original goal to investigate AFF4 as an alternative to capturing physical disk images. The conversation evolved over time, we invited more people that we personally knew to join the discussion.
 
-We decided to put in a pitch for a presentation at the BitCurator Users Forum: when and how to create a disk image has always been something of a hot topic. AFF4 was a different perspective on this discussion that we thought would be valuable. As we started developing our proposal idea, what instead emerged were completely different documents. We found that our conversations instead kept coming back to developing something more like a decision tree that offered factors to consider when deciding how to transfer archival data from a donor to the archives.
+## Resources
+Here are the resources we developed to help archivists and digital preservation practitioners evaluate workflow options, specifically regarding when and how to capture physical disk images.
 
-So that's what we set out to write: a document that spotlights various considerations that archivists can use to determine whether it's most appropriate to create and retain a disk image. What we realized, as we were discussing one of the drafts of this document, was that we were in the process of developing a community resource without having consulted any members of the community outside of our small group. We also realized a larger problem: our group, which is composed of members from relatively well-resourced institutions, is not at all diverse.
-
-So we decided to take a pause, at the draft we have now, and invite the community in to review, critique, and help develop this document into a true community resource, one that takes everyone into account, not just the handful of us who are in relatively well-resourced research libraries. We want everyone who sees themselves as part of this community to find something helpful and relevant to their work in this document.
-
-Please, take a look and give us your honest feedback. What resonates with you? What isn't relevant? What have we missed? Is the way that we've framed this, as considerations to evaluate, particularly helpful for you, or is it not the way you think about this at all?
-
-We also think a group that discusses issues related to disk imaging would be valuable to continue, and we can think of several additional projects we'd like to tackle after we complete the documents we started earlier. If this work interests you, please join these efforts. We recognize that any output this group produces will benefit greatly from a wider array of backgrounds and experiences.
-
-## Current Projects
 - [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
 - [Digital Archives Technical Glossary (version 1.0.0)](https://dannng.github.io/digital-archives-technical-glossary)
-- [Community Agreement](community-agreement.html)
-- [BitCurator Users Forum 2020 Presentation](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
+
+
+## Resources in Progress
+- Tool Guide
+
+
+## Potential Future Projects
+
+In addition to our resources in progress and further developing our existing resources, here is a short list of ideas that we are considering and exploring for future work.
+
+- Disk Image Feature Matrix
+- Imaging Field Guide
+- Resources Covering Imaging
+- IT Specs for your Org
+- AFF4 Evaluation
+- Imaging and Documenting Failed Media
+- Assurance of Logical Transfers
+
 
 ## Potential Future Projects
 - Disk Image Feature Matrix
 - Imaging Field Guide
 - Resources Covering Imaging
 - IT Specs for your Org
+
 
 ## Group Members
 DANNNG members past and present include:
@@ -64,5 +72,14 @@ DANNNG members past and present include:
 - Lauren Work, University of Virginia Library
 - Jacob Zaborowski, Getty Research Institute
 
+
+## Presentations
+Here is a list of places where we have presented our work:
+- [BitCurator Users Forum 2020](https://docs.google.com/presentation/d/1uK8-Fn_yfgFh1JTXOap05pLqYEwLsD6wSNC0EdvSqc4/edit?usp=sharing)
+- [SAA Research Forum 2021](https://docs.google.com/presentation/d/1e_Ow7XXZ6nr-kjPFzo4J_dfpiM2E27dG05NzgQXhDsk/edit?usp=sharing)
+- [BitCurator Users Forum 2021](https://docs.google.com/presentation/d/1yO0XjMnw8JVHDvVA_7Jra9roOSg7pTr6EiNc0HOXMDU/edit?usp=sharing)
+- [NDSA / DigiPres 2021](https://www.youtube.com/watch?v=HLgRjVrzZ0A)
+
+
 ## Get Involved
-We welcome new members and encourage anyone who is interested in this work to get involved by [filling out our survey](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE).
+We warmly welcome new members and encourage anyone who is interested in this work to get involved by [filling out our survey](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE) to be added to our announcement listserv. Our [Community Agreement](https://dannng.github.io/community-agreement.html) governs our work.
