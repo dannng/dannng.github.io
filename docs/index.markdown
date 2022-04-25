@@ -43,7 +43,7 @@ DANNNG members past and present include:
 - Laura Alagna, Northwestern University
 - Erin Barsan, Institute of Museum and Library Services
 - Joe Carrano, MIT Libraries (ORCID: [0000-0003-2218-5838](https://orcid.org/0000-0003-2218-5838)])
-- Alex Chassanoff, North Carolina Central Unviersity
+- Alex Chassanoff, North Carolina Central University
 - Dianne Dietrich, Cornell University Library (ORCID: [0000-0002-0009-8736](https://orcid.org/0000-0002-0009-8736))
 - Brian Dietz, NC State University Libraries (ORCID: [0000-0001-7190-2755](https://orcid.org/0000-0001-7190-2755))
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
