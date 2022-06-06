@@ -19,7 +19,6 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Copy (v)](#copy-v)
   * [Cyclic redundancy check (CRC)](#cyclic-redundancy-check-crc)
   * [Data retention](#data-retention)
-  * [Digital Asset](#digital-asset)
   * [Disk image](#disk-image)
   * [Disk imaging](#disk-imaging)
   * [Emulation](#emulation)
@@ -31,6 +30,7 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [File system metadata](#file-system-metadata)
   * [Forensically-packaged disk image](#forensically-packaged-disk-image)
   * [Hash](#hash)
+  * [ISO file](#iso-file)
   * [Logical container](#logical-container)
   * [Logical file transfer](#logical-file-transfer)
   * [Magnetic media](#magnetic-media)
@@ -45,7 +45,7 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Resource fork](#resource-fork)
   * [Sector](#sector)
   * [Slack space](#slack-space)
-  * [Solid State media](#solid-state-media)
+  * [Solid-state sedia](#solid-state-storage)
   * [Storage system layers](#storage-system-layers)
   * [Unallocated space](#unallocated-space)
   * [Uncompressed disk image](#uncompressed-disk-image)
@@ -134,9 +134,6 @@ Note: The ISO9660 optical medium [file system](#file-system) and the Zip file fo
 ### Data retention
 Retention of data, understood expansively, can be interpreted as retaining untransformed data from media, if not the original media themselves, or preserving [renderings](#render) of the original data (e.g., the visual representation of a picture that was in a now-obsolete format).
 
-### Digital Asset
-See an expanded discussion of digital (or "cyber") assets in [NISTIR 7693, Specification for Asset Identification 1.1](https://doi.org/10.6028/NIST.IR.7693)
-
 ### Disk image
 A disk image (sometimes referred to as an "image") is a digital file that is a copy of the readable area of a storage device (or media object), (e.g., hard drive, optical disc, floppy disk). An image replicates the content and structure of the original storage device. Content includes visible files, but also system files, hidden files, and even deleted files; it can include things the user may not realize are saved, such as downloaded email and web browsing history. It may also include unused, empty, or [slack space](#slack-space). A disk image will be about the same size as the storage device being imaged. There are proprietary and open-source tools that can be used to create an image; there are also proprietary and open disk image file formats. A disk image can be "raw," "forensically-packaged," physical, logical, compressed, and/or split up into several files, and these qualities are not mutually exclusive.
 
@@ -144,13 +141,19 @@ Examples: format examples include Expert Witness Format, gzip-compressed, AFF4, 
 
 Note: There is some nuance in a disk image taken of a Redundant Array of Independent Disks (RAID) array. A RAID array will present a virtual, composite "Disk" from member disks. An image of the RAID array would treat this virtual disk as a single medium that has no physically corresponding single disk.
 
+See also:
+- [Forensically packaged disk image](#forensically-packaged-disk-image)
+- [Raw Disk Image](#raw-disk-image)
+- [Uncompressed Disk Image](#uncompressed-disk-image)
+
+
 ### Disk imaging
 As a term of practice, disk imaging has come to mean the process of "Acquiring and preserving the contents of a disk." There are two major forms of the most immediate output of a disk imaging process:
 
 A. A [disk image](#disk-image), being either a [raw disk image](#raw-disk-image), or a [forensically-packaged disk image](#forensically-packaged-disk-image).\
 B. A [logical image](#logical-container) that is a collection of all files extractable from a disk.
 
-In digital forensic contexts outside of the cultural heritage community, the phrase disk imaging more often means the former, while "imaging"---especially "imaging a device"---may more equally likely mean either. [Logical file transfer](#logical-file-transfer) is a phrase that unambiguously means a logical set of files, and not a disk image, will be produced.
+In digital forensic contexts outside of the cultural heritage community, the phrase disk imaging more often means the former, while "imaging"---especially "imaging a device"---may mean either. [Logical file transfer](#logical-file-transfer) is a phrase that unambiguously means a logical set of files, and not a disk image, will be produced.
 
 See also:
 - [Image](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 10
@@ -186,7 +189,7 @@ A file header may include annotative and configurative information about the mai
 
 In the context of files, a header can contain:
 - Signature information, such as a magic number (like "JFIF" at the beginning being the "Magic" bytes of a JPEG file)
-- Annotative information, such as EXIF data in a JPEG file
+- Annotative information, such as EXIF data in a JPEG file or format-version specifications
 - Configurative information, such as Discrete Cosine Transform tables needed to decompress a JPEG's contents.
 
 Note that a header is not necessarily going to appear at the beginning of a file. A Zip's "header" comes at the end of the file and includes configurative information like pointers back into the file's earlier contents to identify where members of the zip begin.
@@ -228,7 +231,7 @@ See also:
 - [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) (Wikipedia)
 
 ### ISO file
-An ISO file is a type of logical disk image derived from optical media. They usually contain one or more optical media file systems and are associated with the .iso file extension, but do not conform to a file format specification<sup id="a1">[1](#en1)</sup>. While the name is derived from the ISO 9660 file system often found on optical discs, they can contain other file systems such as UDF and HFS.
+An ISO file is a type of logical disk image derived from optical media or produced as "pre-burn" files for the production of optical media. They usually contain one or more optical media file systems and are associated with the .iso file extension, but do not conform to a file format specification<sup id="a1">[1](#en1)</sup>. While the name is derived from the ISO 9660 file system often found on optical discs, they can contain other file systems such as UDF and HFS.
 
 ### Logical container
 Logical containers are used to store files and file metadata that have been interpreted from their direct-parent [container](#container). Logical containers have varying support for [file](#file) metadata, but typically provide a name of a file along with that file's contents. For example:
@@ -322,7 +325,7 @@ To take raw data and convert it into a human-consumable format.
 E.g., raw contents of jpeg as bitstream vs rendering as picture, html doc rendered as audio stream by screen reader 
 
 ### Resource fork
-In HFS [file systems](#file-system), a secondary stream of content that includes extra data, such as GUI placement data determining where a [file](#file) should appear in a window. For executable content, there are other metadata embedded in the resource fork that must be preserved to execute content.
+In HFS [file systems](#file-system), a secondary stream of content that includes extra data. For executable content, there are other metadata embedded in the resource fork that must be preserved to execute content.
 
 See also:
 - [Fork (file system)](https://en.wikipedia.org/wiki/Fork_(file_system)) (Wikipedia)
@@ -334,7 +337,7 @@ The smallest unit of storage on a disk, usually 512, 2048, or 4096 bytes. Applie
 ### Slack space
 Previously used space that has not yet been overwritten, and may contain deleted [files](#file) or [file fragments](#file-fragment). Applies to all [storage system layers](#storage-system-layers).
 
-### Solid State media
+### Solid-state storage
 Storage objects that store data in circuits and so do not require moving mechanical parts. Examples include: thumb drives, external hard drives, internal hard drives, SD cards, Solid State Drives (SSDs).
 
 Synonyms: flash storage, non-volatile storage
@@ -406,6 +409,7 @@ The following people contributed to this document:
 - Dianne Dietrich, Cornell University Library
 - Brian Dietz, NC State University Libraries
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
+- Lara Friedman-Shedlov, University of Minnesota
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology
 - Margaret Peachy, Digital Collections & Archives, Tufts University
@@ -415,4 +419,4 @@ The following people contributed to this document:
 
 We are grateful for the feedback from the members of the community that shaped this and previous versions of this resource.
 
-version 1.0.0
+version 1.0.1 (June 2022)
