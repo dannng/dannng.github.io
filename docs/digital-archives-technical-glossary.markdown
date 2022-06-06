@@ -45,7 +45,7 @@ This document was written in tandem with the [DANNNG Disk Imaging Decision Facto
   * [Resource fork](#resource-fork)
   * [Sector](#sector)
   * [Slack space](#slack-space)
-  * [Solid-state sedia](#solid-state-storage)
+  * [Solid-state storage](#solid-state-storage)
   * [Storage system layers](#storage-system-layers)
   * [Unallocated space](#unallocated-space)
   * [Uncompressed disk image](#uncompressed-disk-image)
