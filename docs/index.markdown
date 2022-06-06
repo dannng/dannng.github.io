@@ -17,7 +17,7 @@ Digital Archival traNsfer, iNgest, and packagiNg Group
 Here are the resources we developed to help archivists and digital preservation practitioners evaluate workflow options, specifically regarding when and how to capture physical disk images.
 
 - [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
-- [Digital Archives Technical Glossary (version 1.0.0)](https://dannng.github.io/digital-archives-technical-glossary)
+- [Digital Archives Technical Glossary (version 1.0.1)](https://dannng.github.io/digital-archives-technical-glossary)
 
 
 ## Resources in Progress
