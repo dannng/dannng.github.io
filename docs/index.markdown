@@ -49,6 +49,7 @@ DANNNG members past and present include:
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
 - farrell, Duke University Libraries
 - Lara Friedman-Shedlov, University of Minnesota (ORCID: [0000-0001-9573-2826](https://orcid.org/0000-0001-9573-2826))
+- Dillon Henry, Georgia Tech
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology (ORCID: [0000-0002-3771-570X](https://orcid.org/0000-0002-3771-570X))
 - Margaret Peachy, Digital Collections & Archives, Tufts University
@@ -59,6 +60,8 @@ DANNNG members past and present include:
 - Carolina Quezada Meneses, Mike Kelley Foundation for the Arts
 - Michelle Rothrock, Getty Research Institute
 - Elise Tanner, UA Little Rock Center for Arkansas History and Culture
+- Andréa Tarnawsky, Special Collections and Rare Books, Simon Fraser University 
+- Tyler Thorsted, Brigham Young University (ORCID: [0000-0003-0292-0962](https://orcid.org/0000-0003-0292-0962))
 - Christina Velazquez Fidler, The Bancroft Library, University of California, Berkeley
 - Valerie Waldron, University of Michigan Library
 - Paige Walker, Tisch Library, Tufts University
