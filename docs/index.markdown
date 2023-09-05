@@ -5,37 +5,26 @@
 layout: page
 title: Welcome to DANNNG!
 ---
-## Mission
-DANNNG’s mission is to interrogate and demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community. [Here is some more information on how we got started](https://dannng.github.io/background.html).
-
-
-## DANNNG?
 Digital Archival traNsfer, iNgest, and packagiNg Group
 
+## Mission
+DANNNG strives to demystify digital archival imaging, transfer, ingest, and packaging methods and make these concepts more accessible for the cultural heritage community. We focus on resources that help practitioners evaluate options and make informed decisions for their workflows. [Here is some](https://dannng.github.io/background.html) additional information on how we got started.
 
-## Resources
-Here are the resources we developed to help archivists and digital preservation practitioners evaluate workflow options, specifically regarding when and how to capture physical disk images.
+## Current Resources
+Here are the resources we developed to help archivists and digital preservation practitioners evaluate workflow options.
 
 - [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
 - [Digital Archives Technical Glossary (version 1.0.1)](https://dannng.github.io/digital-archives-technical-glossary)
 
 
-## Resources in Progress
-- Tool Guide
+## Resources Under Review
+Provide input for our most current resource, the Tool Factors Guide. This resource is designed to provide practitioners at all levels with a deeper understanding of the broad range of considerations associated with decision-making for assembling and maintaining a toolset.
 
+After releasing the Disk Imaging Decision Factors and the Digital Archives Technical Glossary, the members of DANNNG wanted to create a guide to selecting tools for disk imaging and related digital archives workflow tasks. Originally we wanted to write something that could help people understand a set of tools, but we were concerned about replicating the work that went into already-existing tool registries. This resource is instead meant to be more agnostic; we reference tools, but the focus of this guide, like the Disk Imaging Decision Factors, is on the decision-making process.
 
-## Potential Future Projects
+There's no shortage of information out there about various tools, so we have focused on the questions you need to ask yourself as you get started. How can you articulate the needs of your own workflows and advocate for access to tools that best meet those needs? We hope that these factors provide a way for people to understand which tools suit their needs best and why.
 
-In addition to our resources in progress and further developing our existing resources, here is a short list of ideas that we are considering and exploring for future work.
-
-- Disk Image Feature Matrix
-- Imaging Field Guide
-- Resources Covering Imaging
-- IT Specs for your Org
-- AFF4 Evaluation
-- Imaging and Documenting Failed Media
-- Assurance of Logical Transfers
-
+- [Tool Selection Factors[(https://docs.google.com/document/d/1lMLMwNeW086_X4Qp7S8Bxhu8YEmkG7qLyjM_OCKEKGY/edit#heading=h.tho0oingpx2w, open for comments until September 29, 2023
 
 ## Group Members
 DANNNG members past and present include:
@@ -43,7 +32,7 @@ DANNNG members past and present include:
 - Laura Alagna, Northwestern University
 - Erin Barsan, Institute of Museum and Library Services
 - Joe Carrano, MIT Libraries (ORCID: [0000-0003-2218-5838](https://orcid.org/0000-0003-2218-5838)])
-- Alex Chassanoff, North Carolina Central University
+- Alex Chassanoff, UNC Chapel Hill, School of Information and Library Science
 - Dianne Dietrich, Cornell University Library (ORCID: [0000-0002-0009-8736](https://orcid.org/0000-0002-0009-8736))
 - Brian Dietz, NC State University Libraries (ORCID: [0000-0001-7190-2755](https://orcid.org/0000-0001-7190-2755))
 - Brenna Edwards, Harry Ransom Center, The University of Texas at Austin
@@ -53,19 +42,20 @@ DANNNG members past and present include:
 - Elizabeth-Anne Johnson, University of Calgary Libraries and Cultural Resources
 - Alex Nelson, National Institute of Standards and Technology (ORCID: [0000-0002-3771-570X](https://orcid.org/0000-0002-3771-570X))
 - Margaret Peachy, Digital Collections & Archives, Tufts University
-- Shira Peltzman, UCLA Library (ORCID: [0000-0003-0067-2782](https://orcid.org/0000-0003-0067-2782))
+- Shira Peltzman, Yale University Libraries (ORCID: [0000-0003-0067-2782](https://orcid.org/0000-0003-0067-2782))
 - Keith Pendergrass, Harvard Business School
 - Tracy Popp, University Library, University of Illinois Urbana-Champaign
 - Alice Sara Prael, Yale University Libraries
 - Carolina Quezada Meneses, Mike Kelley Foundation for the Arts
+- Jonas Rosland, Hit Save!
 - Michelle Rothrock, Getty Research Institute
 - Elise Tanner, UA Little Rock Center for Arkansas History and Culture
 - Andréa Tarnawsky, Special Collections and Rare Books, Simon Fraser University 
 - Tyler Thorsted, Brigham Young University (ORCID: [0000-0003-0292-0962](https://orcid.org/0000-0003-0292-0962))
 - Christina Velazquez Fidler, The Bancroft Library, University of California, Berkeley
 - Valerie Waldron, University of Michigan Library
-- Paige Walker, Tisch Library, Tufts University
-- Lauren Work, University of Virginia Library
+- Paige Walker
+- Lauren Work, Yale University Libraries
 - Jacob Zaborowski, Getty Research Institute
 
 
@@ -75,7 +65,7 @@ Here is a list of places where we have presented our work:
 - [SAA Research Forum 2021](https://docs.google.com/presentation/d/1e_Ow7XXZ6nr-kjPFzo4J_dfpiM2E27dG05NzgQXhDsk/edit?usp=sharing)
 - [BitCurator Users Forum 2021](https://docs.google.com/presentation/d/1yO0XjMnw8JVHDvVA_7Jra9roOSg7pTr6EiNc0HOXMDU/edit?usp=sharing)
 - [NDSA / DigiPres 2021](https://www.youtube.com/watch?v=HLgRjVrzZ0A)
-
+- iPres 2023 - coming soon!
 
 ## Get Involved
-We warmly welcome new members and encourage anyone who is interested in this work to get involved by [filling out our survey](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE) to be added to our announcement listserv. Our [Community Agreement](https://dannng.github.io/community-agreement.html) governs our work.
+We warmly welcome new members and encourage anyone who is interested in our work. If you have a project that you think aligns with DANNNG and its work, join us! [Sign up for our announcement listserv](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE) to be alerted of upcoming meetings. Our [Community Agreement](https://dannng.github.io/community-agreement.html) governs our work.

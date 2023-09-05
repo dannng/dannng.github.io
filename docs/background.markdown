@@ -19,4 +19,4 @@ Moving forward, we strive to broaden the perspectives reflected in the group as 
 
 
 ## Get Involved
-We warmly welcome new members and encourage anyone who is interested in this work to get involved by [filling out our survey](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE) to be added to our announcement listserv. Our [Community Agreement](https://dannng.github.io/community-agreement.html) governs our work.
+We warmly welcome new members and encourage anyone who is interested in our work. If you have a project that you think aligns with DANNNG and its work, join us! [Sign up for our announcement listserv](https://cornell.ca1.qualtrics.com/jfe/form/SV_eXvXalQIWRhRKNE) to be alerted of upcoming meetings. Our [Community Agreement](https://dannng.github.io/community-agreement.html) governs our work.
