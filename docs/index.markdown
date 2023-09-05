@@ -24,7 +24,7 @@ After releasing the Disk Imaging Decision Factors and the Digital Archives Techn
 
 There's no shortage of information out there about various tools, so we have focused on the questions you need to ask yourself as you get started. How can you articulate the needs of your own workflows and advocate for access to tools that best meet those needs? We hope that these factors provide a way for people to understand which tools suit their needs best and why.
 
-- [Tool Selection Factors](https://docs.google.com/document/d/1lMLMwNeW086_X4Qp7S8Bxhu8YEmkG7qLyjM_OCKEKGY/edit#heading=h.tho0oingpx2w, open for comments until September 29, 2023
+- [Tool Selection Factors](https://docs.google.com/document/d/1lMLMwNeW086_X4Qp7S8Bxhu8YEmkG7qLyjM_OCKEKGY/edit#heading=h.tho0oingpx2w), open for comments until September 29, 2023
 
 ## Group Members
 DANNNG members past and present include:
