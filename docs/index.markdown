@@ -18,13 +18,13 @@ Here are the resources we developed to help archivists and digital preservation 
 
 
 ## Resources Under Review
-Provide input for our most current resource, the Tool Factors Guide. This resource is designed to provide practitioners at all levels with a deeper understanding of the broad range of considerations associated with decision-making for assembling and maintaining a toolset.
+The Tool Factors Guide is being prepared to provide practitioners at all levels with a deeper understanding of the broad range of considerations associated with decision-making for assembling and maintaining a toolset.
 
 After releasing the Disk Imaging Decision Factors and the Digital Archives Technical Glossary, the members of DANNNG wanted to create a guide to selecting tools for disk imaging and related digital archives workflow tasks. Originally we wanted to write something that could help people understand a set of tools, but we were concerned about replicating the work that went into already-existing tool registries. This resource is instead meant to be more agnostic; we reference tools, but the focus of this guide, like the Disk Imaging Decision Factors, is on the decision-making process.
 
 There's no shortage of information out there about various tools, so we have focused on the questions you need to ask yourself as you get started. How can you articulate the needs of your own workflows and advocate for access to tools that best meet those needs? We hope that these factors provide a way for people to understand which tools suit their needs best and why.
 
-- [Tool Selection Factors](https://docs.google.com/document/d/1lMLMwNeW086_X4Qp7S8Bxhu8YEmkG7qLyjM_OCKEKGY/edit#heading=h.tho0oingpx2w), open for comments until September 29, 2023
+The comment period for the Tool Selection Factors has ended, and we look forward to making it available publicly soon!
 
 ## Group Members
 DANNNG members past and present include:
