@@ -783,7 +783,7 @@ Data structure
     - NTFS
     - exFAT
     - APFS
-Object store
+- Object store
 
 Media objects
 - Magnetic media
