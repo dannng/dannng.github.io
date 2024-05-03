@@ -14,7 +14,7 @@ title: Tool Selection Factors
 - [Factor: Logging](#factor-logging)
 - [Factor: Output formats available](#factor-output-formats-available)
 - [Factor: Tool impacts](#factor-tool-impacts)
-- [Appendix A: Applying the Tool Selection Factors Through Narrative Profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
+- [Appendix A: Applying the Tool Selection Factors through narrative profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
 - [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets)
 - [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
 - [Appendix D: Log file samples](#appendix-d-log-file-samples)
@@ -65,7 +65,7 @@ Each factor contains a descriptive and explanatory text that defines the factor 
 
 Following the factors are four appendices that: provide several full-length examples of how to use the factors to evaluate tools and select those that meet particular individual and organizational needs, explain how multiple inputs may combine to make compound input sets against which you can evaluate tool compatibility, list some common tools and their primary purposes in digital archival workflows, and show examples of log files from several tools, respectively.
 
-- [Appendix A: Applying the Tool Selection Factors Through Narrative Profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
+- [Appendix A: Applying the Tool Selection Factors through narrative profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
 - [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets)
 - [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
 - [Appendix D: Log file examples](#appendix-d-log-file-samples)
@@ -521,7 +521,7 @@ The following examples illustrate decisions related to this factor:
 
 - As a digital preservation analyst, I want a tool which makes it clear when filesystem metadata or other elements of a file or disk image are modified so that I can ensure there were no alterations to content.
 
-## Appendix A: Applying the Tool Selection Factors Through Narrative Profiles
+## Appendix A: Applying the Tool Selection Factors through narrative profiles
 
 As institutional constraints and affordances range widely, DANNNG created this guide to be as context-neutral as possible so as to be applicable for the widest range of organizations and individuals. While complementary to tool registries that describe aspects of various tools, the DANNNG Tool Selection Factors is a stand-alone resource to aid in selection of tools for your particular workflows and context. To achieve this, we recommend that you reflect on your local situation and develop a scenario similar to the examples given below. Developing a narrative scenario may make it easier for you to determine and prioritize the criteria that are significant for you to achieve a successful outcome. Once you have a set of criteria, you can use them along with the factors in this guide to evaluate and select those tools that would work best for your individual and organizational context.
 
