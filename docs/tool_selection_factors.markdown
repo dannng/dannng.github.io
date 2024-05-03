@@ -14,7 +14,7 @@ title: Tool Selection Factors
 - [Factor: Logging](#factor-logging)
 - [Factor: Output formats available](#factor-output-formats-available)
 - [Factor: Tool impacts](#factor-tool-impacts)
-- [Appendix A: Applying the Tool Selection Factors through narrative profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
+- [Appendix A: Applying the Tool Selection Factors Through Narrative Profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
 - [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets)
 - [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
 - [Appendix D: Log file samples](#appendix-d-log-file-samples)
@@ -50,7 +50,7 @@ Usage of the Tool Selection Factors guide will vary based on what information yo
 
 The resource is structured as a set of factors against which to evaluate software tools. Factors addressed include:
 
-- [Documentation and support](#factor-documentationsupport-and-maintenance)
+- [Documentation and support](#factor-documentation-support-and-maintenance)
 - [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
 - [Extensibility](#factor-extensibility)
 - [Inputs](#factor-inputs)
@@ -59,13 +59,13 @@ The resource is structured as a set of factors against which to evaluate softwar
 - [Lists compatible hardware](#factor-lists-compatible-hardware)
 - [Logging](#factor-logging)
 - [Output formats available](#factor-output-formats-available)
-- [Tool impact](#factor-tool-impacts)
+- [Tool impacts](#factor-tool-impacts)
 
 Each factor contains a descriptive and explanatory text that defines the factor and explains its significance in relation to tool selection. Following the text are a series of short user stories that provide examples of how you may use the factor to evaluate tools. All user stories are in the format of "As a \[role\], I need to \[do something\], so that I can \[achieve something\]." For example, the [Interface](#factor-interface) factor contains a user story that reads: "As a digital archivist, I want to use tools with a command line interface, so that I can more easily automate parts of my workflow." See [Appendix A](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles) for a more detailed guide to analyzing your local context and constructing your own user stories through narrative profiles.
 
 Following the factors are four appendices that: provide several full-length examples of how to use the factors to evaluate tools and select those that meet particular individual and organizational needs, explain how multiple inputs may combine to make compound input sets against which you can evaluate tool compatibility, list some common tools and their primary purposes in digital archival workflows, and show examples of log files from several tools, respectively.
 
-- [Appendix A: Applying the Tool Selection Factors through narrative profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
+- [Appendix A: Applying the Tool Selection Factors Through Narrative Profiles](#appendix-a-applying-the-tool-selection-factors-through-narrative-profiles)
 - [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets)
 - [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
 - [Appendix D: Log file examples](#appendix-d-log-file-samples)
@@ -220,7 +220,7 @@ The following examples illustrate decisions related to this factor:
 
 - As a processing archivist, I need a tool that can extract files from a disk image with an HFS file system, so that I can further assess content and possibly re-package in another container format.
 
-See [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets), [AppendixC: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
+See [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets), [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes)
 
 ## Factor: Installation requirements and processes
 
@@ -250,7 +250,7 @@ Here are some factors to consider with the installation methods listed below:
 
 - How comfortable are you with the command line interface (CLI) as opposed to graphical user interfaces (GUIs)? See [Interface](#factor-interface) for additional details.
 
-- Is the installation process well-documented? How much help might you have in the installation process? See [Documentation and support](#factor-documentationsupport-and-maintenance).
+- Is the installation process well-documented? How much help might you have in the installation process? See [Documentation and support](#factor-documentation-support-and-maintenance).
 
 - Do you have time or willingness to troubleshoot installation issues?
 
@@ -292,7 +292,7 @@ Here are some factors to consider with the installation methods listed below:
 
 - After installing the tool, you may need to spend additional time changing internal tool settings or registering your software so that it functions correctly with your system.
 
-See Factors: [Documentation and support](#factor-documentationsupport-and-maintenance), [Lists compatible hardware](#factor-lists-compatible-hardware), [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
+See Factors: [Documentation and support](#factor-documentation-support-and-maintenance), [Lists compatible hardware](#factor-lists-compatible-hardware), [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
 
 ### User stories
 
@@ -521,7 +521,7 @@ The following examples illustrate decisions related to this factor:
 
 - As a digital preservation analyst, I want a tool which makes it clear when filesystem metadata or other elements of a file or disk image are modified so that I can ensure there were no alterations to content.
 
-## Appendix A: Applying the Tool Selection Factors through narrative profiles
+## Appendix A: Applying the Tool Selection Factors Through Narrative Profiles
 
 As institutional constraints and affordances range widely, DANNNG created this guide to be as context-neutral as possible so as to be applicable for the widest range of organizations and individuals. While complementary to tool registries that describe aspects of various tools, the DANNNG Tool Selection Factors is a stand-alone resource to aid in selection of tools for your particular workflows and context. To achieve this, we recommend that you reflect on your local situation and develop a scenario similar to the examples given below. Developing a narrative scenario may make it easier for you to determine and prioritize the criteria that are significant for you to achieve a successful outcome. Once you have a set of criteria, you can use them along with the factors in this guide to evaluate and select those tools that would work best for your individual and organizational context.
 
@@ -599,7 +599,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Build a suite of tools for consistent workflow inputs
 
-  - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation and support](#factor-documentationsupport-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
+  - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation and support](#factor-documentation-support-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
 
 - Ability to create disk images and logical file outputs
 
@@ -607,11 +607,11 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Provide proof that outputs are identical to the source inputs
 
-  - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation and support](#factor-documentationsupport-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
+  - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation and support](#factor-documentation-support-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
 
 - Maintain or document source file system metadata
 
-  - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation and support](#factor-documentationsupport-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
+  - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation and support](#factor-documentation-support-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
 
 - Run on Windows OS with or without administrator privileges
 
@@ -655,7 +655,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Easy for end-user to deploy without IT support
 
-  - The [Documentation and support](#factor-documentationsupport-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
+  - The [Documentation and support](#factor-documentation-support-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
 
 - No monetary cost
 
@@ -687,7 +687,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Need to assess the files without altering the files or their filesystem metadata
 
-  - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation and support](#factor-documentationsupport-and-maintenance) factors will help me assess tools against this criterion.
+  - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation and support](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
 
 - A tool that allows selective logical packaging and/or transfer of files
 
@@ -695,7 +695,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Documentation of the original file system metadata (additional criterion to consider: if cloud storage is object based, need a tool that can interpret file-system-like metadata embedded in files)
 
-  - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation and support](#factor-documentationsupport-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
+  - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation and support](#factor-documentation-support-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
 
 - Tools that run on Windows with a GUI, CLI, or API
 
@@ -727,7 +727,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - My technology choices are limited to Windows-based tools that can pass a security review by our IT department
 
-  - The need to pass an IT-security review is a non-negotiable part of tool selection in my role. Assessing tools using the [Installation requirements and processes](#factor-installation-requirements-and-processes), [Documentation and support](#factor-documentationsupport-and-maintenance), [Logging](#factor-logging), [Extensibility](#factor-extensibility), and [Tool impact](#factor-tool-impacts) factors will be important for creating a short list of tools for IT's review.
+  - The need to pass an IT-security review is a non-negotiable part of tool selection in my role. Assessing tools using the [Installation requirements and processes](#factor-installation-requirements-and-processes), [Documentation and support](#factor-documentation-support-and-maintenance), [Logging](#factor-logging), [Extensibility](#factor-extensibility), and [Tool impact](#factor-tool-impacts) factors will be important for creating a short list of tools for IT's review.
 
 - Preference for graphical user and command line interfaces to facilitate use by myself and colleagues
 
