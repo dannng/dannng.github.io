@@ -133,9 +133,13 @@ Cost will likely factor in, as well. Some tools operate on a subscription model,
 ### Examples
 
 - Guymager
+
   - Open source
+
   - Included in the BitCurator suite of tools
+
   - Free
+  
   - Maintainer: Guy Vonken
 
 
@@ -152,7 +156,7 @@ Cost will likely factor in, as well. Some tools operate on a subscription model,
 - ddrescue
   - Publicly licensed (GNU)
   - Free
-  
+
 
 ### User stories
 
