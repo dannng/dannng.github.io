@@ -4,7 +4,7 @@ title: Tool Selection Factors
 ---
 
 - [Introduction](#introduction)
-- [Factor: Documentation and support](#factor-documentation-support-and-maintenance)
+- [Factor: Documentation, support, and maintenance](#factor-documentation-support-and-maintenance)
 - [Factor: Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
 - [Factor: Extensibility](#factor-extensibility)
 - [Factor: Inputs](#factor-inputs)
@@ -50,7 +50,7 @@ Usage of the Tool Selection Factors guide will vary based on what information yo
 
 The resource is structured as a set of factors against which to evaluate software tools. Factors addressed include:
 
-- [Documentation and support](#factor-documentation-support-and-maintenance)
+- [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance)
 - [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
 - [Extensibility](#factor-extensibility)
 - [Inputs](#factor-inputs)
@@ -84,7 +84,7 @@ Following the factors are four appendices that: provide several full-length exam
 
 ### Documentation
 
-Following the factors are four appendices that: provide several full-length examples of how to use the factors to evaluate tools and select those that meet particular individual and organizational needs, explain how multiple inputs may combine to make compound input sets against which you can evaluate tool compatibility, list some common tools and their primary purposes in digital archival workflows, and show examples of log files from several tools, respectively. How complete and up-to-date is the documentation for the tool? A tool might have limited documentation, meaning that if you encounter unexpected behavior, it might be difficult to troubleshoot what went wrong. Tool documentation that is updated and complete can make your work much smoother, but there are cases where an under-documented tool is the best fit for your particular workflow and needs. Complete documentation might include accurately described procedures and explicit explanations of what happens to the media while the tool is processing or otherwise interacting with it. You may be able to figure out when a tool is performing a given function without documentation.
+How complete and up-to-date is the documentation for the tool? A tool might have limited documentation, meaning that if you encounter unexpected behavior, it might be difficult to troubleshoot what went wrong. Tool documentation that is updated and complete can make your work much smoother, but there are cases where an under-documented tool is the best fit for your particular workflow and needs. Complete documentation might include accurately described procedures and explicit explanations of what happens to the media while the tool is processing or otherwise interacting with it. You may be able to figure out when a tool is performing a given function without documentation.
 
 ### Support
 
@@ -120,7 +120,7 @@ The following examples illustrate decisions related to this factor:
 
 ### Developer and vendor 
 
-Who develops the tool can be important. You may only be permitted to use tools developed or sold by an approved vendor (e.g., Microsoft, Oracle, Apple, Adobe) or software publisher. This can often limit one's ability to install many applications in our space, as they are niche, and may be maintained by an individual or company that is not recognized as a trusted vendor. Some tools are collectively developed and maintained, such as many of the command line utilities found in a Linux distribution, and do not have a singular "vendor" defined.
+Who develops the tool can be important. You may only be permitted to use tools developed or sold by an approved vendor (e.g., Microsoft, Oracle, Apple, Adobe) or software publisher. This can often limit one's ability to install many applications in our space, as they are niche, and may be maintained by an individual or company that is not recognized as an approved vendor. Some tools are collectively developed and maintained, such as many of the command line utilities found in a Linux distribution, and do not have a singular "vendor" defined.
 
 ### License 
 
@@ -141,28 +141,28 @@ Cost will likely factor in, as well. Some tools operate on a subscription model,
   - Free
 
   - Maintainer: Guy Vonken
-
+<br>
 
 - IsoBuster
 
   - Closed-source, proprietary commercial software
 
   - Has personal, professional, and enterprise licenses
-
+<br>
 
 - FTK Imager
 
   - Closed-source, proprietary commercial software published by Exterro
 
   - Free (companion tools that are part of the FTK suite are not free)
+<br>
 
-
-- ddrescue
+- GNU ddrescue
 
   - Publicly licensed (GNU)
 
   - Free
-
+<br>
 
 ### User stories
 
@@ -264,7 +264,7 @@ Here are some factors to consider with the installation methods listed below:
 
 - How comfortable are you with the command line interface (CLI) as opposed to graphical user interfaces (GUIs)? See [Interface](#factor-interface) for additional details.
 
-- Is the installation process well-documented? How much help might you have in the installation process? See [Documentation and support](#factor-documentation-support-and-maintenance).
+- Is the installation process well-documented? How much help might you have in the installation process? See [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance).
 
 - Do you have time or willingness to troubleshoot installation issues?
 
@@ -306,7 +306,7 @@ Here are some factors to consider with the installation methods listed below:
 
 - After installing the tool, you may need to spend additional time changing internal tool settings or registering your software so that it functions correctly with your system.
 
-See Factors: [Documentation and support](#factor-documentation-support-and-maintenance), [Lists compatible hardware](#factor-lists-compatible-hardware), [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
+See Factors: [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance), [Lists compatible hardware](#factor-lists-compatible-hardware), [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost)
 
 ### User stories
 
@@ -339,7 +339,7 @@ With an API, users program one application to interact directly with another. In
 ### Examples
 
 - Guymager has a GUI
-- ddrescue is a CLI application
+- GNU ddrescue is a CLI application
 - ArchivesSpace has a documented API
 
 ### User stories
@@ -462,50 +462,50 @@ Some examples of the tools that produce different outputs:
 
   - FTK Imager
 
-  - ddrescue
-
+  - GNU ddrescue
+<br>
 
 - .iso
 
   - IsoBuster
 
-  - Ddrescue
+  - GNU ddrescue
 
   - FTK Imager
-
+<br>
 
 - bin/toc/cue
 
   - Cdrdao
 
   - IsoBuster
-
+<br>
 
 - KryoFlux Stream files
 
   - Kryoflux
-
+<br>
 
 - Expert Witness Format forensically-packaged disk image
 
   - Guymager
 
   - FTK Imager
-
+<br>
 
 - TAR archive files
 
   - tar
 
   - 7-zip
-
+<br>
 
 - ZIP archive file
 
   - ZIP
 
   - 7-zip
-
+<br>
 
 - Logical files
 
@@ -514,7 +514,7 @@ Some examples of the tools that produce different outputs:
   - Robocopy
 
   - Teracopy
-
+<br>
 
 See Factor: [Logging](#factor-logging)
 
@@ -645,7 +645,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Build a suite of tools for consistent workflow inputs
 
-  - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation and support](#factor-documentation-support-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
+  - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
 <br>
 
 - Ability to create disk images and logical file outputs
@@ -655,12 +655,12 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Provide proof that outputs are identical to the source inputs
 
-  - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation and support](#factor-documentation-support-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
+  - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
 <br>
 
 - Maintain or document source file system metadata
 
-  - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation and support](#factor-documentation-support-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
+  - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
 <br>
 
 - Run on Windows OS with or without administrator privileges
@@ -710,7 +710,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Easy for end-user to deploy without IT support
 
-  - The [Documentation and support](#factor-documentation-support-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
+  - The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
 <br>
 
 - No monetary cost
@@ -744,7 +744,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Need to assess the files without altering the files or their filesystem metadata
 
-  - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation and support](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
+  - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
 <br>
 
 - A tool that allows selective logical packaging and/or transfer of files
@@ -754,7 +754,7 @@ I can then compare my criteria to selection factors, which will help guide my to
 
 - Documentation of the original file system metadata (additional criterion to consider: if cloud storage is object based, need a tool that can interpret file-system-like metadata embedded in files)
 
-  - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation and support](#factor-documentation-support-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
+  - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
 <br>
 
 - Tools that run on Windows with a GUI, CLI, or API
@@ -833,7 +833,7 @@ A compound input set may contain many discrete inputs like our example or it may
 
 The following are examples of input types across data structures, media objects, and hardware.
 
-Data structure
+#### Data structure
 - File system
   - For floppy disks
     - FAT (multiple versions)
@@ -849,7 +849,7 @@ Data structure
     - APFS
 - Object store
 
-Media objects
+#### Media objects
 - Magnetic media
   - Floppy disks (8, 5.25, and 3.5 inch)
   - Zip disks
@@ -869,7 +869,7 @@ Media objects
   - USB flash drives
   - Memory cards (SecureDigital \[SD\], CompactFlash \[CF\])
 
-Drive/reader
+#### Drive/reader
 - Floppy disk drive (8, 5.25, and 3.5 inch)
 - Optical disc drive
 - Memory card reader
@@ -877,11 +877,11 @@ Drive/reader
 - iomega Zip disk drive
 - USB input device
 
-Drive/reader controllers
+#### Drive/reader controllers
 - FC5025
 - Kryoflux
 
-Connection type
+#### Connection type
 - USB input device
 - SATA
 - eSATA
@@ -1071,7 +1071,7 @@ MD5                           	Image file
 n/a                           	Test01.000
 ```
 
-### ddrescue
+### GNU ddrescue
 ```
 # Mapfile. Created by GNU ddrescue version 1.23
 # Command line: ddrescue -n -b 2048 /dev/cdrom ddrescue_example.iso ddrescue.log
