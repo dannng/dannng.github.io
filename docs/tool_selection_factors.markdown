@@ -28,7 +28,7 @@ Participation in the development of this document is not intended to imply a rec
 
 ### Purpose
 
-The digital archival community has access to a lot of different tools that can support many workflows. But, not all tools do the same thing, and tools that have similar functionalities may not do those things exactly the same way. Some tools may have the capability to serve multiple purposes, and some tools do one thing really well. Generally, tools in our area of work can be categorized as supporting imaging media and analyzing and extracting data from them; packaging data and transferring data; and reporting and evaluating. Regardless of purpose, the Factors can be applied to assessing related tools. (See [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes).)
+The digital archival community has access to a lot of different tools that can support many workflows. But not all tools do the same thing, and tools that have similar functionalities may not do those things exactly the same way. Some tools may have the capability to serve multiple purposes, and some tools do one thing really well. Generally, tools in our area of work can be categorized as supporting imaging media and analyzing and extracting data from them; packaging data and transferring data; and reporting and evaluating. Regardless of purpose, the Factors can be applied to assessing related tools. (See [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes).)
 
 DANNNG created this resource to fill a gap in existing guidance regarding how to assess and select software tools for digital archives workflows. This resource is designed to provide practitioners at all levels with a deeper understanding of the broad range of considerations associated with decision-making for assembling and maintaining a toolset. As a result, the audience for this resource is necessarily broad—it encompasses anyone who is looking to reconsider or revise the toolset they use in existing workflows, those wishing to implement a workflow from scratch, as well as managers and administrators who want to understand how members of their teams select tools.
 
@@ -214,7 +214,7 @@ Different tools are compatible with different types of inputs. Thinking about th
 
 ### Examples
 
-- Kryoflux software takes as input a floppy disk in a disk drive, that itself requires additional hardware to connect to your computer.
+- Kryoflux software takes as input a floppy disk in a disk drive that itself requires additional hardware to connect to your computer.
 
 - tapeimgr takes as input data tapes.
 
@@ -244,7 +244,7 @@ Installation requirements and processes are often key factors in determining whe
 
 - Tools can require certain hardware (drives, etc.) to work, see [Lists compatible hardware](#factor-lists-compatible-hardware) for additional considerations.
 
-- Some tools are only compatible or can be installed on certain systems. Sometimes it might be possible to run a tool on a platform it was not made for (e.g., running a Windows program using Wine, running GNU applications on Windows using Cygwin), but that might introduce undesired complications or unintended instability to a workflow.
+- Some tools are only compatible with or can only be installed on certain systems. Sometimes it might be possible to run a tool on a platform it was not made for (e.g., running a Windows program using Wine, running GNU applications on Windows using Cygwin), but that might introduce undesired complications or unintended instability to a workflow.
 
 - Some tools are pre-packed and run from a single installer, while others may need to be installed using a package manager (e.g., Homebrew on Mac, apt on Debian-related Linux distributions, yum/dnf or rpm on Fedora-related Linux distributions) or by compiling from source. Some tools, such as ClamAV, require additional configuration even after you've installed it.
 
@@ -356,7 +356,7 @@ The following examples illustrate decisions related to this factor:
 
 ## Factor: Lists compatible hardware
 
-Some tools are capable of working with a variety of media and their associated hardware (e.g., floppy drives, optical drives), and some are designed for specific media. Some may not work properly or at all with certain types of hardware. Similarly, some tools are designed to work exclusively with files on external media, as opposed to logical files on your own filesystem (e.g., a directory of files on your Desktop). If the tool lists its hardware compatibilities (or incompatibilities), it is easier to take into consideration the specific purpose of the tool when determining if it fits your needs.
+Some tools are capable of working with a variety of media and their associated hardware (e.g., floppy drives, optical drives), and some are designed for specific media. Some may not work properly or at all with certain types of hardware. Similarly, some tools are designed to work exclusively with files on external media, as opposed to logical files on your own file system (e.g., a directory of files on your Desktop). If the tool lists its hardware compatibilities (or incompatibilities), it is easier to take into consideration the specific purpose of the tool when determining if it fits your needs.
 
 Some types of hardware require additional tools called device drivers to facilitate communication between the hardware and the operating system. Installing these may require administrative permissions, which is another detail to keep in mind. Some pieces of hardware will also require other hardware, like adapters, in order to properly interface with the host computer.
 
@@ -530,17 +530,17 @@ The following examples illustrate decisions related to this factor:
 
 ## Factor: Tool impacts
 
-This factor pertains to the impact of a tool on the source material, including data and filesystem metadata, and the correspondence of the data source and destination post-processing actions.
+This factor pertains to the impact of a tool on the source material, including data and file system metadata, and the correspondence of the data source and destination post-processing actions.
 
-Tool impact on source material refers to the effects that a tool has on material it interacts with. Different tools offer different levels of transparency regarding the effects they have on the material they're processing; that is, the actual actions of the tool may be more or less readily apparent to the end user. When evaluating your workflow, consider the set of properties you expect to remain the same prior to processing and after processing. While maintaining source file data fixity is often a requirement for digital archives capture or transfer workflows, you may also wish to maintain source filesystem metadata such as file timestamps, file owner and groups, and file paths.
+Tool impact on source material refers to the effects that a tool has on material it interacts with. Different tools offer different levels of transparency regarding the effects they have on the material they're processing; that is, the actual actions of the tool may be more or less readily apparent to the end user. When evaluating your workflow, consider the set of properties you expect to remain the same prior to processing and after processing. While maintaining source file data fixity is often a requirement for digital archives capture or transfer workflows, you may also wish to maintain source file system metadata such as file timestamps, file owner and groups, and file paths.
 
-Checking the correspondence of source and destination files refers to ensuring the transferred data and its filesystem metadata match those of the data source. Calculating checksums is one way to verify the correspondence between source and destination files. Some tools may provide this verification step automatically, while with other tools, these steps have to be initiated by the user. Some tools may calculate and compare checksums on both the source files and the destination files it generates; others may only calculate checksums on destination files, to be used for fixity checking going forward.
+Checking the correspondence of source and destination files refers to ensuring the transferred data and its file system metadata match those of the data source. Calculating checksums is one way to verify the correspondence between source and destination files. Some tools may provide this verification step automatically, while with other tools, these steps have to be initiated by the user. Some tools may calculate and compare checksums on both the source files and the destination files it generates; others may only calculate checksums on destination files, to be used for fixity checking going forward.
 
-Additionally, some tools that copy content from one location to another may not preserve source filesystem timestamps at the destination.
+Additionally, some tools that copy content from one location to another may not preserve source file system timestamps at the destination.
 
 ### Examples
 
-- Some tools used for accessioning, packaging and transfer may, on the same file system, copy files rather than move them, thereby creating new files on the same filesystem with new file metadata.
+- Some tools used for accessioning, packaging and transfer may, on the same file system, copy files rather than move them, thereby creating new files on the same file system with new file metadata.
 
 - On a Mac, one can use hdiutil to read-only mount many disk image files.
 
@@ -560,7 +560,7 @@ The following examples illustrate decisions related to this factor:
 
 - As an operations manager, I want to be able to report that my chain of custody for materials received from a donor was reviewed at the beginning and end of processing (e.g., whether hashes were received, matched, and reviewed after processing), so that I can show that any descriptions made at the beginning of processing still pertain to the materials at the end of processing.
 
-- As a digital preservation analyst, I want a tool which makes it clear when filesystem metadata or other elements of a file or disk image are modified so that I can ensure there were no alterations to content.
+- As a digital preservation analyst, I want a tool which makes it clear when file system metadata or other elements of a file or disk image are modified so that I can ensure there were no alterations to content.
 
 ## Appendix A: Applying the Tool Selection Factors through narrative profiles
 
@@ -742,7 +742,7 @@ I can then compare my criteria to selection factors, which will help guide my to
   - My first task is to assess the files in their original storage locations. If the materials are on legacy media, information in the [Inputs](#factor-inputs) factor, as well as [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets), will help identify criteria related to this need. 
 <br>
 
-- Need to assess the files without altering the files or their filesystem metadata
+- Need to assess the files without altering the files or their file system metadata
 
   - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
 <br>
