@@ -138,17 +138,21 @@ Cost will likely factor in, as well. Some tools operate on a subscription model,
   - Free
   - Maintainer: Guy Vonken
 
+
 - IsoBuster
   - Closed-source, proprietary commercial software
   - Has personal, professional, and enterprise licenses
+
 
 - FTK Imager
   - Closed-source, proprietary commercial software published by Exterro
   - Free (companion tools that are part of the FTK suite are not free)
 
+
 - ddrescue
   - Publicly licensed (GNU)
   - Free
+  
 
 ### User stories
 
