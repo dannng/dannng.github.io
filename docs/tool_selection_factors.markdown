@@ -530,7 +530,7 @@ The following examples illustrate decisions related to this factor:
 
 ## Factor: Tool impacts
 
-This factor pertains to the impact of a tool on the source material, including data and file system metadata, and the correspondence of the data source and destination post-processing actions.
+This factor pertains to the impact of a tool on the source material, including data and filesystem metadata, and the integrity of the captured or transferred data compared to the source.
 
 Tool impact on source material refers to the effects that a tool has on material it interacts with. Different tools offer different levels of transparency regarding the effects they have on the material they're processing; that is, the actual actions of the tool may be more or less readily apparent to the end user. When evaluating your workflow, consider the set of properties you expect to remain the same prior to processing and after processing. While maintaining source file data fixity is often a requirement for digital archives capture or transfer workflows, you may also wish to maintain source file system metadata such as file timestamps, file owner and groups, and file paths.
 
