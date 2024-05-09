@@ -15,23 +15,14 @@ Here are the resources we developed to help archivists and digital preservation 
 
 - [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
 - [Digital Archives Technical Glossary (version 1.0.1)](https://dannng.github.io/digital-archives-technical-glossary)
-
-
-## Resources Under Review
-The Tool Factors Guide is being prepared to provide practitioners at all levels with a deeper understanding of the broad range of considerations associated with decision-making for assembling and maintaining a toolset.
-
-After releasing the Disk Imaging Decision Factors and the Digital Archives Technical Glossary, the members of DANNNG wanted to create a guide to selecting tools for disk imaging and related digital archives workflow tasks. Originally we wanted to write something that could help people understand a set of tools, but we were concerned about replicating the work that went into already-existing tool registries. This resource is instead meant to be more agnostic; we reference tools, but the focus of this guide, like the Disk Imaging Decision Factors, is on the decision-making process.
-
-There's no shortage of information out there about various tools, so we have focused on the questions you need to ask yourself as you get started. How can you articulate the needs of your own workflows and advocate for access to tools that best meet those needs? We hope that these factors provide a way for people to understand which tools suit their needs best and why.
-
-The comment period for the Tool Selection Factors has ended, and we look forward to making it available publicly soon! Until then, a [read-only copy](https://docs.google.com/document/d/16pILLwI6SVbT5qKVi5Pmbwau2ATTnu4F1IQIaH31vUM/edit?usp=sharing) is available.
+- [Tool Selection Factors (version 1.0.0)](https://dannng.github.io/tool_selection_factors.html)
 
 ## Group Members
 DANNNG members past and present include:
 
 - Laura Alagna, Northwestern University
 - Erin Barsan, Institute of Museum and Library Services
-- Joe Carrano, MIT Libraries (ORCID: [0000-0003-2218-5838](https://orcid.org/0000-0003-2218-5838)])
+- Joe Carrano, MIT Libraries (ORCID: [0000-0003-2218-5838](https://orcid.org/0000-0003-2218-5838))
 - Alex Chassanoff, UNC Chapel Hill, School of Information and Library Science
 - Dianne Dietrich, Cornell University Library (ORCID: [0000-0002-0009-8736](https://orcid.org/0000-0002-0009-8736))
 - Brian Dietz, NC State University Libraries (ORCID: [0000-0001-7190-2755](https://orcid.org/0000-0001-7190-2755))
