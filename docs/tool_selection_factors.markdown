@@ -438,66 +438,32 @@ While it is beyond the scope of this guide to compare specific output formats, c
 Some examples of the tools that produce different outputs:
 
 - Raw disk image (e.g., .img, .dd, .001)
-
-  - Kryoflux
-
-  - Guymager
-
-  - FTK Imager
-
-  - GNU ddrescue
-<br>
-
+    - Kryoflux
+    - Guymager
+    - FTK Imager
+    - GNU ddrescue
 - .iso
-
-  - IsoBuster
-
-  - GNU ddrescue
-
-  - FTK Imager
-<br>
-
+    - IsoBuster
+    - GNU ddrescue
+    - FTK Imager
 - bin/toc/cue
-
-  - Cdrdao
-
-  - IsoBuster
-<br>
-
+    - Cdrdao
+    - IsoBuster
 - KryoFlux Stream files
-
-  - Kryoflux
-<br>
-
+    - Kryoflux
 - Expert Witness Format forensically-packaged disk image
-
-  - Guymager
-
-  - FTK Imager
-<br>
-
+    - Guymager
+    - FTK Imager
 - TAR archive files
-
-  - tar
-
-  - 7-zip
-<br>
-
+    - tar
+    - 7-zip
 - ZIP archive file
-
-  - ZIP
-
-  - 7-zip
-<br>
-
+    - ZIP
+    - 7-zip
 - Logical files
-
-  - rsync
-
-  - Robocopy
-
-  - Teracopy
-<br>
+    - rsync
+    - Robocopy
+    - Teracopy
 
 See Factor: [Logging](#factor-logging)
 
