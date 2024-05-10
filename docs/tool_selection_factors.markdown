@@ -568,39 +568,25 @@ To help create your narrative profile, we suggest that you think about the follo
 To help guide your narrative creation, you can use this template. The secondary points for each item are examples, which are discrete for each field and not intended to be a cohesive scenario if taken together. For examples of narratives and how to apply them to the Tool Selection Factors, see the [Example Narratives and Factors Use](#example-narratives-and-factors-use) section below.
 
 - I work as a \[**role**\] in \[**describe organizational context**\].
-
-  - I work as an archivist in a state historical society. My role is split between working with analog and digital materials.
-
-  - I work as a digital archivist in a manuscript library. My role is entirely devoted to born-digital materials.
-
-  - I work as a records manager in an institutional archives. My role is involved in the acquisition of analog and digital records.
-<br>
+    - I work as an archivist in a state historical society. My role is split between working with analog and digital materials.
+    - I work as a digital archivist in a manuscript library. My role is entirely devoted to born-digital materials.
+    - I work as a records manager in an institutional archives. My role is involved in the acquisition of analog and digital records.
 
 - I want to \[**describe your goal**\] so that I can \[**describe the intended outcome, including any end users**\].
-
-  - I want to capture data from internal hard drives so that I can  provide a copy of the data to curators and archivists for appraisal and processing. The curators and archivists will not need to interact with the capture tool, only with the resultant data.
-<br>
+    - I want to capture data from internal hard drives so that I can  provide a copy of the data to curators and archivists for appraisal and processing. The curators and archivists will not need to interact with the capture tool, only with the resultant data.
 
 - In particular, I need to \[**describe any specific details of your goal**\].
-
-  - In particular, I need to ensure that I am creating a complete and accurate copy of the original, and need a tool that will provide logs or documentation to prove this.
-<br>
+    - In particular, I need to ensure that I am creating a complete and accurate copy of the original, and need a tool that will provide logs or documentation to prove this.
 
 - For technology, I \[**describe your technology environment and any constraints**\].
-
-  - For technology, I use Windows operating system and have limited institutional IT support for my work. I need special authorization to have administrator privileges and must have all new software tools approved by my supervisor and IT.
-<br>
+    - For technology, I use Windows operating system and have limited institutional IT support for my work. I need special authorization to have administrator privileges and must have all new software tools approved by my supervisor and IT.
 
 - To ensure the technology fits my and my colleagues' skill sets, I \[**describe important tool features or aspects as they relate to skill sets**\].
-
-  - To ensure the technology fits my and my colleagues' skill sets, I would prefer tools with graphical user interfaces, but could write procedures for tools with command line interfaces as long as there is easy-to-follow existing documentation.
-
-  - To improve efficiency and reduce my and my colleagues' manual workload, I would prefer tools with command line interfaces that I could use in a script or other automated fashion.
-<br>
+    - To ensure the technology fits my and my colleagues' skill sets, I would prefer tools with graphical user interfaces, but could write procedures for tools with command line interfaces as long as there is easy-to-follow existing documentation.
+    - To improve efficiency and reduce my and my colleagues' manual workload, I would prefer tools with command line interfaces that I could use in a script or other automated fashion.
 
 - I have a budget of \[**describe your budget for technology purchasing or licensing**\].
-
-  - I have a budget of $100 for initial purchase or ongoing annual license fees.
+    - I have a budget of $100 for initial purchase or ongoing annual license fees.
 
 ### Example Narratives and Factors Use
 
