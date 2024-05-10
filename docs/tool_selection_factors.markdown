@@ -572,18 +572,23 @@ To help guide your narrative creation, you can use this template. The secondary 
     - I work as a digital archivist in a manuscript library. My role is entirely devoted to born-digital materials.
     - I work as a records manager in an institutional archives. My role is involved in the acquisition of analog and digital records.
 <br>
+
 - I want to \[**describe your goal**\] so that I can \[**describe the intended outcome, including any end users**\].
     - I want to capture data from internal hard drives so that I can  provide a copy of the data to curators and archivists for appraisal and processing. The curators and archivists will not need to interact with the capture tool, only with the resultant data.
+<br>
 
 - In particular, I need to \[**describe any specific details of your goal**\].
     - In particular, I need to ensure that I am creating a complete and accurate copy of the original, and need a tool that will provide logs or documentation to prove this.
+<br>
 
 - For technology, I \[**describe your technology environment and any constraints**\].
     - For technology, I use Windows operating system and have limited institutional IT support for my work. I need special authorization to have administrator privileges and must have all new software tools approved by my supervisor and IT.
+<br>
 
 - To ensure the technology fits my and my colleagues' skill sets, I \[**describe important tool features or aspects as they relate to skill sets**\].
     - To ensure the technology fits my and my colleagues' skill sets, I would prefer tools with graphical user interfaces, but could write procedures for tools with command line interfaces as long as there is easy-to-follow existing documentation.
     - To improve efficiency and reduce my and my colleagues' manual workload, I would prefer tools with command line interfaces that I could use in a script or other automated fashion.
+<br>
 
 - I have a budget of \[**describe your budget for technology purchasing or licensing**\].
     - I have a budget of $100 for initial purchase or ongoing annual license fees.
