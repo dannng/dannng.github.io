@@ -520,15 +520,10 @@ As institutional constraints and affordances range widely, DANNNG created this g
 To help create your narrative profile, we suggest that you think about the following questions:
 
 - What is your role? Does your interaction with born-digital materials make up your entire portfolio or a portion of it?
-
 - What is your organizational context? Academic library; state, local, or federal government agency; independent non-profit, etc.?
-
 - Who are the end users of your work? Will they need to interact only with the output of the tool(s) you select or with the tool(s) as well?
-
 - What technological constraints are you working with? Do you have autonomy to select your own computing environments? What decisions does your institution impose upon you?
-
 - What technological skill set do you, and anyone else who will be using the tool(s), have?
-
 - What is your budget? Think about your budget for a one-time purchase as well as for ongoing license fees.
 
 To help guide your narrative creation, you can use this template. The secondary points for each item are examples, which are discrete for each field and not intended to be a cohesive scenario if taken together. For examples of narratives and how to apply them to the Tool Selection Factors, see the [Example Narratives and Factors Use](#example-narratives-and-factors-use) section below.
@@ -537,15 +532,25 @@ To help guide your narrative creation, you can use this template. The secondary 
     - I work as an archivist in a state historical society. My role is split between working with analog and digital materials.
     - I work as a digital archivist in a manuscript library. My role is entirely devoted to born-digital materials.
     - I work as a records manager in an institutional archives. My role is involved in the acquisition of analog and digital records.
+<br>
+
 - I want to \[**describe your goal**\] so that I can \[**describe the intended outcome, including any end users**\].
     - I want to capture data from internal hard drives so that I can  provide a copy of the data to curators and archivists for appraisal and processing. The curators and archivists will not need to interact with the capture tool, only with the resultant data.
+<br>
+
 - In particular, I need to \[**describe any specific details of your goal**\].
     - In particular, I need to ensure that I am creating a complete and accurate copy of the original, and need a tool that will provide logs or documentation to prove this.
+<br>
+
 - For technology, I \[**describe your technology environment and any constraints**\].
     - For technology, I use Windows operating system and have limited institutional IT support for my work. I need special authorization to have administrator privileges and must have all new software tools approved by my supervisor and IT.
+<br>
+
 - To ensure the technology fits my and my colleagues' skill sets, I \[**describe important tool features or aspects as they relate to skill sets**\].
     - To ensure the technology fits my and my colleagues' skill sets, I would prefer tools with graphical user interfaces, but could write procedures for tools with command line interfaces as long as there is easy-to-follow existing documentation.
     - To improve efficiency and reduce my and my colleagues' manual workload, I would prefer tools with command line interfaces that I could use in a script or other automated fashion.
+<br>
+
 - I have a budget of \[**describe your budget for technology purchasing or licensing**\].
     - I have a budget of $100 for initial purchase or ongoing annual license fees.
 
@@ -558,52 +563,40 @@ I work as a digital archivist in a library at an academic institution; my role i
 Reviewing my narrative profile, I can create a list of criteria that are important for my tool selection:
 
 - Build a suite of tools for consistent workflow inputs (implied: longevity of tools to avoid frequent tool cycling)
-
 - Ability to create disk images and logical file outputs (may be separate tools)
-
 - Provide proof that outputs are identical to the source inputs
-
 - Maintain or document source file system metadata
-
 - Run on Windows OS with or without administrator privileges
-
 - Graphical user interface preferred, command line interface acceptable
-
 - Limited monetary cost
 
 I can then compare my criteria to selection factors, which will help guide my tool choice:
 
 - Build a suite of tools for consistent workflow inputs
-
-  - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
+    - I don't want to have to frequently cycle which tools I use for a particular purpose, so the [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor may be important to understand the level of community support and developer maintenance of the tool.
 <br>
 
 - Ability to create disk images and logical file outputs
-
-  - I will need to find a tool that can handle both types of outputs, or identify multiple tools to satisfy this criterion. I can start with the [Output formats available](#factor-output-formats-available) factor to understand how to review tools' output formats and then can see some additional examples in [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes). I'll also need to ensure that the tools I select work with a range of source media and data, which I can assess with the [Inputs](#factor-inputs) factor and [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets).
+    - I will need to find a tool that can handle both types of outputs, or identify multiple tools to satisfy this criterion. I can start with the [Output formats available](#factor-output-formats-available) factor to understand how to review tools' output formats and then can see some additional examples in [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes). I'll also need to ensure that the tools I select work with a range of source media and data, which I can assess with the [Inputs](#factor-inputs) factor and [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets).
 <br>
 
 - Provide proof that outputs are identical to the source inputs
-
-  - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
+    - The [Logging](#factor-logging) and [Tool impact](#factor-tool-impacts) factors discuss information related to documenting proof that my outputs are identical to the source material. The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factor would be important for understanding whether a tool provides technical details and documentation on how it works.
 <br>
 
 - Maintain or document source file system metadata
-
-  - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
+    - This requirement is a bit more complex than it seems at first glance, and the following factors may help in my tool selection on this point: [Inputs](#factor-inputs), [Tool impact](#factor-tool-impacts), [Logging](#factor-logging), and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance). Additionally, [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) may be useful. A key decision is whether I want to document the source file metadata or have that metadata maintained on the destination file system for the files after copy/transfer.
 <br>
 
 - Run on Windows OS with or without administrator privileges
 <br>
 
 - Graphical user interface preferred, command line interface acceptable
-
-  - My system and interface requirements are well-defined here, but the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors may discuss other aspects to consider.
+    - My system and interface requirements are well-defined here, but the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors may discuss other aspects to consider.
 <br>
 
 - Limited monetary cost
-
-  - I should review the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor to ensure I don't spend time evaluating tools with large up-front costs or significant ongoing license fees.
+    - I should review the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor to ensure I don't spend time evaluating tools with large up-front costs or significant ongoing license fees.
 
 #### Narrative 2: Archivist at a Local Historical Society
 
@@ -612,40 +605,31 @@ I work as an archivist at a local historical society where my role is split betw
 Reviewing my narrative profile, I can create a list of criteria that are important for my tool selection:
 
 - Limited variety of source media or inputs (implied: one-time project or no attempt to build a larger workflow at this time)
-
 - Ability to create logical files, as end goal is access for patrons and there is limited storage available (implied: output format should be one that can serve as both preservation and access copy)
-
 - A tool that works on Windows or Mac with a graphical user interface required
-
 - Easy for end-user to deploy without IT support
-
 - No monetary cost
 
 I can then compare my criteria to selection factors, which will help guide my tool choice:
 
 - Limited variety of source media or inputs
-
-  - I am not attempting to build a comprehensive set of workflows for digital formats, and should instead focus on tools that can work with USB flash media. Referring to the [Inputs](#factor-inputs) and [Lists compatible hardware](#factor-lists-compatible-hardware) factors may be good starting points for understanding my needs. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) will also be helpful.
+    - I am not attempting to build a comprehensive set of workflows for digital formats, and should instead focus on tools that can work with USB flash media. Referring to the [Inputs](#factor-inputs) and [Lists compatible hardware](#factor-lists-compatible-hardware) factors may be good starting points for understanding my needs. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) will also be helpful.
 <br>
 
 - Ability to create logical files
-
-  - I will be exporting logical files from the source media, so will need a tool that either only exports files or can export both disk images and logical files. While I could look at tools that create disk images and only store them temporarily, the limited storage capacity at my institution makes this less attractive. I will review the [Output formats available](#factor-output-formats-available) factor and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) to assess tools that are in scope.
+    - I will be exporting logical files from the source media, so will need a tool that either only exports files or can export both disk images and logical files. While I could look at tools that create disk images and only store them temporarily, the limited storage capacity at my institution makes this less attractive. I will review the [Output formats available](#factor-output-formats-available) factor and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) to assess tools that are in scope.
 <br>
 
 - A tool that works on Windows or Mac with a graphical user interface required
-
-  - My system and interface requirements are well-defined here, but the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors may discuss other aspects to consider.
+    - My system and interface requirements are well-defined here, but the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors may discuss other aspects to consider.
 <br>
 
 - Easy for end-user to deploy without IT support
-
-  - The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
+    - The [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me think through the relative ease of deployment and use.
 <br>
 
 - No monetary cost
-
-  - My requirement is well defined here, but the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor will help me identify information I may not be considering related to free or freemium software.
+    - My requirement is well defined here, but the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor will help me identify information I may not be considering related to free or freemium software.
 
 #### Narrative 3: Records Manager in a Corporate Archives
 
@@ -654,47 +638,36 @@ I work as a records manager in a corporate archives. My role requires me to asse
 Reviewing my narrative profile, I can create a list of criteria that are important for my tool selection:
 
 - Ability to view files and structure on local network attached storage and cloud storage (implied: need a tool that can interpret a file system for network storage and, potentially, an object-based storage environment for cloud storage)
-
 - Need to assess the files without altering the files or their file system metadata
-
 - A tool that allows selective logical packaging and/or transfer of files
-
 - Documentation of the original file system metadata (additional criterion to consider: if cloud storage is object based, need a tool that can interpret file-system-like metadata embedded in files)
-
 - Tools that run on Windows with a GUI, CLI, or API
-
 - A budget of $2,500 per year
 
 I can then compare my criteria to selection factors, which will help guide my tool choice:
 
 - Ability to view files and structure on local network attached storage and cloud storage (implied: need a tool that can interpret a file system for network storage and, potentially, an object-based storage environment for cloud storage)
-
-  - My first task is to assess the files in their original storage locations. If the materials are on legacy media, information in the [Inputs](#factor-inputs) factor, as well as [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets), will help identify criteria related to this need. 
+    - My first task is to assess the files in their original storage locations. If the materials are on legacy media, information in the [Inputs](#factor-inputs) factor, as well as [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets), will help identify criteria related to this need. 
 <br>
 
 - Need to assess the files without altering the files or their file system metadata
-
-  - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
+    - As I need to ensure that my assessment does not alter the files or their file system metadata, reviewing the [Tool impact](#factor-tool-impacts) and [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors will help me assess tools against this criterion.
 <br>
 
 - A tool that allows selective logical packaging and/or transfer of files
-
-  - The [Inputs](#factor-inputs) and [Output formats available](#factor-output-formats-available) factors, as well as [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes), can guide my selection of tools that allow for selection of files for logical packaging or transfer.
+    - The [Inputs](#factor-inputs) and [Output formats available](#factor-output-formats-available) factors, as well as [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes), can guide my selection of tools that allow for selection of files for logical packaging or transfer.
 <br>
 
 - Documentation of the original file system metadata (additional criterion to consider: if cloud storage is object based, need a tool that can interpret file-system-like metadata embedded in files)
-
-  - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
+    - My need for documentation of file system metadata may be met by my assessment or capture tool, or potentially another tool. I also need to assess tools for compatibility with object-based cloud storage. I can review the [Inputs](#factor-inputs), [Logging](#factor-logging), [Documentation, support, and maintenance](#factor-documentation-support-and-maintenance) factors to help me with this decision. [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes) may be helpful as well. Additionally, the [Extensibility](#factor-extensibility) factor would be good to consider as there may be tools that have add-ons or plug-ins, or allow direct modification of the source code, to meet my needs.
 <br>
 
 - Tools that run on Windows with a GUI, CLI, or API
-
-  - Using the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me select tools that meet my technology requirements.
+    - Using the [Interface](#factor-interface) and [Installation requirements and processes](#factor-installation-requirements-and-processes) factors will help me select tools that meet my technology requirements.
 <br>
 
 - A budget of $2,500 per year
-
-  - With a well-defined budget, I can use the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor to assess tools against this criterion.
+    - With a well-defined budget, I can use the [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor to assess tools against this criterion.
 
 #### Narrative 4: Archivist in a State Archives
 
@@ -703,33 +676,26 @@ I work as an archivist in a state government archives. My role is predominantly 
 Reviewing my narrative profile, I can create a list of criteria that are important for my tool selection:
 
 - I have two capture scenarios: I want to create raw disk images of storage media and I want to conduct logical file transfers from networked or cloud storage (implied: creating a faithful copy of the original is important to maintain the evidential, and potentially evidentiary, value of the records).
-
 - My technology choices are limited to Windows-based tools that can pass a security review by our IT department.
-
 - Preference for graphical user and command line interfaces to facilitate use by myself and colleagues.
-
 - Limited budget, but commercial licensing likely preferred to open source.
 
 I can then compare my criteria to selection factors, which will help guide my tool choice:
 
 - I have two capture scenarios: I want to create raw disk images of storage media and I want to conduct logical file transfers from networked or cloud storage (implied: creating a faithful copy of the original is important to maintain the evidential, and potentially evidentiary, value of the records)
-
-  - Having a single tool that can create both output types would make for an easier IT review, but having two tools fit to purpose may result in better archival outcomes. I can use the [Inputs](#factor-inputs) and [Output formats available](#factor-output-formats-available) factors, and [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes), to select tools that meet my needs in this area.
+    - Having a single tool that can create both output types would make for an easier IT review, but having two tools fit to purpose may result in better archival outcomes. I can use the [Inputs](#factor-inputs) and [Output formats available](#factor-output-formats-available) factors, and [Appendix B: Tool inputs as compound input sets](#appendix-b-tool-inputs-as-compound-input-sets) and [Appendix C: (Some) tools and (their) purposes](#appendix-c-some-tools-and-their-purposes), to select tools that meet my needs in this area.
 <br>
 
 - My technology choices are limited to Windows-based tools that can pass a security review by our IT department
-
-  - The need to pass an IT-security review is a non-negotiable part of tool selection in my role. Assessing tools using the [Installation requirements and processes](#factor-installation-requirements-and-processes), [Documentation and support](#factor-documentation-support-and-maintenance), [Logging](#factor-logging), [Extensibility](#factor-extensibility), and [Tool impact](#factor-tool-impacts) factors will be important for creating a short list of tools for IT's review.
+    - The need to pass an IT-security review is a non-negotiable part of tool selection in my role. Assessing tools using the [Installation requirements and processes](#factor-installation-requirements-and-processes), [Documentation and support](#factor-documentation-support-and-maintenance), [Logging](#factor-logging), [Extensibility](#factor-extensibility), and [Tool impact](#factor-tool-impacts) factors will be important for creating a short list of tools for IT's review.
 <br>
 
 - Preference for graphical user and command line interfaces to facilitate use by myself and colleagues
-
-  - Having both a GUI and CLI would allow my team to have a graphical experience for ease of use while I could use the command line when it benefits my workflow. I'll use the [Interface](#factor-interface) factor to assess tools against this need.
+    - Having both a GUI and CLI would allow my team to have a graphical experience for ease of use while I could use the command line when it benefits my workflow. I'll use the [Interface](#factor-interface) factor to assess tools against this need.
 <br>
 
 - Limited budget, but commercial licensing likely preferred to open source
-
-  - The [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor will be key to help me limit the scope of tool assessment to those that are likely to meet with IT approval.
+    - The [Developer, vendor, license, and cost](#factor-developer-vendor-license-and-cost) factor will be key to help me limit the scope of tool assessment to those that are likely to meet with IT approval.
 
 ## Appendix B: Tool inputs as compound input sets
 
@@ -765,39 +731,41 @@ The following are examples of input types across data structures, media objects,
 
 #### Data structure
 - File system
-  - For floppy disks
-    - FAT (multiple versions)
-    - HFS, HFS+
-    - Specialized file systems for word processors (e.g., DEC, Wang)
-  - For optical discs
-    - ISO9660
-    - Joliet/Rock Ridge
-    - UDF
-  - For hard drives/network storage
-    - NTFS
-    - exFAT
-    - APFS
+    - For floppy disks
+      - FAT (multiple versions)
+      - HFS, HFS+
+      - Specialized file systems for word processors (e.g., DEC, Wang)
+    - For optical discs
+      - ISO9660
+      - Joliet/Rock Ridge
+      - UDF
+    - For hard drives/network storage
+      - NTFS
+      - exFAT
+      - APFS
 - Object store
 
 #### Media objects
 - Magnetic media
-  - Floppy disks (8, 5.25, and 3.5 inch)
-  - Zip disks
-  - Jaz disks
-  - Hard disk drives (3.5-inch and 2.5-inch form factors; internal and external drives)
-  - Data tape reels and cartridges
+    - Floppy disks (8, 5.25, and 3.5 inch)
+    - Zip disks
+    - Jaz disks
+    - Hard disk drives (3.5-inch and 2.5-inch form factors; internal and external drives)
+    - Data tape reels and cartridges
+<br> 
 
 - Optical media
-  - CDs (multiple types)
-  - DVDs (multiple types)
-  - MiniDiscs
-  - Blu-Ray discs
-  - SyQuest discs
+    - CDs (multiple types)
+    - DVDs (multiple types)
+    - MiniDiscs
+    - Blu-Ray discs
+    - SyQuest discs
+<br>
 
 - Flash memory media
-  - Solid state drives
-  - USB flash drives
-  - Memory cards (SecureDigital \[SD\], CompactFlash \[CF\])
+    - Solid state drives
+    - USB flash drives
+    - Memory cards (SecureDigital \[SD\], CompactFlash \[CF\])
 
 #### Drive/reader
 - Floppy disk drive (8, 5.25, and 3.5 inch)
