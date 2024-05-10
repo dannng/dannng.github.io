@@ -571,7 +571,7 @@ To help guide your narrative creation, you can use this template. The secondary 
     - I work as an archivist in a state historical society. My role is split between working with analog and digital materials.
     - I work as a digital archivist in a manuscript library. My role is entirely devoted to born-digital materials.
     - I work as a records manager in an institutional archives. My role is involved in the acquisition of analog and digital records.
-
+<br>
 - I want to \[**describe your goal**\] so that I can \[**describe the intended outcome, including any end users**\].
     - I want to capture data from internal hard drives so that I can  provide a copy of the data to curators and archivists for appraisal and processing. The curators and archivists will not need to interact with the capture tool, only with the resultant data.
 
