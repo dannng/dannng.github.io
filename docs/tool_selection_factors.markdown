@@ -374,23 +374,14 @@ Some tools do not provide a log as a default, but have logging capabilities in p
 While it is impossible to list all possible data that might be included in a log file, here are some examples:
 
 - Checksum values (of media at source, of resulting disk image, of transferred data)
-
 - Information about the media and/or the drive used during transfer
-
 - Time elapsed during capture
-
 - Time of image creation or copy operation
-
 - Skipped and/or unreadable sectors
-
 - Skipped files
-
 - Structure of data on media
-
 - The specific command invoked, including any options or parameters invoked
-
 - Transfer history
-
 - Preservation-centered metadata (e.g., PREMIS)
 
 See [Appendix D: Log file samples](#appendix-d-log-file-samples)
