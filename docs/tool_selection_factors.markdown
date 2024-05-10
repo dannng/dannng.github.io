@@ -133,36 +133,19 @@ Cost will likely factor in, as well. Some tools operate on a subscription model,
 ### Examples
 
 - Guymager
-
-  - Open source
-
-  - Included in the BitCurator suite of tools
-
-  - Free
-
-  - Maintainer: Guy Vonken
-<br>
-
+    - Open source
+    - Included in the BitCurator suite of tools
+    - Free
+    - Maintainer: Guy Vonken
 - IsoBuster
-
-  - Closed-source, proprietary commercial software
-
-  - Has personal, professional, and enterprise licenses
-<br>
-
+    - Closed-source, proprietary commercial software
+    - Has personal, professional, and enterprise licenses
 - FTK Imager
-
-  - Closed-source, proprietary commercial software published by Exterro
-
-  - Free (companion tools that are part of the FTK suite are not free)
-<br>
-
+    - Closed-source, proprietary commercial software published by Exterro
+    - Free (companion tools that are part of the FTK suite are not free)
 - GNU ddrescue
-
-  - Publicly licensed (GNU)
-
-  - Free
-<br>
+    - Publicly licensed (GNU)
+    - Free
 
 ### User stories
 
