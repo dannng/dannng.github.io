@@ -258,7 +258,7 @@ Examples include: AFF4, AD1, L01, LX01
 Synonyms<sup id="a2">[2](#en2)</sup>: logical copy, logical acquisition, logical file acquisition, logical transfer, logical image
 
 See also:
-- [Logical Acquisition/Copy](https://www.leva.org/wp-content/uploads/2019/10/SWGDE-Glossary.pdf) (SWGDE Digital & Multimedia Evidence Glossary): page 12
+- [Logical Acquisition/Copy](https://www.swgde.org/glossary/) (SWGDE Digital & Multimedia Evidence Glossary): page 12
 
 ### Magnetic media
 Storage objects that store data using magnetic particles scattered over a magnetized surface. Data is written to and read from such media using read/write heads in tracks and sectors. The simplest examples feature a single surface (e.g., a floppy disk, a tape cartridge), while more complex examples feature multiple magnetic surfaces in a stack (2.5" or 3.5" large capacity hard drives).
