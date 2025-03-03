@@ -40,7 +40,7 @@ DANNNG members past and present include:
 - Carolina Quezada Meneses, Mike Kelley Foundation for the Arts
 - Jonas Rosland, Hit Save!
 - Michelle Rothrock, Getty Research Institute
-- Elise Tanner, UA Little Rock Center for Arkansas History and Culture
+- Elise Tanner, Rock & Roll Hall of Fame
 - Andréa Tarnawsky, Special Collections and Rare Books, Simon Fraser University 
 - Tyler Thorsted, Brigham Young University (ORCID: [0000-0003-0292-0962](https://orcid.org/0000-0003-0292-0962))
 - Christina Velazquez Fidler, The Bancroft Library, University of California, Berkeley
