@@ -27,6 +27,7 @@ Participation in the development of this document is not intended to imply a rec
 
 ### Purpose
 The purpose of this document is to demystify disk imaging and the factors that influence decision-making on whether to create a [disk image](https://dannng.github.io/digital-archives-technical-glossary#disk-image) or conduct a logical capture of digital content on a media object. This is not a how-to guide for disk imaging; rather, the factors in this document will help you determine an appropriate capture method for your local context and use cases.
+
 DANNNG created this resource to provide practitioners at all levels with a deeper understanding of the wide range of considerations associated with decision-making for creating and maintaining disk images. 
 
 ### Assumptions
@@ -50,7 +51,7 @@ It may be helpful to understand the storage medium and its contents and their or
 - Identifying file systems present on media could inform your needs for future processing steps, and/or suggest that emulation might be required to faithfully render the content.
 - You may find viruses or other malware, sensitive information, or duplication that inform the steps you take with the content contained on media objects.
 
-Some tools provide functionality that allows you to browse, extract, or scan the contents of a media object. Once you determine which functions support your workflow, the DANNNG Tool Selection Factors may help you select a tool for the purpose.
+Some tools provide functionality that allows you to browse, extract, or scan the contents of a media object. Once you determine which functions support your workflow, the [DANNNG Tool Selection Factors](https://dannng.github.io/tool_selection_factors.html) may help you select a tool for the purpose.
 
 
 ### How to Use the Guide
@@ -68,7 +69,6 @@ Each factor contains a section named "In favor of imaging" and a section named "
 The factors are not listed in any particular order, and not all factors will apply in a given context. We expect that practitioners will evaluate each factor to determine how much weight to give it when making decisions. For example, if the end goal is to present the content in an emulated environment, then the factor "Expected access to content" may be the most important to consider and may support a decision to image, regardless of the other four factors.
 
 This resource may help surface important components of a workflow (e.g., file system dates must be captured in some way during transfer), but does not recommend specific actions to take in order to meet those requirements. 
-
 
 ## Factor: Type or condition of the storage device
 
@@ -89,8 +89,6 @@ Additionally, acquiring the content from certain media types may require special
 - Optical media with multiple sessions present challenges when imaging, and the resulting disk images may require additional processing to interpret<sup id="a6">[6](#en6)</sup>
 - Devices with copy protection that prevent disk imaging
 - LaserDisc<sup id="a7">[7](#en7)</sup>
-
-If the storage device is newer, it may be more likely to be in good working condition and contain content that is compatible and readable with current processing workstations. (See [Compatibility of the storage device or content](#factor-compatibility-of-the-storage-device-or-content).)
 
 ## Factor: Compatibility of the storage device or content
 ### In favor of imaging
