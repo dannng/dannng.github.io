@@ -6,9 +6,11 @@ This document was written in tandem with the [DANNNG Digital Archives Technical 
 
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)
-  * [Definition of Disk Image](#definition-of-disk-image)
-  * [Audience](#audience)
+  * [Purpose](#purpose)
   * [Assumptions](#assumptions)
+  * [Background on disk imaging in archival workflows](#background-on-disk-imaging-in-archival-workflows)
+  * [Understanding storage devices and their contents](#understanding-storage-devices-and-their-contents)
+  * [How to Use the Guide](#how-to-use-the-guide)
 - [Factor: Type or condition of the storage device](#factor-type-or-condition-of-the-storage-device)
 - [Factor: Compatibility of the storage device or content](#factor-compatibility-of-the-storage-device-or-content)
 - [Factor: Expected access to content](#factor-expected-access-to-content)
@@ -154,7 +156,7 @@ Imaging can be an easy way to build a backlog. Compared to logical acquisition, 
 
 Storage space to save a disk image of a large drive (even temporarily during processing) may not be available.
 
-Limits to staffing, equipment, or available storage may make creating, storing, retaining, and addressing the privacy issues and ethical concerns<sup id="a20">[120](#en20)</sup> associated with disk images (either as an intermediate or final format) unsustainable.<sup id="a21">[21](#en21)</sup>
+Limits to staffing, equipment, or available storage may make creating, storing, retaining, and addressing the privacy issues and ethical concerns<sup id="a20">[20](#en20)</sup> associated with disk images (either as an intermediate or final format) unsustainable.<sup id="a21">[21](#en21)</sup>
 
 You may not be equipped to store potentially sensitive information that might be present in a disk image, even temporarily. The risk of transferring sensitive information is not eliminated when logically copying files, but depending on your workflow, you might have more control over what gets transferred into your systems with a logical copy operation.
 
@@ -254,7 +256,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
 <b id="en2">2</b>. Terms that may be used interchangeably here include media, media object, and storage device.[↩](#a2)
 
-<b id="en3">3</b>.See, for example, Eddy Colloton, Jonathan Farbowitz, Flaminia Fortunato, and Caroline Gil, ["Towards Best Practices in Disk Imaging: A Cross-Institutional Approach"](https://resources.culturalheritage.org/emg-review/volume-6-2019-2020/colloton/) Electronic Media Review 6 (2019-2020); Monique Lassere and Jess M. Whyte, ["Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach To Working With Disk Images"](https://doi.org/10.24242/jclis.v3i2.125;) Journal of Critical Library and Information Studies 3, no. 2 (2021), and Keith Pendergrass, "One Does Not Simply Keep Disk Images: Ethical, Risk Tolerance, and Sustainability Issues with Forensic Disk Image Retention," presentation at the BitCurator Users Forum, Evanston, IL, April 28, 2017.[↩](#a3)
+<b id="en3">3</b>. See, for example, Eddy Colloton, Jonathan Farbowitz, Flaminia Fortunato, and Caroline Gil, ["Towards Best Practices in Disk Imaging: A Cross-Institutional Approach"](https://resources.culturalheritage.org/emg-review/volume-6-2019-2020/colloton/) Electronic Media Review 6 (2019-2020); Monique Lassere and Jess M. Whyte, ["Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach To Working With Disk Images"](https://doi.org/10.24242/jclis.v3i2.125;) Journal of Critical Library and Information Studies 3, no. 2 (2021), and Keith Pendergrass, "One Does Not Simply Keep Disk Images: Ethical, Risk Tolerance, and Sustainability Issues with Forensic Disk Image Retention," presentation at the BitCurator Users Forum, Evanston, IL, April 28, 2017.[↩](#a3)
 
 <b id="en4">4</b>. Depending on your organization's policies and budget, you may be able to send damaged storage devices to a data recovery vendor.[↩](#a4)
 
@@ -288,9 +290,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
 <b id="en19">19</b>. These downstream actions can also be associated with a workflow based on logical acquisition, although pre-processing may be easier in those cases.[↩](#a19)
 
-<b id="en20">20</b>. For a more nuanced discussion of the privacy issues and ethical concerns associated with disk imaging, see: Lassere, Monique and Jess M. Whyte. "Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach to Working with Disk Images," in "Radical Empathy in Archival
-Practice," eds. Elvia Arroyo-Ramirez, Jasmine Jones, Shannon O'Neill, and Holly Smith. Special
-issue, Journal of Critical Library and Information Studies 3. Available at: [https://journals.litwinbooks.com/index.php/jclis/article/view/125](https://journals.litwinbooks.com/index.php/jclis/article/view/125).[↩](#a20)
+<b id="en20">20</b>. For a more nuanced discussion of the privacy issues and ethical concerns associated with disk imaging, see: Lassere, Monique and Jess M. Whyte. ["Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach to Working with Disk Images,"](https://journals.litwinbooks.com/index.php/jclis/article/view/125) in "Radical Empathy in Archival Practice," eds. Elvia Arroyo-Ramirez, Jasmine Jones, Shannon O'Neill, and Holly Smith. Special issue, Journal of Critical Library and Information Studies 3.[↩](#a20)
 
 <b id="en21">21</b>. The cultural heritage community has discussed the environmental impact of digital preservation. When considering long-term preservation of disk images, it is important to understand the impact of our decisions will largely derive from our retention decisions.[↩](#a21)
 
