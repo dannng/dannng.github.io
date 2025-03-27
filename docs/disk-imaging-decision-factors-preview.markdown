@@ -65,7 +65,7 @@ Factors addressed include:
 - [Retention of important contextual information](#factor-retention-of-important-contextual-information)
 - [Processing workflow](#factor-processing-workflow)
 
-Each factor contains a section named "In favor of imaging" and a section named "Weighing against imaging" containing a description of considerations. The "In favor of imaging" sections often describe highly technical aspects of disk imaging and tend to require more explanation than that given in the "Weighing against imaging" sections. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
+Each factor contains a section named "In favor of imaging" and a section named "Weighing against imaging" with their own set of considerations. The "In favor of imaging" sections often describe highly technical aspects of disk imaging and tend to require more explanation than that given in the "Weighing against imaging" sections. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
 
 The factors are not listed in any particular order, and not all factors will apply in a given context. We expect that practitioners will evaluate each factor to determine how much weight to give it when making decisions. For example, if the end goal is to present the content in an emulated environment, then the factor "Expected access to content" may be the most important to consider and may support a decision to image, regardless of the other four factors.
 
