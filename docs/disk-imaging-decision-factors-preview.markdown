@@ -26,7 +26,7 @@ Participation in the development of this document is not intended to imply a rec
 ## Introduction
 
 ### Purpose
-The purpose of this document is to demystify disk imaging and the factors that influence decision-making on whether to create a [disk image](https://dannng.github.io/digital-archives-technical-glossary#disk-image) or conduct a logical capture of digital content on a media object. This is not a how-to guide for disk imaging; rather, the factors in this document will help you determine an appropriate capture method for your local context and use cases.
+The purpose of this document is to demystify disk imaging and the factors that influence decision-making on whether to create a **disk image** or conduct a logical capture of digital content on a media object. This is not a how-to guide for disk imaging; rather, the factors in this document will help you determine an appropriate capture method for your local context and use cases.
 
 DANNNG created this resource to provide practitioners at all levels with a deeper understanding of the wide range of considerations associated with decision-making for creating and maintaining disk images. 
 
@@ -36,20 +36,20 @@ DANNNG created this resource to provide practitioners at all levels with a deepe
 - The explanatory text on factors and considerations in this resource is not a substitute for understanding your individual and organizational needs, and making an informed decision to meet those needs. 
 
 ### Background on disk imaging in archival workflows
-**Disk imaging** was integral to early guidance<sup id="a1">[1](#en1)</sup> for handling storage devices containing born-digital materials. Archivists were encountering digital **media**<sup id="a2">[2](#en2)</sup> formats likely at the end of their working life (e.g., floppy disks, CD-ROMs, Zip disks, old hard disk drives), and separating the data from the fragile media was an important first step to protect against data loss. Disk imaging provides an exact copy of the storage device onto a stable system, eliminating the need to continually access (possibly) deteriorating physical media in order to evaluate and appraise their content. Combined with a read-only access technique (on the storage device itself or using a write-blocker), disk imaging emerged as a way to clearly demonstrate **provenance** and assert that no action performed by the archivist had altered the content. Workflows and tools developed using the disk image as a unit by which to organize nearly all aspects of a workflow, including **capture**, appraisal, and processing as well as **retention** and access. While it was initially common guidance to create and retain a disk image as the "default" action on storage devices, concerns such as prohibitive costs and ethics of forensic approaches<sup id="a3">[3](#en3)</sup> have led organizations to base decisions on a number of factors – many of which we explore in this document – to determine the most appropriate transfer mechanism.
+**Disk imaging** was integral to early guidance<sup id="a1">[1](#en1)</sup> for handling storage devices containing born-digital materials. Archivists were encountering digital **media**<sup id="a2">[2](#en2)</sup> formats likely at the end of their working life (e.g., floppy disks, CD-ROMs, Zip disks, old hard disk drives), and separating the data from the fragile media was an important first step to protect against data loss. Disk imaging provides an exact copy of the storage device onto a stable system, eliminating the need to continually access (possibly) deteriorating physical media in order to evaluate and appraise their content. Combined with a read-only access technique (on the storage device itself or using a write-blocker), disk imaging emerged as a way to clearly demonstrate **provenance** and assert that no action performed by the archivist had altered the content. The community developed workflows and tools using the disk image as a unit by which to organize nearly all aspects of a workflow, including **capture**, appraisal, and processing as well as **retention** and access. While it was initially common guidance to create and retain a disk image as the "default" action on storage devices, concerns such as prohibitive costs and ethics of forensic approaches<sup id="a3">[3](#en3)</sup> have led organizations to base decisions on a number of factors – many of which we explore in this document – to determine the most appropriate transfer mechanism.
 
 As is common practice across the profession, this resource uses the term "disk image" generically. As such, it does not recommend any particular disk image file format (nor a **logical acquisition** process) – your organization's needs should inform the specific processes you employ within these two capture methods. For disk imaging, specific disk image file formats may provide differing affordances for your local needs; for example, a compressed image format may be appropriate where there are concerns over storage availability, an **uncompressed image** format may be appropriate when emulation is a key access strategy, and a **forensically-packaged disk image** may be appropriate in cases where it is important to retain **provenance metadata** within the disk image file itself.
 
 ### Understanding storage devices and their contents
-It may be helpful to understand the storage medium and its contents and their organization in order to effectively consider factors for or against disk imaging. While knowing the media type, form factor, and power and data connection types can allow you to determine whether you have the hardware and software to attempt to capture the contents, exploring the contents of a media object prior to capture could have the following benefits:
+It may be helpful to understand the storage medium and its contents and their organization in order to effectively consider factors for or against disk imaging. While knowing the media type, form factor, and power and data connection types can allow you to determine whether you have the hardware and software needed to attempt to capture the contents, exploring the contents of a media object prior to capture could have the following benefits:
 
-- Browsing content of media can help inform future processing steps, including whether or not to proceed with creating a disk image. 
+- Browsing the contents of media can help inform future processing steps, including whether or not to proceed with creating a disk image. 
   * For example, you might see that a disk is unformatted or contains mostly empty space. This can help you decide whether or not to image the entire media object.
-  * You might only have metadata information (e.g., file names, sizes, and timestamps) about the contents of the media, and browsing the media itself can allow you to make more informed decisions about your next steps.
+  * You might have only metadata information (e.g., file names, sizes, and timestamps) about the contents of the media, and browsing the media itself can allow you to make more informed decisions about your next steps.
   * You may realize that the contents of a disk belong in separate collections or fonds, even though they were donated by one individual.
 - You may be able to see if there are partitions on the disk.
 - Identifying file systems present on media could inform your needs for future processing steps, and/or suggest that emulation might be required to faithfully render the content.
-- You may find viruses or other malware, sensitive information, or duplication that inform the steps you take with the content contained on media objects.
+- You may find viruses or other malware, sensitive information, or duplication that inform the steps you take with media objects' contents.
 
 Some tools provide functionality that allows you to browse, extract, or scan the contents of a media object. Once you determine which functions support your workflow, the [DANNNG Tool Selection Factors](https://dannng.github.io/tool_selection_factors.html) may help you select a tool for the purpose.
 
@@ -58,13 +58,14 @@ Some tools provide functionality that allows you to browse, extract, or scan the
 Developing a workflow that includes media stabilization requires consideration of the full digital lifecycle. The factors in this resource touch on matters such as acquisition, compatibility with existing workflows, and planned access to the material. This resource organizes these considerations into five factors to help practitioners make informed decisions about whether and how disk imaging fits their needs.
 
 Factors addressed include:
-- Type or condition of the storage device
-- Compatibility of the storage device or content
-- Expected access to content
-- Retention of important contextual information
-- Processing workflow
 
-Each factor contains a section named "In favor of imaging" and a section named "Weighing against imaging" followed by a description of considerations. The "In favor of imaging" sections often describe highly technical aspects of disk imaging and tend to require more explanation than that given in the "Weighing against imaging" sections. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
+- [Type or condition of the storage device](#factor-type-or-condition-of-the-storage-device)
+- [Compatibility of the storage device or content](#factor-compatibility-of-the-storage-device-or-content)
+- [Expected access to content](#factor-expected-access-to-content)
+- [Retention of important contextual information](#factor-retention-of-important-contextual-information)
+- [Processing workflow](#factor-processing-workflow)
+
+Each factor contains a section named "In favor of imaging" and a section named "Weighing against imaging" containing a description of considerations. The "In favor of imaging" sections often describe highly technical aspects of disk imaging and tend to require more explanation than that given in the "Weighing against imaging" sections. This is not intended to imply a preference for disk imaging over logical acquisition as a strategy.
 
 The factors are not listed in any particular order, and not all factors will apply in a given context. We expect that practitioners will evaluate each factor to determine how much weight to give it when making decisions. For example, if the end goal is to present the content in an emulated environment, then the factor "Expected access to content" may be the most important to consider and may support a decision to image, regardless of the other four factors.
 
@@ -254,7 +255,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
 <b id="en2">2</b>. Terms that may be used interchangeably here include media, media object, and storage device.[↩](#a2)
 
-<b id="en3">3</b>. See, for example, Eddy Colloton, Jonathan Farbowitz, Flaminia Fortunato, and Caroline Gil, ["Towards Best Practices in Disk Imaging: A Cross-Institutional Approach"](https://resources.culturalheritage.org/emg-review/volume-6-2019-2020/colloton/) Electronic Media Review 6 (2019-2020); Monique Lassere and Jess M. Whyte, ["Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach To Working With Disk Images"](https://doi.org/10.24242/jclis.v3i2.125;) Journal of Critical Library and Information Studies 3, no. 2 (2021), and Keith Pendergrass, "One Does Not Simply Keep Disk Images: Ethical, Risk Tolerance, and Sustainability Issues with Forensic Disk Image Retention," presentation at the BitCurator Users Forum, Evanston, IL, April 28, 2017.[↩](#a3)
+<b id="en3">3</b>. See, for example, Eddy Colloton, Jonathan Farbowitz, Flaminia Fortunato, and Caroline Gil, ["Towards Best Practices in Disk Imaging: A Cross-Institutional Approach"](https://resources.culturalheritage.org/emg-review/volume-6-2019-2020/colloton/) Electronic Media Review 6 (2019-2020); Monique Lassere and Jess M. Whyte, ["Balancing Care and Authenticity in Digital Collections: A Radical Empathy Approach To Working With Disk Images"](https://doi.org/10.24242/jclis.v3i2.125;) Journal of Critical Library and Information Studies 3, no. 2 (2021); and Keith Pendergrass, "One Does Not Simply Keep Disk Images: Ethical, Risk Tolerance, and Sustainability Issues with Forensic Disk Image Retention," presentation at the BitCurator Users Forum, Evanston, IL, April 28, 2017.[↩](#a3)
 
 <b id="en4">4</b>. Depending on your organization's policies and budget, you may be able to send damaged storage devices to a data recovery vendor.[↩](#a4)
 
