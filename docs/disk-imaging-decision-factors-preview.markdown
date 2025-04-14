@@ -155,7 +155,7 @@ Imaging can be an easy way to build a backlog. Compared to logical acquisition, 
 
 Storage space to save a disk image of a large drive (even temporarily during processing) may not be available.
 
-Limits to staffing, equipment, or available storage may make creating, storing, retaining, and addressing the privacy issues and ethical concerns associated with disk images (either as an intermediate or final format) unsustainable.
+Limits to staffing, equipment, or available storage may make creating, storing, retaining, and addressing the privacy issues and ethical concerns associated with disk images (either as an intermediate or final format) unsustainable.<sup id="a20">[20](#en20)</sup>
 
 You may not be equipped to store potentially sensitive information that might be present in a disk image, even temporarily. The risk of transferring sensitive information is not eliminated when logically copying files, but depending on your workflow, you might have more control over what gets transferred into your systems with a logical copy operation.
 
@@ -176,7 +176,7 @@ In order to illustrate how various environments and utilities differ in their di
 ### CD-ROM disk image in FTK Imager Evidence Tree
 ![This screenshot shows the disk image as loaded into the program FTK Imager. It is shown to illustrate that there are multiple file system views present, each with differing files present.](/assets/dif-ftk.jpg "Disk image in FTK Imager Evidence Tree")
 
-[FTK Imager](https://en.wikipedia.org/wiki/Forensic_Toolkit)<sup id="a20">[20](#en20)</sup> shows multiple file systems and their respective file listings; notice that they differ slightly.
+[FTK Imager](https://en.wikipedia.org/wiki/Forensic_Toolkit)<sup id="a21">[21](#en21)</sup> shows multiple file systems and their respective file listings; notice that they differ slightly.
 
 ### CD-ROM disk image displayed in IsoBuster
 ![This screenshot shows the disk image display in the IsoBuster software. Of note is that the navigation panel on the left displays two different file systems representations -- ISO9660 and HFS -- and there are different files listed under each.](/assets/dif-isobuster1.jpg "Disk image displayed in IsoBuster")
@@ -192,12 +192,12 @@ Note that none of the HFS file names show up when this disk image is mounted in 
 ### CD-ROM disk image in Disk Utility on MacOS 10.15
 ![This screenshot illustrates what happens when you try to open up the disk image using Disk Utility on a Mac. The warning text reads, "The following disk images couldn't be opened." The reason is listed as, "image not recognized."](/assets/dif-macOS-disk-utility.png "Disk image in Disk Utility on a Mac")
 
-Note that MacOS no longer supports the ability to mount an HFS volume in Finder.<sup id="a21">[21](#en21)</sup> The ISO9660 partition should be mountable, but it may take some work. 
+Note that MacOS no longer supports the ability to mount an HFS volume in Finder.<sup id="a22">[22](#en22)</sup> The ISO9660 partition should be mountable, but it may take some work. 
 
 ### CD-ROM disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)
 ![This screenshot shows the disk image loaded into the Disk Image Access tool from BitCurator. No contents are displayed, and in the Image Info panel, the text reads "No image information found."](/assets/dif-disk-image-access.jpg "Disk image in Disk Image Access Tool in BitCurator (Ubuntu 18.04LTS)")
 
-The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries, which does not support reading from HFS volumes.<sup id="a22">[22](#en22)</sup> Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
+The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit libraries, which does not support reading from HFS volumes.<sup id="a23">[23](#en23)</sup> Even though there is an ISO9660 file system present on this disk image, that is not visible with this utility.
 
 ### CD-ROM disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)
 ![This screenshot shows the disk image loaded into the HFSExplorer utility. It shows that only Macintosh files, and not the files that are shown in other programs that read ISO9660 filesystems.](/assets/dif-hfsexplorer.jpg "Disk image in HFSExplorer in BitCurator (Ubuntu 18.04LTS)")
@@ -289,11 +289,13 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
 <b id="en19">19</b>. These downstream actions can also be associated with a workflow based on logical acquisition, although pre-processing may be easier in those cases.[↩](#a19)
 
-<b id="en20">20</b>. Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/index.html%3Fp=3166.html). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.[↩](#a20)
+<b id="en20">20</b>The cultural heritage community has discussed the environmental impact of digital preservation. When considering long-term preservation of disk images, it is important to understand the impact of our decisions will largely derive from our retention decisions.[↩](#a20)
 
-<b id="en21">21</b>. See [the History section of the HFS Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)) entry.[↩](#a21)
+<b id="en21">21</b>. Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/index.html%3Fp=3166.html). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.[↩](#a21)
 
-<b id="en22">22</b>. See [HFS on the Sleuth Kit wiki](https://wiki.sleuthkit.org/index.php?title=HFS).[↩](#a22)
+<b id="en22">22</b>. See [the History section of the HFS Wikipedia](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)) entry.[↩](#a22)
+
+<b id="en23">23</b>. See [HFS on the Sleuth Kit wiki](https://wiki.sleuthkit.org/index.php?title=HFS).[↩](#a23)
 
 ## Acknowledgements
 The following people contributed to this document:
