@@ -289,7 +289,7 @@ The Disk Image Access screen in BitCurator is built on top of The Sleuth Kit lib
 
 <b id="en19">19</b>. These downstream actions can also be associated with a workflow based on logical acquisition, although pre-processing may be easier in those cases.[↩](#a19)
 
-<b id="en20">20</b>The cultural heritage community has discussed the environmental impact of digital preservation. When considering long-term preservation of disk images, it is important to understand the impact of our decisions will largely derive from our retention decisions.[↩](#a20)
+<b id="en20">20</b>. The cultural heritage community has discussed the environmental impact of digital preservation. When considering long-term preservation of disk images, it is important to understand the impact of our decisions will largely derive from our retention decisions.[↩](#a20)
 
 <b id="en21">21</b>. Note about FTK Imager: The [digital archives community has discussed the ethical implications of using software outside of their original contexts](https://bitcuratorconsortium.org/index.html%3Fp=3166.html). We are including a screenshot of FTK Imager here because it is currently in use by library and archives professionals in their workflows and since the interface will be familiar to them, it will provide a way to contextualize the display of the contents of this disk image.[↩](#a21)
 
