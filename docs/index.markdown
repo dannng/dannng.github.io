@@ -13,7 +13,7 @@ DANNNG strives to demystify digital archival imaging, transfer, ingest, and pack
 ## Current Resources
 Here are the resources we developed to help archivists and digital preservation practitioners evaluate workflow options.
 
-- [Disk Imaging Decision Factors (version 1.0.1)](https://dannng.github.io/disk-imaging-decision-factors.html)
+- [Disk Imaging Decision Factors (version 1.1.0)](https://dannng.github.io/disk-imaging-decision-factors.html)
 - [Digital Archives Technical Glossary (version 1.0.1)](https://dannng.github.io/digital-archives-technical-glossary)
 - [Tool Selection Factors (version 1.0.0)](https://dannng.github.io/tool_selection_factors.html)
 
